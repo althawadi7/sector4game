@@ -1,0 +1,77 @@
+# Unreal Engine — generated / local cache
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Builds/
+
+# IDE / local tooling
+.vs/
+.vscode/
+.idea/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.xcodeproj
+*.xcworkspace
+
+# Cursor / Aura local
+.cursor/
+.Aura/
+
+# OS junk
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# On-disk backup copies (not needed in git)
+_BrokenBackup_*/
+_EmergencyRestore_*/
+
+# Crash / debug dumps
+*.dmp
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# =============================================================================
+# LEAN REPO — track gameplay logic only (~45 MB), NOT marketplace meshes/VFX/audio
+# Meshes, textures, Niagara packs, horror SFX, etc. stay local / Fab / backup.
+# =============================================================================
+Content/*
+!Content/Python/
+!Content/Python/**
+!Content/XRFramework/
+!Content/Zombie/
+!Content/Weapons/
+
+Content/XRFramework/*
+!Content/XRFramework/Blueprints/
+!Content/XRFramework/Blueprints/**
+!Content/XRFramework/Input/
+!Content/XRFramework/Input/**
+!Content/XRFramework/Levels/
+!Content/XRFramework/Levels/**
+!Content/XRFramework/VFX/
+!Content/XRFramework/VFX/**
+!Content/XRFramework/Materials/
+!Content/XRFramework/Materials/**
+!Content/XRFramework/Audio/
+!Content/XRFramework/Audio/**
+!Content/XRFramework/Haptics/
+!Content/XRFramework/Haptics/**
+!Content/XRFramework/Textures/
+!Content/XRFramework/Textures/**
+!Content/XRFramework/UI/
+!Content/XRFramework/UI/**
+
+Content/Zombie/*
+!Content/Zombie/Blueprints/
+!Content/Zombie/Blueprints/**
+
+# Agent scratch assets — never sync
+Content/CursorTest/

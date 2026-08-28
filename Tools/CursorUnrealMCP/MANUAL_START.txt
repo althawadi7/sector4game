@@ -1,0 +1,5 @@
+"""
+Manual bridge start (run in Unreal Output Log / Python console if auto-start fails):
+
+  py "exec(open(r'C:/Users/Rashid AlAwadhi/Documents/Unreal Projects/sector4v2/Plugins/CursorUnrealBridge/Content/Python/start_bridge.py', encoding='utf-8').read())"
+"""
