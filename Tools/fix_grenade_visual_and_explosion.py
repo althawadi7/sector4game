@@ -14,14 +14,13 @@ GRENADE_BP = "/Game/XRFramework/Blueprints/BP_BombProjectile"
 GUN_BP = "/Game/XRFramework/Blueprints/BP_GrenadeLauncher"
 GRENADE_MESH = "/Game/Weapons/GrenadeLauncher/Meshes/FirstPersonProjectileMesh.FirstPersonProjectileMesh"
 GRENADE_MAT = "/Game/Weapons/GrenadeLauncher/Materials/M_GrenadeLauncher.M_GrenadeLauncher"
-EXPLOSION_FX = "/Game/NW_MuzzleFX/Particle_FX/FXS_NS_ShotBurst_02.FXS_NS_ShotBurst_02"
-SMOKE_FX = "/Game/NiagaraExamples/Utilities/SpriteGeneration/SmokePuffLight/NS_SmokePuffLight.NS_SmokePuffLight"
+# Full explosion fireball without NiagaraExamples flat decal rings that clip walls.
+EXPLOSION_FX = "/Game/NW_MuzzleFX/Particle_FX/FromEpic/FXS_P_Explosion_Converted.FXS_P_Explosion_Converted"
 
 MESH_SCALE = unreal.Vector(0.025, 0.025, 0.025)
 SPHERE_RADIUS = 0.045
-EXPLOSION_SCALE = "0.45,0.45,0.45"
-SMOKE_SCALE = "0.35,0.35,0.35"
-EXPLOSION_Z = 40.0
+EXPLOSION_SCALE = "0.65,0.65,0.65"
+EXPLOSION_Z = 45.0
 
 
 def find_node(ed, name):
