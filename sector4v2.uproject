@@ -40,6 +40,10 @@
 		{
 			"Name": "Aura",
 			"Enabled": false
+		},
+		{
+			"Name": "Monolith",
+			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [
