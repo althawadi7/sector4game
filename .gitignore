@@ -75,3 +75,7 @@ Content/Zombie/*
 
 # Agent scratch assets — never sync
 Content/CursorTest/
+
+Config/LBVRStation.ini
+Saved/LBVR/
+
