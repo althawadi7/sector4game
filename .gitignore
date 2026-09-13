@@ -64,6 +64,8 @@ Content/XRFramework/*
 !Content/XRFramework/Audio/**
 !Content/XRFramework/Haptics/
 !Content/XRFramework/Haptics/**
+!Content/XRFramework/Projectiles/
+!Content/XRFramework/Projectiles/**
 !Content/XRFramework/Textures/
 !Content/XRFramework/Textures/**
 !Content/XRFramework/UI/
