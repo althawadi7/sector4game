@@ -48,6 +48,23 @@ Content/*
 !Content/XRFramework/
 !Content/Zombie/
 !Content/Weapons/
+!Content/Sector4/
+!Content/_Checkpoints/
+
+# Sector4 — gameplay logic only (not marketplace meshes/audio dumps)
+Content/Sector4/*
+!Content/Sector4/Shared/
+!Content/Sector4/Shared/**
+!Content/Sector4/Weapons/
+Content/Sector4/Shared/*
+!Content/Sector4/Shared/Gameplay/
+!Content/Sector4/Shared/Gameplay/**
+Content/Sector4/Weapons/*
+!Content/Sector4/Weapons/Blueprints/
+!Content/Sector4/Weapons/Blueprints/**
+
+!Content/_Checkpoints/**
+Content/_Checkpoints/**/Desktop.ini
 
 Content/XRFramework/*
 !Content/XRFramework/Blueprints/

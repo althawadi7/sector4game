@@ -1,80 +1,80 @@
-{
-	"FileVersion": 3,
-	"EngineAssociation": "5.8",
-	"Category": "",
-	"Description": "",
-	"Plugins": [
-		{
-			"Name": "OpenXR",
-			"Enabled": true
-		},
-		{
-			"Name": "OpenXREyeTracker",
-			"Enabled": true
-		},
-		{
-			"Name": "OpenXRHandTracking",
-			"Enabled": true
-		},
-		{
-			"Name": "PICOController",
-			"Enabled": false,
-			"SupportedTargetPlatforms": [
-				"Win64",
-				"Linux",
-				"Android"
-			]
-		},
-		{
-			"Name": "PythonScriptPlugin",
-			"Enabled": true
-		},
-		{
-			"Name": "EditorScriptingUtilities",
-			"Enabled": true
-		},
-		{
-			"Name": "CursorUnrealBridge",
-			"Enabled": true
-		},
-		{
-			"Name": "Aura",
-			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"Win64",
-				"Mac"
-			]
-		},
-		{
-			"Name": "Monolith",
-			"Enabled": true
-		},
-		{
-			"Name": "HttpBlueprint",
-			"Enabled": false,
-			"SupportedTargetPlatforms": [
-				"Win64",
-				"Mac",
-				"Linux"
-			]
-		},
-		{
-			"Name": "JsonBlueprintUtilities",
-			"Enabled": true
-		}
-	],
-	"TargetPlatforms": [
-		"Android",
-		"IOS",
-		"Linux",
-		"Mac",
-		"PS4",
-		"PS5",
-		"Windows",
-		"WindowsNoEditor",
-		"Switch",
-		"XboxOne",
-		"XSX",
-		"VisionOS"
-	]
+﻿{
+    "FileVersion":  3,
+    "Description":  "",
+    "TargetPlatforms":  [
+                            "Android",
+                            "IOS",
+                            "Linux",
+                            "Mac",
+                            "PS4",
+                            "PS5",
+                            "Windows",
+                            "WindowsNoEditor",
+                            "Switch",
+                            "XboxOne",
+                            "XSX",
+                            "VisionOS"
+                        ],
+    "EngineAssociation":  "5.8",
+    "Plugins":  [
+                    {
+                        "Name":  "OpenXR",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "OpenXREyeTracker",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "OpenXRHandTracking",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "PICOController",
+                        "SupportedTargetPlatforms":  [
+                                                         "Win64",
+                                                         "Linux",
+                                                         "Android"
+                                                     ],
+                        "Enabled":  false
+                    },
+                    {
+                        "Name":  "PythonScriptPlugin",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "EditorScriptingUtilities",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "CursorUnrealBridge",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "Aura",
+                        "SupportedTargetPlatforms":  [
+                                                         "Win64",
+                                                         "Mac"
+                                                     ],
+                        "Enabled":  false
+                    },
+                    {
+                        "Name":  "Monolith",
+                        "Enabled":  false
+                    },
+                    {
+                        "Name":  "HttpBlueprint",
+                        "SupportedTargetPlatforms":  [
+                                                         "Win64",
+                                                         "Mac",
+                                                         "Linux"
+                                                     ],
+                        "Enabled":  false
+                    },
+                    {
+                        "Name":  "JsonBlueprintUtilities",
+                        "Enabled":  true
+                    }
+                ],
+    "Category":  ""
 }
