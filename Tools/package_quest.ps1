@@ -112,11 +112,23 @@ if (-not $devices) {
     exit 0
 }
 
-Write-Host "Installing on Quest..." -ForegroundColor Cyan
+Write-Host "Installing on Quest (APK)..." -ForegroundColor Cyan
 & $Adb install -r $apk.FullName
 if ($LASTEXITCODE -ne 0) {
     Write-Host "Install failed. Try Meta Quest Developer Hub -> Install APK." -ForegroundColor Red
     exit $LASTEXITCODE
+}
+
+# If this archive still has a separate OBB, push it (older builds). With bPackageDataInsideApk=True the OBB is optional.
+$obbSrc = Join-Path (Split-Path $apk.FullName) "main.1.com.RashidAlAwadhi.sector4v2.obb"
+if (Test-Path $obbSrc) {
+    Write-Host "Pushing OBB beside APK (legacy split-content builds)..." -ForegroundColor Cyan
+    $obbDir = "/sdcard/Android/obb/com.RashidAlAwadhi.sector4v2"
+    & $Adb shell mkdir -p $obbDir
+    & $Adb push $obbSrc "$obbDir/main.1.com.RashidAlAwadhi.sector4v2.obb"
+    if ($LASTEXITCODE -ne 0) {
+        Write-Host "OBB push failed - game may stick on Unreal splash." -ForegroundColor Yellow
+    }
 }
 
 Write-Host ""
