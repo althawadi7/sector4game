@@ -1,0 +1,32 @@
+[
+  {
+    "label": "BP_XR_SciFi_AssaultRifle_1",
+    "ammo": 30,
+    "mats": 7
+  },
+  {
+    "label": "BP_XR_SciFi_AssaultRifle_2",
+    "ammo": 30,
+    "mats": 12
+  },
+  {
+    "label": "BP_XR_SciFi_MachineGun",
+    "ammo": 100,
+    "mats": 14
+  },
+  {
+    "label": "BP_XR_SciFi_Shotgun",
+    "ammo": 8,
+    "mats": 0
+  },
+  {
+    "label": "BP_XR_SciFi_Sniper",
+    "ammo": 5,
+    "mats": 0
+  },
+  {
+    "label": "BP_XR_SciFi_Pistol",
+    "ammo": 15,
+    "mats": 2
+  }
+]

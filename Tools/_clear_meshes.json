@@ -1,0 +1,191 @@
+{
+  "log": [
+    {
+      "bp": "BP_XR_SciFi_Pistol",
+      "cleared": [
+        "SK_Magazine_Full",
+        "SK_Magazine_Full",
+        "AmmoScreenMesh",
+        "AmmoScreenMesh"
+      ],
+      "kept": [
+        "SkeletalMesh"
+      ],
+      "still_have_mesh": [
+        "SkeletalMesh:SK_Pistol"
+      ]
+    },
+    {
+      "bp": "BP_XR_SciFi_AssaultRifle_1",
+      "cleared": [
+        "SK_Magazine",
+        "SK_Magazine",
+        "SK_Butt",
+        "SK_Aim",
+        "SK_Butt",
+        "SK_Aim",
+        "SkeletalMesh",
+        "SK_Right_Kit",
+        "SK_Right_Kit",
+        "SK_Silencer",
+        "SK_Silencer",
+        "SkeletalMesh1",
+        "SkeletalMesh1",
+        "AmmoScreenMesh",
+        "AmmoScreenMesh"
+      ],
+      "kept": [],
+      "still_have_mesh": []
+    },
+    {
+      "bp": "BP_XR_SciFi_AssaultRifle_2",
+      "cleared": [
+        "SM_Reactor",
+        "SM_Reactor",
+        "SM_Right_Kit",
+        "SM_Right_Kit",
+        "SK_Magazine_Full",
+        "SK_Magazine_Full",
+        "SK_Left_Kit",
+        "SK_Left_Kit",
+        "SK_Aim",
+        "SK_Aim",
+        "SM_Foregrip",
+        "SkeletalMesh1",
+        "SkeletalMesh1",
+        "SM_Foregrip",
+        "SM_Aim_Glass",
+        "SM_Aim_Glass",
+        "SM_Butt",
+        "SM_Butt",
+        "SM_Scheme",
+        "AmmoScreenMesh",
+        "SkeletalMesh",
+        "SM_Scheme",
+        "AmmoScreenMesh"
+      ],
+      "kept": [],
+      "still_have_mesh": []
+    },
+    {
+      "bp": "BP_XR_SciFi_MachineGun",
+      "cleared": [
+        "SM_Sopla_Right",
+        "SM_Sopla_Right",
+        "SM_Sopla_Side",
+        "SM_Sopla_Side",
+        "SK_Barrel",
+        "SK_Barrel",
+        "SK_Magazine",
+        "SK_Magazine",
+        "SK_Control_Handle",
+        "SK_Control_Handle",
+        "SM_Tube_Middle",
+        "SM_Sopla_Bottom",
+        "SM_Sopla_Bottom",
+        "SkeletalMesh1",
+        "SkeletalMesh1",
+        "SM_Sopla_Left",
+        "SM_Sensors",
+        "SM_Sopla_Left",
+        "SM_Tube_Left",
+        "SM_Tube_Left",
+        "SM_Sensors",
+        "SM_Tube_Middle",
+        "AmmoScreenMesh",
+        "AmmoScreenMesh",
+        "SM_Turbine",
+        "SM_Turbine",
+        "SM_Tube_Right",
+        "SM_Tube_Right",
+        "SkeletalMesh"
+      ],
+      "kept": [],
+      "still_have_mesh": []
+    },
+    {
+      "bp": "BP_XR_SciFi_Shotgun",
+      "cleared": [
+        "SkeletalMesh",
+        "SK_Left_Kit",
+        "SK_Left_Kit",
+        "SK_Right_Kit",
+        "SK_Right_Kit",
+        "SK_Aim",
+        "SK_Aim",
+        "SkeletalMesh1",
+        "SkeletalMesh1",
+        "AmmoScreenMesh",
+        "AmmoScreenMesh"
+      ],
+      "kept": [],
+      "still_have_mesh": []
+    },
+    {
+      "bp": "BP_XR_SciFi_Sniper",
+      "cleared": [
+        "SK_Sleeve",
+        "SK_Rail",
+        "SK_Rail",
+        "SK_Bipods",
+        "SK_Magazine_Full",
+        "SK_Bipods",
+        "SK_Magazine_Full",
+        "SK_Butt",
+        "SK_Butt",
+        "SK_Carrying",
+        "SM_Glass_Front",
+        "SK_Sleeve",
+        "SkeletalMesh1",
+        "SkeletalMesh1",
+        "SM_Glass_Front",
+        "SK_Sopla",
+        "SK_Sopla",
+        "SM_Glass_Aim",
+        "SM_Glass_Aim",
+        "SK_Carrying",
+        "AmmoScreenMesh",
+        "SK_Scope",
+        "SK_Scope",
+        "SkeletalMesh",
+        "AmmoScreenMesh"
+      ],
+      "kept": [],
+      "still_have_mesh": []
+    }
+  ],
+  "live": [
+    {
+      "label": "BP_XR_SciFi_Pistol",
+      "vis_own": [
+        "SkeletalMesh:SK_Pistol"
+      ],
+      "kids": 0
+    },
+    {
+      "label": "BP_XR_SciFi_AssaultRifle_1",
+      "vis_own": [],
+      "kids": 1
+    },
+    {
+      "label": "BP_XR_SciFi_AssaultRifle_2",
+      "vis_own": [],
+      "kids": 1
+    },
+    {
+      "label": "BP_XR_SciFi_MachineGun",
+      "vis_own": [],
+      "kids": 1
+    },
+    {
+      "label": "BP_XR_SciFi_Shotgun",
+      "vis_own": [],
+      "kids": 1
+    },
+    {
+      "label": "BP_XR_SciFi_Sniper",
+      "vis_own": [],
+      "kids": 1
+    }
+  ]
+}

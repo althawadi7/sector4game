@@ -1,0 +1,54 @@
+{
+  "kit": [
+    {
+      "key": "AR1",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/BP_Rifle/BP_Assault_Rifle",
+      "body": "SK_Assault_Rifle",
+      "leaders": 6,
+      "label": "KITREF_AR1"
+    },
+    {
+      "key": "AR2",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/BP_AssaultRifle/BP_AssaultRifle",
+      "body": "SK_Rifle",
+      "leaders": 3,
+      "label": "KITREF_AR2"
+    },
+    {
+      "key": "MG",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_MachineGun/MachineGun/BP_MachineGun/BP_MachineGun",
+      "body": "SK_MachineGun",
+      "leaders": 4,
+      "label": "KITREF_MG"
+    },
+    {
+      "key": "SG",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Shotgun/Shotgun/BP_Shotgun/BP_Shotgun",
+      "body": "SK_Shotgun",
+      "leaders": 3,
+      "label": "KITREF_SG"
+    },
+    {
+      "key": "SN",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/BP_Rifle/BP_Sniper_Rifle",
+      "body": "SK_Rifle",
+      "leaders": 20,
+      "label": "KITREF_SN"
+    }
+  ],
+  "xr": [
+    "BP_XR_SciFi_Pistol",
+    "BP_XR_SciFi_AssaultRifle_1",
+    "BP_XR_SciFi_AssaultRifle_2",
+    "BP_XR_SciFi_MachineGun",
+    "BP_XR_SciFi_Shotgun",
+    "BP_XR_SciFi_Sniper"
+  ],
+  "kit_paths": {
+    "AR1": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/BP_Rifle/BP_Assault_Rifle",
+    "AR2": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/BP_AssaultRifle/BP_AssaultRifle",
+    "MG": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_MachineGun/MachineGun/BP_MachineGun/BP_MachineGun",
+    "SG": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Shotgun/Shotgun/BP_Shotgun/BP_Shotgun",
+    "SN": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/BP_Rifle/BP_Sniper_Rifle"
+  }
+}

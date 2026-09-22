@@ -1,0 +1,2163 @@
+{
+  "region": [
+    {
+      "title": "DoFire",
+      "name": "t5_CustomEvent_1",
+      "cls": "K2Node_CustomEvent",
+      "x": -1600,
+      "y": 8122,
+      "pins": [
+        {
+          "name": "OutputDelegate",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        },
+        {
+          "name": "then",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "PrintString",
+      "name": "t8_PrintString_1",
+      "cls": "K2Node_CallFunction",
+      "x": 0,
+      "y": 10288,
+      "pins": [
+        {
+          "name": "execute",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "InString",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "bPrintToScreen",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "bPrintToLog",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "TextColor",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "Duration",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "Key",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "then",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "PrintString",
+      "name": "t14_PrintString_1",
+      "cls": "K2Node_CallFunction",
+      "x": -1600,
+      "y": 8322,
+      "pins": [
+        {
+          "name": "execute",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "InString",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "bPrintToScreen",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "bPrintToLog",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "TextColor",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "Duration",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "Key",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "then",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "PrintString",
+      "name": "t17_PrintString_1",
+      "cls": "K2Node_CallFunction",
+      "x": -1600,
+      "y": 8522,
+      "pins": [
+        {
+          "name": "execute",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "InString",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "bPrintToScreen",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "bPrintToLog",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "TextColor",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "Duration",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "Key",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "then",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "PrintString",
+      "name": "t18_PrintString_1",
+      "cls": "K2Node_CallFunction",
+      "x": -1600,
+      "y": 8722,
+      "pins": [
+        {
+          "name": "execute",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "InString",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "bPrintToScreen",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "bPrintToLog",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "TextColor",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "Duration",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "Key",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "then",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "PrintString",
+      "name": "t19_PrintString_1",
+      "cls": "K2Node_CallFunction",
+      "x": -1600,
+      "y": 8922,
+      "pins": [
+        {
+          "name": "execute",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "InString",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "bPrintToScreen",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "bPrintToLog",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "TextColor",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "Duration",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "Key",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "then",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "GetPlayerController",
+      "name": "t19_GetPlayerController_1",
+      "cls": "K2Node_CallFunction",
+      "x": 2900,
+      "y": 8972,
+      "pins": [
+        {
+          "name": "PlayerIndex",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "ReturnValue",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "Get GrabComponentSnap",
+      "name": "t19_VariableGet_1",
+      "cls": "K2Node_VariableGet",
+      "x": 2625,
+      "y": 9272,
+      "pins": [
+        {
+          "name": "GrabComponentSnap",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "Get MuzzleLocation",
+      "name": "t19_VariableGet_2",
+      "cls": "K2Node_VariableGet",
+      "x": 1485,
+      "y": 8972,
+      "pins": [
+        {
+          "name": "MuzzleLocation",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "Get PistolFireHapticEffect",
+      "name": "t19_VariableGet_3",
+      "cls": "K2Node_VariableGet",
+      "x": 2900,
+      "y": 9122,
+      "pins": [
+        {
+          "name": "PistolFireHapticEffect",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "Self-Reference",
+      "name": "t19_Self_1",
+      "cls": "K2Node_Self",
+      "x": 1485,
+      "y": 9522,
+      "pins": [
+        {
+          "name": "self",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "GetPlayerPawn",
+      "name": "t19_GetPlayerPawn_1",
+      "cls": "K2Node_CallFunction",
+      "x": 3470,
+      "y": 9522,
+      "pins": [
+        {
+          "name": "PlayerIndex",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "ReturnValue",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "WasInputKeyJustPressed",
+      "name": "t3_PlayerController_WasInputKeyJustPressed_1",
+      "cls": "K2Node_CallFunction",
+      "x": -980,
+      "y": 7822,
+      "pins": [
+        {
+          "name": "self",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "Key",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "ReturnValue",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "WasInputKeyJustPressed",
+      "name": "t3_PlayerController_WasInputKeyJustPressed_2",
+      "cls": "K2Node_CallFunction",
+      "x": -980,
+      "y": 7882,
+      "pins": [
+        {
+          "name": "self",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "Key",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "ReturnValue",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "WasInputKeyJustPressed",
+      "name": "t3_PlayerController_WasInputKeyJustPressed_3",
+      "cls": "K2Node_CallFunction",
+      "x": -980,
+      "y": 7942,
+      "pins": [
+        {
+          "name": "self",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "Key",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "ReturnValue",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "WasInputKeyJustPressed",
+      "name": "t3_PlayerController_WasInputKeyJustPressed_4",
+      "cls": "K2Node_CallFunction",
+      "x": -980,
+      "y": 8002,
+      "pins": [
+        {
+          "name": "self",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "Key",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "ReturnValue",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "WasInputKeyJustPressed",
+      "name": "t3_PlayerController_WasInputKeyJustPressed_5",
+      "cls": "K2Node_CallFunction",
+      "x": -980,
+      "y": 8062,
+      "pins": [
+        {
+          "name": "self",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "Key",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "ReturnValue",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "WasInputKeyJustPressed",
+      "name": "t3_PlayerController_WasInputKeyJustPressed_6",
+      "cls": "K2Node_CallFunction",
+      "x": -980,
+      "y": 8122,
+      "pins": [
+        {
+          "name": "self",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "Key",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "ReturnValue",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "Branch",
+      "name": "t19_IfThenElse_1",
+      "cls": "K2Node_IfThenElse",
+      "x": -1305,
+      "y": 8922,
+      "pins": [
+        {
+          "name": "execute",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "Condition",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "then",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        },
+        {
+          "name": "else",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "GetHeldByHand",
+      "name": "t19_BP_GrabComponent_C_GetHeldByHand_1",
+      "cls": "K2Node_CallFunction",
+      "x": 2900,
+      "y": 9272,
+      "pins": [
+        {
+          "name": "self",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "ReturnValue",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "Get World Location",
+      "name": "t19_SceneComponent_K2_GetComponentLocation_1",
+      "cls": "K2Node_CallFunction",
+      "x": 1760,
+      "y": 8972,
+      "pins": [
+        {
+          "name": "self",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "ReturnValue",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "Get World Rotation",
+      "name": "t19_SceneComponent_K2_GetComponentRotation_1",
+      "cls": "K2Node_CallFunction",
+      "x": 1760,
+      "y": 9122,
+      "pins": [
+        {
+          "name": "self",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "ReturnValue",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "HasAuthority",
+      "name": "t19_HasAuthority_1",
+      "cls": "K2Node_CallFunction",
+      "x": 1760,
+      "y": 9522,
+      "pins": [
+        {
+          "name": "self",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "ReturnValue",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "Sequence",
+      "name": "t19_ExecutionSequence_1",
+      "cls": "K2Node_ExecutionSequence",
+      "x": 1190,
+      "y": 8922,
+      "pins": [
+        {
+          "name": "execute",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "then_0",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        },
+        {
+          "name": "then_1",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "MakeTransform",
+      "name": "t19_MakeTransform_1",
+      "cls": "K2Node_CallFunction",
+      "x": 3470,
+      "y": 9672,
+      "pins": [
+        {
+          "name": "Location",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "Rotation",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "Scale",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "ReturnValue",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "SpawnSystemAtLocation",
+      "name": "t19_NiagaraFunctionLibrary_SpawnSystemAtLocation_1",
+      "cls": "K2Node_CallFunction",
+      "x": 2035,
+      "y": 8922,
+      "pins": [
+        {
+          "name": "execute",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "SystemTemplate",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "Location",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "Rotation",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "Scale",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "bAutoDestroy",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "bAutoActivate",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "PoolingMethod",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "bPreCullCheck",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "then",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        },
+        {
+          "name": "ReturnValue",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "Branch",
+      "name": "t19_IfThenElse_2",
+      "cls": "K2Node_IfThenElse",
+      "x": 2035,
+      "y": 9472,
+      "pins": [
+        {
+          "name": "execute",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "Condition",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "then",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        },
+        {
+          "name": "else",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "PlaySoundAtLocation",
+      "name": "t19_PlaySoundAtLocation_1",
+      "cls": "K2Node_CallFunction",
+      "x": 2330,
+      "y": 8922,
+      "pins": [
+        {
+          "name": "execute",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "Sound",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "Location",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "Rotation",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "VolumeMultiplier",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "PitchMultiplier",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "StartTime",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "AttenuationSettings",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "ConcurrencySettings",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "OwningActor",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "InitialParams",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "then",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "GetActorOfClass",
+      "name": "t19_GetActorOfClass_1",
+      "cls": "K2Node_CallFunction",
+      "x": 2330,
+      "y": 9472,
+      "pins": [
+        {
+          "name": "execute",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "ActorClass",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "then",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        },
+        {
+          "name": "ReturnValue",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "ServerDoFire",
+      "name": "t19_ServerDoFire_1",
+      "cls": "K2Node_CallFunction",
+      "x": 2330,
+      "y": 10072,
+      "pins": [
+        {
+          "name": "execute",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "self",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "SpawnTransform",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "then",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "PlayHapticEffect",
+      "name": "t19_PlayerController_PlayHapticEffect_1",
+      "cls": "K2Node_CallFunction",
+      "x": 3175,
+      "y": 8922,
+      "pins": [
+        {
+          "name": "execute",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "self",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "HapticEffect",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "Hand",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "Scale",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "bLoop",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "then",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "Cast To BP_ActorPool",
+      "name": "t19_DynamicCast_1",
+      "cls": "K2Node_DynamicCast",
+      "x": 2625,
+      "y": 9472,
+      "pins": [
+        {
+          "name": "execute",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "Object",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "then",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        },
+        {
+          "name": "CastFailed",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        },
+        {
+          "name": "AsBP Actor Pool",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "Acquire",
+      "name": "t19_BP_ActorPool_C_Acquire_1",
+      "cls": "K2Node_CallFunction",
+      "x": 3745,
+      "y": 9472,
+      "pins": [
+        {
+          "name": "execute",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "self",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "SpawnTransform",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "Owner",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "Instigator",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "then",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        },
+        {
+          "name": "PooledActor",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "SpawnActor BP Projectile",
+      "name": "t19_SpawnActorFromClass_1",
+      "cls": "K2Node_SpawnActorFromClass",
+      "x": 3470,
+      "y": 9872,
+      "pins": [
+        {
+          "name": "execute",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "Class",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "SpawnTransform",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "CollisionHandlingOverride",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "TransformScaleMethod",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "Owner",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "Instigator",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "then",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        },
+        {
+          "name": "ReturnValue",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "Cast To BP_Projectile",
+      "name": "t19_DynamicCast_2",
+      "cls": "K2Node_DynamicCast",
+      "x": 4040,
+      "y": 9472,
+      "pins": [
+        {
+          "name": "execute",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "Object",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "then",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        },
+        {
+          "name": "CastFailed",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        },
+        {
+          "name": "AsBP Projectile",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "PoolActivate",
+      "name": "t19_BP_Projectile_C_PoolActivate_1",
+      "cls": "K2Node_CallFunction",
+      "x": 4885,
+      "y": 9472,
+      "pins": [
+        {
+          "name": "execute",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "self",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "then",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "PrintString",
+      "name": "K2Node_CallFunction_1",
+      "cls": "K2Node_CallFunction",
+      "x": -1200,
+      "y": 8122,
+      "pins": [
+        {
+          "name": "execute",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "InString",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "bPrintToScreen",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "bPrintToLog",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "TextColor",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "Duration",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "Key",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "then",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "Get Components By Class",
+      "name": "K2Node_CallFunction_40",
+      "cls": "K2Node_CallFunction",
+      "x": -1700,
+      "y": 8200,
+      "pins": [
+        {
+          "name": "self",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "ComponentClass",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "ReturnValue",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "For Each Loop",
+      "name": "K2Node_MacroInstance_8",
+      "cls": "K2Node_MacroInstance",
+      "x": -1300,
+      "y": 8180,
+      "pins": [
+        {
+          "name": "Exec",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "Array",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "LoopBody",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        },
+        {
+          "name": "Array Element",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        },
+        {
+          "name": "Array Index",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        },
+        {
+          "name": "Completed",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "CreateDynamicMaterialInstance",
+      "name": "K2Node_CallFunction_41",
+      "cls": "K2Node_CallFunction",
+      "x": -900,
+      "y": 8160,
+      "pins": [
+        {
+          "name": "execute",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "self",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "ElementIndex",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "SourceMaterial",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "OptionalName",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "then",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        },
+        {
+          "name": "ReturnValue",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "SetScalarParameterValue",
+      "name": "K2Node_CallFunction_42",
+      "cls": "K2Node_CallFunction",
+      "x": -500,
+      "y": 8140,
+      "pins": [
+        {
+          "name": "execute",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "self",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "ParameterName",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "Value",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "then",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "SetScalarParameterValue",
+      "name": "K2Node_CallFunction_43",
+      "cls": "K2Node_CallFunction",
+      "x": -150,
+      "y": 8140,
+      "pins": [
+        {
+          "name": "execute",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "self",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "ParameterName",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "Value",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "then",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "SetScalarParameterValue",
+      "name": "K2Node_CallFunction_44",
+      "cls": "K2Node_CallFunction",
+      "x": 150,
+      "y": 8140,
+      "pins": [
+        {
+          "name": "execute",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "self",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "ParameterName",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "Value",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "then",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "Get AmmoTextRender",
+      "name": "K2Node_VariableGet_16",
+      "cls": "K2Node_VariableGet",
+      "x": -1700,
+      "y": 8500,
+      "pins": [
+        {
+          "name": "AmmoTextRender",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "To Text (Integer)",
+      "name": "K2Node_CallFunction_45",
+      "cls": "K2Node_CallFunction",
+      "x": -1400,
+      "y": 8550,
+      "pins": [
+        {
+          "name": "Value",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "bAlwaysSign",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "bUseGrouping",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "MinimumIntegralDigits",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "MaximumIntegralDigits",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "ReturnValue",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "SetText",
+      "name": "K2Node_CallFunction_46",
+      "cls": "K2Node_CallFunction",
+      "x": -1000,
+      "y": 8500,
+      "pins": [
+        {
+          "name": "execute",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "self",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "Value",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "then",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "For Each Loop",
+      "name": "K2Node_MacroInstance_9",
+      "cls": "K2Node_MacroInstance",
+      "x": -1880,
+      "y": 8320,
+      "pins": [
+        {
+          "name": "Exec",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "Array",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "LoopBody",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        },
+        {
+          "name": "Array Element",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        },
+        {
+          "name": "Array Index",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        },
+        {
+          "name": "Completed",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "Get ChildActor",
+      "name": "K2Node_VariableGet_19",
+      "cls": "K2Node_VariableGet",
+      "x": -1500,
+      "y": 8340,
+      "pins": [
+        {
+          "name": "self",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "ChildActor",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "Get Components By Class",
+      "name": "K2Node_CallFunction_52",
+      "cls": "K2Node_CallFunction",
+      "x": -1150,
+      "y": 8300,
+      "pins": [
+        {
+          "name": "self",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "ComponentClass",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "ReturnValue",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "For Each Loop",
+      "name": "K2Node_MacroInstance_10",
+      "cls": "K2Node_MacroInstance",
+      "x": -800,
+      "y": 8280,
+      "pins": [
+        {
+          "name": "Exec",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "Array",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "LoopBody",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        },
+        {
+          "name": "Array Element",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        },
+        {
+          "name": "Array Index",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        },
+        {
+          "name": "Completed",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "CreateDynamicMaterialInstance",
+      "name": "K2Node_CallFunction_53",
+      "cls": "K2Node_CallFunction",
+      "x": -400,
+      "y": 8240,
+      "pins": [
+        {
+          "name": "execute",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "self",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "ElementIndex",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "SourceMaterial",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "OptionalName",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "then",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        },
+        {
+          "name": "ReturnValue",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "SetScalarParameterValue",
+      "name": "K2Node_CallFunction_54",
+      "cls": "K2Node_CallFunction",
+      "x": -50,
+      "y": 8240,
+      "pins": [
+        {
+          "name": "execute",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "self",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "ParameterName",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "Value",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "then",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "SetScalarParameterValue",
+      "name": "K2Node_CallFunction_55",
+      "cls": "K2Node_CallFunction",
+      "x": 300,
+      "y": 8240,
+      "pins": [
+        {
+          "name": "execute",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "self",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "ParameterName",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "Value",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "then",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "SetScalarParameterValue",
+      "name": "K2Node_CallFunction_56",
+      "cls": "K2Node_CallFunction",
+      "x": 600,
+      "y": 8240,
+      "pins": [
+        {
+          "name": "execute",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "self",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "ParameterName",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "Value",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "then",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "CreateDynamicMaterialInstance",
+      "name": "K2Node_CallFunction_57",
+      "cls": "K2Node_CallFunction",
+      "x": -400,
+      "y": 8480,
+      "pins": [
+        {
+          "name": "execute",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "self",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "ElementIndex",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "SourceMaterial",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "OptionalName",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "then",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        },
+        {
+          "name": "ReturnValue",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "SetScalarParameterValue",
+      "name": "K2Node_CallFunction_58",
+      "cls": "K2Node_CallFunction",
+      "x": -50,
+      "y": 8480,
+      "pins": [
+        {
+          "name": "execute",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "self",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "ParameterName",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "Value",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "then",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "SetScalarParameterValue",
+      "name": "K2Node_CallFunction_59",
+      "cls": "K2Node_CallFunction",
+      "x": 300,
+      "y": 8480,
+      "pins": [
+        {
+          "name": "execute",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "self",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "ParameterName",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "Value",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "then",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "SetScalarParameterValue",
+      "name": "K2Node_CallFunction_60",
+      "cls": "K2Node_CallFunction",
+      "x": 600,
+      "y": 8480,
+      "pins": [
+        {
+          "name": "execute",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "self",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "ParameterName",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "Value",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "then",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "Get Components By Class",
+      "name": "K2Node_CallFunction_61",
+      "cls": "K2Node_CallFunction",
+      "x": -1880,
+      "y": 8900,
+      "pins": [
+        {
+          "name": "self",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "ComponentClass",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "ReturnValue",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "For Each Loop",
+      "name": "K2Node_MacroInstance_11",
+      "cls": "K2Node_MacroInstance",
+      "x": -1500,
+      "y": 8880,
+      "pins": [
+        {
+          "name": "Exec",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "Array",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "LoopBody",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        },
+        {
+          "name": "Array Element",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        },
+        {
+          "name": "Array Index",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        },
+        {
+          "name": "Completed",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "CreateDynamicMaterialInstance",
+      "name": "K2Node_CallFunction_62",
+      "cls": "K2Node_CallFunction",
+      "x": -1100,
+      "y": 8840,
+      "pins": [
+        {
+          "name": "execute",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "self",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "ElementIndex",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "SourceMaterial",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "OptionalName",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "then",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        },
+        {
+          "name": "ReturnValue",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "SetScalarParameterValue",
+      "name": "K2Node_CallFunction_63",
+      "cls": "K2Node_CallFunction",
+      "x": -750,
+      "y": 8840,
+      "pins": [
+        {
+          "name": "execute",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "self",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "ParameterName",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "Value",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "then",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "SetScalarParameterValue",
+      "name": "K2Node_CallFunction_64",
+      "cls": "K2Node_CallFunction",
+      "x": -400,
+      "y": 8840,
+      "pins": [
+        {
+          "name": "execute",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "self",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "ParameterName",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "Value",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "then",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "SetScalarParameterValue",
+      "name": "K2Node_CallFunction_65",
+      "cls": "K2Node_CallFunction",
+      "x": -100,
+      "y": 8840,
+      "pins": [
+        {
+          "name": "execute",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "self",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "ParameterName",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "Value",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "then",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "Get AmmoTextRender",
+      "name": "K2Node_VariableGet_20",
+      "cls": "K2Node_VariableGet",
+      "x": -1880,
+      "y": 9200,
+      "pins": [
+        {
+          "name": "AmmoTextRender",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "To Text (Integer)",
+      "name": "K2Node_CallFunction_66",
+      "cls": "K2Node_CallFunction",
+      "x": -1550,
+      "y": 9250,
+      "pins": [
+        {
+          "name": "Value",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "bAlwaysSign",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "bUseGrouping",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "MinimumIntegralDigits",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "MaximumIntegralDigits",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "ReturnValue",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    },
+    {
+      "title": "SetText",
+      "name": "K2Node_CallFunction_67",
+      "cls": "K2Node_CallFunction",
+      "x": -1150,
+      "y": 9200,
+      "pins": [
+        {
+          "name": "execute",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "self",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "Value",
+          "dir": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "linked": null
+        },
+        {
+          "name": "then",
+          "dir": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "linked": null
+        }
+      ]
+    }
+  ],
+  "xr": []
+}

@@ -1,0 +1,962 @@
+{
+  "all_candidates": [
+    "/Game/CursorTest/BP_Pistol_Auto1Inspect",
+    "/Game/CursorTest/BP_Pistol_AutoInspect",
+    "/Game/CursorTest/BP_Pistol_Em",
+    "/Game/CursorTest/BP_Pistol_Em2",
+    "/Game/CursorTest/BP_Pistol_Emergency",
+    "/Game/CursorTest/BP_Pistol_Ref",
+    "/Game/CursorTest/BP_Pistol_Restore",
+    "/Game/CursorTest/BP_Rifle_Auto1_TEST",
+    "/Game/CursorTest/BP_Rifle_AutoRef",
+    "/Game/CursorTest/BP_Rifle_Em2",
+    "/Game/CursorTest/BP_Rifle_Ref",
+    "/Game/GunVR/BP_GunVR_UMP45",
+    "/Game/NiagaraExamples/Blueprints/BP_Rifle",
+    "/Game/NiagaraExamples/Gallery/Weapons/Rifle/Animations/ABP_Weap_Rifle",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/BP_Rifle/BP_Assault_Rifle",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/BP_AssaultRifle/BP_AssaultRifle",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/BP_AssaultRifle/BP_ChildActor_Assault_Rifle",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_MachineGun/MachineGun/BP_MachineGun/BP_MachineGun",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Shotgun/Shotgun/BP_Shotgun/BP_Shotgun",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/BP_Rifle/BP_Sniper_Rifle",
+    "/Game/XRFramework/Blueprints/BP_Pistol",
+    "/Game/XRFramework/Blueprints/BP_Pistol_DEMOVR",
+    "/Game/XRFramework/Blueprints/BP_Pistol_Fix",
+    "/Game/XRFramework/Blueprints/BP_Pistol_Fix2",
+    "/Game/XRFramework/Blueprints/BP_Rifle",
+    "/Game/XRFramework/Blueprints/BP_Rifle_DEMOVR",
+    "/Game/XRFramework/Blueprints/BP_Rifle_RESTORE",
+    "/Game/XRFramework/Blueprints/BP_Rifle_TEST",
+    "/Game/XRFramework/Blueprints/SciFiWeapons/BP_XR_SciFi_AssaultRifle_1",
+    "/Game/XRFramework/Blueprints/SciFiWeapons/BP_XR_SciFi_AssaultRifle_2",
+    "/Game/XRFramework/Blueprints/SciFiWeapons/BP_XR_SciFi_MachineGun",
+    "/Game/XRFramework/Blueprints/SciFiWeapons/BP_XR_SciFi_Pistol",
+    "/Game/XRFramework/Blueprints/SciFiWeapons/BP_XR_SciFi_Shotgun",
+    "/Game/XRFramework/Blueprints/SciFiWeapons/BP_XR_SciFi_Sniper"
+  ],
+  "kitish": [
+    "/Game/NiagaraExamples/Gallery/Weapons/Rifle/Animations/ABP_Weap_Rifle",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/BP_Rifle/BP_Assault_Rifle",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/BP_AssaultRifle/BP_AssaultRifle",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/BP_AssaultRifle/BP_ChildActor_Assault_Rifle",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_MachineGun/MachineGun/BP_MachineGun/BP_MachineGun",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Shotgun/Shotgun/BP_Shotgun/BP_Shotgun",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/BP_Rifle/BP_Sniper_Rifle",
+    "/Game/XRFramework/Blueprints/SciFiWeapons/BP_XR_SciFi_AssaultRifle_1",
+    "/Game/XRFramework/Blueprints/SciFiWeapons/BP_XR_SciFi_AssaultRifle_2",
+    "/Game/XRFramework/Blueprints/SciFiWeapons/BP_XR_SciFi_MachineGun",
+    "/Game/XRFramework/Blueprints/SciFiWeapons/BP_XR_SciFi_Pistol",
+    "/Game/XRFramework/Blueprints/SciFiWeapons/BP_XR_SciFi_Shotgun",
+    "/Game/XRFramework/Blueprints/SciFiWeapons/BP_XR_SciFi_Sniper"
+  ],
+  "inspect": [
+    {
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/BP_Rifle/BP_Assault_Rifle",
+      "comps": [
+        {
+          "name": "SK_Bullet",
+          "class": "SkeletalMeshComponent",
+          "mesh": "SK_Bullet",
+          "leader": null,
+          "loc": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "SK_Bullet",
+          "class": "SkeletalMeshComponent",
+          "mesh": "SK_Bullet",
+          "leader": null,
+          "loc": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "SK_Magazine_Full",
+          "class": "SkeletalMeshComponent",
+          "mesh": "SK_Magazine",
+          "leader": null,
+          "loc": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "SK_Bullet_Full_Magazine",
+          "class": "SkeletalMeshComponent",
+          "mesh": "SK_Bullet_Full_Magazine",
+          "leader": null,
+          "loc": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "SK_Bullet_Full_Magazine",
+          "class": "SkeletalMeshComponent",
+          "mesh": "SK_Bullet_Full_Magazine",
+          "leader": null,
+          "loc": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "SK_Magazine_Full",
+          "class": "SkeletalMeshComponent",
+          "mesh": "SK_Magazine",
+          "leader": null,
+          "loc": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "SK_Butt",
+          "class": "SkeletalMeshComponent",
+          "mesh": "SK_Butt",
+          "leader": null,
+          "loc": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "SK_Butt",
+          "class": "SkeletalMeshComponent",
+          "mesh": "SK_Butt",
+          "leader": null,
+          "loc": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "SK_Aim",
+          "class": "SkeletalMeshComponent",
+          "mesh": "SK_Aim",
+          "leader": null,
+          "loc": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "SK_Aim",
+          "class": "SkeletalMeshComponent",
+          "mesh": "SK_Aim",
+          "leader": null,
+          "loc": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "SK_Right_Kit",
+          "class": "SkeletalMeshComponent",
+          "mesh": "SK_Right_Kit",
+          "leader": null,
+          "loc": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "SK_Right_Kit",
+          "class": "SkeletalMeshComponent",
+          "mesh": "SK_Right_Kit",
+          "leader": null,
+          "loc": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "SK_Silencer",
+          "class": "SkeletalMeshComponent",
+          "mesh": "SK_Silencer",
+          "leader": null,
+          "loc": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "SK_Silencer",
+          "class": "SkeletalMeshComponent",
+          "mesh": "SK_Silencer",
+          "leader": null,
+          "loc": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "SK_Magazine_Emty",
+          "class": "SkeletalMeshComponent",
+          "mesh": "SK_Magazine",
+          "leader": null,
+          "loc": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "SK_Magazine_Emty",
+          "class": "SkeletalMeshComponent",
+          "mesh": "SK_Magazine",
+          "leader": null,
+          "loc": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "SK_Assault_Rifle",
+          "class": "SkeletalMeshComponent",
+          "mesh": "SK_Rifle_Assault_Rifle",
+          "leader": null,
+          "loc": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/BP_AssaultRifle/BP_AssaultRifle",
+      "comps": [
+        {
+          "name": "SK_Magazine_Empty",
+          "class": "SkeletalMeshComponent",
+          "mesh": "SK_Magazine_Empty",
+          "leader": null,
+          "loc": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "SK_Left_Kit",
+          "class": "SkeletalMeshComponent",
+          "mesh": "SK_Left_Kit",
+          "leader": null,
+          "loc": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "SM_Scheme",
+          "class": "StaticMeshComponent",
+          "mesh": "SM_Scheme",
+          "loc": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "SM_Scheme",
+          "class": "StaticMeshComponent",
+          "mesh": "SM_Scheme",
+          "loc": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "SK_Left_Kit",
+          "class": "SkeletalMeshComponent",
+          "mesh": "SK_Left_Kit",
+          "leader": null,
+          "loc": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "SK_Bullet",
+          "class": "SkeletalMeshComponent",
+          "mesh": "SK_Bullet",
+          "leader": null,
+          "loc": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "SK_Bullet",
+          "class": "SkeletalMeshComponent",
+          "mesh": "SK_Bullet",
+          "leader": null,
+          "loc": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "SK_Aim",
+          "class": "SkeletalMeshComponent",
+          "mesh": "SK_Aim",
+          "leader": null,
+          "loc": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "SM_Aim_Glass",
+          "class": "StaticMeshComponent",
+          "mesh": "SM_Aim_Glass",
+          "loc": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "SM_Aim_Glass",
+          "class": "StaticMeshComponent",
+          "mesh": "SM_Aim_Glass",
+          "loc": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "SK_Aim",
+          "class": "SkeletalMeshComponent",
+          "mesh": "SK_Aim",
+          "leader": null,
+          "loc": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "SK_Magazine_Empty",
+          "class": "SkeletalMeshComponent",
+          "mesh": "SK_Magazine_Empty",
+          "leader": null,
+          "loc": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "SM_Reactor",
+          "class": "StaticMeshComponent",
+          "mesh": "SM_Reactor",
+          "loc": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "SK_Rifle",
+          "class": "SkeletalMeshComponent",
+          "mesh": "SK_Rifle",
+          "leader": null,
+          "loc": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "SM_Right_Kit",
+          "class": "StaticMeshComponent",
+          "mesh": "SM_Right_Kit",
+          "loc": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "SM_Right_Kit",
+          "class": "StaticMeshComponent",
+          "mesh": "SM_Right_Kit",
+          "loc": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "SM_Reactor",
+          "class": "StaticMeshComponent",
+          "mesh": "SM_Reactor",
+          "loc": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "SM_Foregrip",
+          "class": "StaticMeshComponent",
+          "mesh": "SM_Foregrip",
+          "loc": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "SK_Magazine_Full",
+          "class": "SkeletalMeshComponent",
+          "mesh": "SK_Magazine_Full",
+          "leader": null,
+          "loc": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "SM_Foregrip",
+          "class": "StaticMeshComponent",
+          "mesh": "SM_Foregrip",
+          "loc": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "SM_Butt",
+          "class": "StaticMeshComponent",
+          "mesh": "SM_Butt",
+          "loc": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "SM_Butt",
+          "class": "StaticMeshComponent",
+          "mesh": "SM_Butt",
+          "loc": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "SK_Magazine_Full",
+          "class": "SkeletalMeshComponent",
+          "mesh": "SK_Magazine_Full",
+          "leader": null,
+          "loc": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/BP_AssaultRifle/BP_ChildActor_Assault_Rifle",
+      "comps": []
+    },
+    {
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Shotgun/Shotgun/BP_Shotgun/BP_Shotgun",
+      "comps": [
+        {
+          "name": "SK_Aim",
+          "class": "SkeletalMeshComponent",
+          "mesh": "SK_Aim",
+          "leader": null,
+          "loc": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "SK_Aim",
+          "class": "SkeletalMeshComponent",
+          "mesh": "SK_Aim",
+          "leader": null,
+          "loc": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "SK_Left_Kit",
+          "class": "SkeletalMeshComponent",
+          "mesh": "SK_Left_Kit",
+          "leader": null,
+          "loc": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "SK_Left_Kit",
+          "class": "SkeletalMeshComponent",
+          "mesh": "SK_Left_Kit",
+          "leader": null,
+          "loc": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "SK_Right_Kit",
+          "class": "SkeletalMeshComponent",
+          "mesh": "SK_Right_Kit",
+          "leader": null,
+          "loc": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "SK_Right_Kit",
+          "class": "SkeletalMeshComponent",
+          "mesh": "SK_Right_Kit",
+          "leader": null,
+          "loc": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "SK_Bullet_Left",
+          "class": "SkeletalMeshComponent",
+          "mesh": "SK_Bullet",
+          "leader": null,
+          "loc": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "SK_Bullet_Left",
+          "class": "SkeletalMeshComponent",
+          "mesh": "SK_Bullet",
+          "leader": null,
+          "loc": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "SK_Bullet_Right",
+          "class": "SkeletalMeshComponent",
+          "mesh": "SK_Bullet",
+          "leader": null,
+          "loc": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "SK_Bullet_Right",
+          "class": "SkeletalMeshComponent",
+          "mesh": "SK_Bullet",
+          "leader": null,
+          "loc": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "SK_Bullet_Empty_L",
+          "class": "SkeletalMeshComponent",
+          "mesh": "SK_Bullet_Empty",
+          "leader": null,
+          "loc": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "SK_Bullet_Empty_L",
+          "class": "SkeletalMeshComponent",
+          "mesh": "SK_Bullet_Empty",
+          "leader": null,
+          "loc": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "SK_Bullet_Empty_R",
+          "class": "SkeletalMeshComponent",
+          "mesh": "SK_Bullet_Empty",
+          "leader": null,
+          "loc": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "SK_Bullet_Empty_R",
+          "class": "SkeletalMeshComponent",
+          "mesh": "SK_Bullet_Empty",
+          "leader": null,
+          "loc": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "SK_Shotgun",
+          "class": "SkeletalMeshComponent",
+          "mesh": "SK_Shotgun",
+          "leader": null,
+          "loc": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/Game/XRFramework/Blueprints/BP_Pistol",
+      "comps": [
+        {
+          "name": "SM_Pistol",
+          "class": "StaticMeshComponent",
+          "mesh": "SM_Pistol",
+          "loc": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    }
+  ]
+}

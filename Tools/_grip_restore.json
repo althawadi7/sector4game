@@ -1,0 +1,323 @@
+{
+  "log": [
+    {
+      "bp": "BP_XR_SciFi_Pistol",
+      "compiled": true,
+      "hidden": []
+    },
+    {
+      "removed": "BP_XR_SciFi_AssaultRifle_1",
+      "nodes": [
+        "K2Node_VariableGet_11",
+        "K2Node_CallFunction_7",
+        "K2Node_CallFunction_8"
+      ]
+    },
+    {
+      "renamed": "BP_XR_SciFi_AssaultRifle_1",
+      "from": "Child Actor Component"
+    },
+    {
+      "bp": "BP_XR_SciFi_AssaultRifle_1",
+      "compiled": true,
+      "hidden": [
+        "SK_Magazine",
+        "SK_Butt",
+        "SK_Aim",
+        "SkeletalMesh",
+        "SK_Right_Kit",
+        "SK_Silencer",
+        "SkeletalMesh1"
+      ]
+    },
+    {
+      "removed": "BP_XR_SciFi_AssaultRifle_2",
+      "nodes": [
+        "K2Node_CallFunction_7",
+        "K2Node_CallFunction_8"
+      ]
+    },
+    {
+      "renamed": "BP_XR_SciFi_AssaultRifle_2",
+      "from": "Child Actor Component"
+    },
+    {
+      "bp": "BP_XR_SciFi_AssaultRifle_2",
+      "compiled": true,
+      "hidden": [
+        "SM_Reactor",
+        "SM_Right_Kit",
+        "SK_Magazine_Full",
+        "SK_Left_Kit",
+        "SK_Aim",
+        "SM_Foregrip",
+        "SkeletalMesh1",
+        "SM_Aim_Glass",
+        "SM_Butt",
+        "SM_Scheme",
+        "SkeletalMesh"
+      ]
+    },
+    {
+      "removed": "BP_XR_SciFi_MachineGun",
+      "nodes": [
+        "K2Node_CallFunction_7",
+        "K2Node_CallFunction_8"
+      ]
+    },
+    {
+      "renamed": "BP_XR_SciFi_MachineGun",
+      "from": "Child Actor Component"
+    },
+    {
+      "bp": "BP_XR_SciFi_MachineGun",
+      "compiled": true,
+      "hidden": [
+        "SM_Sopla_Right",
+        "SM_Sopla_Side",
+        "SK_Barrel",
+        "SK_Magazine",
+        "SK_Control_Handle",
+        "SM_Tube_Middle",
+        "SM_Sopla_Bottom",
+        "SkeletalMesh1",
+        "SM_Sopla_Left",
+        "SM_Sensors",
+        "SM_Tube_Left",
+        "SM_Turbine"
+      ]
+    },
+    {
+      "removed": "BP_XR_SciFi_Shotgun",
+      "nodes": [
+        "K2Node_CallFunction_7",
+        "K2Node_CallFunction_8"
+      ]
+    },
+    {
+      "renamed": "BP_XR_SciFi_Shotgun",
+      "from": "Child Actor Component"
+    },
+    {
+      "bp": "BP_XR_SciFi_Shotgun",
+      "compiled": true,
+      "hidden": [
+        "SkeletalMesh",
+        "SK_Left_Kit",
+        "SK_Right_Kit",
+        "SK_Aim",
+        "SkeletalMesh1"
+      ]
+    },
+    {
+      "removed": "BP_XR_SciFi_Sniper",
+      "nodes": [
+        "K2Node_CallFunction_7",
+        "K2Node_CallFunction_8"
+      ]
+    },
+    {
+      "renamed": "BP_XR_SciFi_Sniper",
+      "from": "Child Actor Component"
+    },
+    {
+      "bp": "BP_XR_SciFi_Sniper",
+      "compiled": true,
+      "hidden": [
+        "SK_Sleeve",
+        "SK_Rail",
+        "SK_Bipods",
+        "SK_Magazine_Full",
+        "SK_Butt",
+        "SK_Carrying",
+        "SM_Glass_Front",
+        "SkeletalMesh1",
+        "SK_Sopla",
+        "SM_Glass_Aim",
+        "SK_Scope",
+        "SkeletalMesh"
+      ]
+    }
+  ],
+  "results": [
+    {
+      "lab": "BP_XR_SciFi_Pistol",
+      "ncomp": 12,
+      "trig": [
+        -5.6,
+        -0.0,
+        -6.5
+      ],
+      "grab": {
+        "loc": [
+          -5.6,
+          -0.0,
+          -6.5
+        ],
+        "rot": [
+          85.0,
+          90.0,
+          0.0
+        ],
+        "sim_drop": false,
+        "type": "<E_GrabType.SNAP: 2>"
+      },
+      "kit": null
+    },
+    {
+      "lab": "BP_XR_SciFi_AssaultRifle_1",
+      "ncomp": 22,
+      "trig": [
+        -5.2,
+        -0.0,
+        -6.5
+      ],
+      "grab": {
+        "loc": [
+          -5.2,
+          -0.0,
+          -6.5
+        ],
+        "rot": [
+          85.0,
+          90.0,
+          0.0
+        ],
+        "sim_drop": false,
+        "type": "<E_GrabType.SNAP: 2>"
+      },
+      "kit": {
+        "rot": [
+          90.0,
+          0.0,
+          0.0
+        ],
+        "has_child": true
+      }
+    },
+    {
+      "lab": "BP_XR_SciFi_AssaultRifle_2",
+      "ncomp": 26,
+      "trig": [
+        -6.9,
+        -0.0,
+        -7.5
+      ],
+      "grab": {
+        "loc": [
+          -6.9,
+          -0.0,
+          -7.5
+        ],
+        "rot": [
+          85.0,
+          90.0,
+          0.0
+        ],
+        "sim_drop": false,
+        "type": "<E_GrabType.SNAP: 2>"
+      },
+      "kit": {
+        "rot": [
+          90.0,
+          0.0,
+          0.0
+        ],
+        "has_child": true
+      }
+    },
+    {
+      "lab": "BP_XR_SciFi_MachineGun",
+      "ncomp": 29,
+      "trig": [
+        -5.3,
+        0.0,
+        -8.8
+      ],
+      "grab": {
+        "loc": [
+          -5.3,
+          0.0,
+          -8.8
+        ],
+        "rot": [
+          85.0,
+          90.0,
+          0.0
+        ],
+        "sim_drop": false,
+        "type": "<E_GrabType.SNAP: 2>"
+      },
+      "kit": {
+        "rot": [
+          90.0,
+          0.0,
+          0.0
+        ],
+        "has_child": true
+      }
+    },
+    {
+      "lab": "BP_XR_SciFi_Shotgun",
+      "ncomp": 20,
+      "trig": [
+        1.7,
+        0.0,
+        -10.9
+      ],
+      "grab": {
+        "loc": [
+          1.7,
+          0.0,
+          -10.9
+        ],
+        "rot": [
+          85.0,
+          90.0,
+          0.0
+        ],
+        "sim_drop": false,
+        "type": "<E_GrabType.SNAP: 2>"
+      },
+      "kit": {
+        "rot": [
+          90.0,
+          0.0,
+          0.0
+        ],
+        "has_child": true
+      }
+    },
+    {
+      "lab": "BP_XR_SciFi_Sniper",
+      "ncomp": 27,
+      "trig": [
+        -4.6,
+        -0.0,
+        -6.0
+      ],
+      "grab": {
+        "loc": [
+          -4.6,
+          -0.0,
+          -6.0
+        ],
+        "rot": [
+          85.0,
+          90.0,
+          0.0
+        ],
+        "sim_drop": false,
+        "type": "<E_GrabType.SNAP: 2>"
+      },
+      "kit": {
+        "rot": [
+          90.0,
+          0.0,
+          0.0
+        ],
+        "has_child": true
+      }
+    }
+  ]
+}

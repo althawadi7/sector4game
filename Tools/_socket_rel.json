@@ -1,0 +1,318 @@
+{
+  "hits": [
+    {
+      "title": "DoFire",
+      "name": "t5_CustomEvent_1",
+      "pos": {
+        "x": -1600,
+        "y": 8122
+      },
+      "cls": "K2Node_CustomEvent"
+    },
+    {
+      "title": "Get MuzzleLocation",
+      "name": "t6_VariableGet_2",
+      "pos": {
+        "x": 2625,
+        "y": 5622
+      },
+      "cls": "K2Node_VariableGet"
+    },
+    {
+      "title": "Get MuzzleLocation",
+      "name": "t19_VariableGet_2",
+      "pos": {
+        "x": 1485,
+        "y": 8972
+      },
+      "cls": "K2Node_VariableGet"
+    },
+    {
+      "title": "ServerDoFire",
+      "name": "t21_CustomEvent_1",
+      "pos": {
+        "x": 120,
+        "y": 4908
+      },
+      "cls": "K2Node_CustomEvent"
+    },
+    {
+      "title": "SpawnSystemAtLocation",
+      "name": "t19_NiagaraFunctionLibrary_SpawnSystemAtLocation_1",
+      "pos": {
+        "x": 2035,
+        "y": 8922
+      },
+      "cls": "K2Node_CallFunction"
+    },
+    {
+      "title": "SpawnActor BP Projectile",
+      "name": "t21_SpawnActorFromClass_1",
+      "pos": {
+        "x": 1005,
+        "y": 5308
+      },
+      "cls": "K2Node_SpawnActorFromClass"
+    },
+    {
+      "title": "PlaySoundAtLocation",
+      "name": "t19_PlaySoundAtLocation_1",
+      "pos": {
+        "x": 2330,
+        "y": 8922
+      },
+      "cls": "K2Node_CallFunction"
+    },
+    {
+      "title": "ServerDoFire",
+      "name": "t19_ServerDoFire_1",
+      "pos": {
+        "x": 2330,
+        "y": 10072
+      },
+      "cls": "K2Node_CallFunction"
+    },
+    {
+      "title": "SpawnActor BP Projectile",
+      "name": "t19_SpawnActorFromClass_1",
+      "pos": {
+        "x": 3470,
+        "y": 9872
+      },
+      "cls": "K2Node_SpawnActorFromClass"
+    },
+    {
+      "title": "SpawnSystemAtLocation",
+      "name": "t6_NiagaraFunctionLibrary_SpawnSystemAtLocation_1",
+      "pos": {
+        "x": 3175,
+        "y": 5572
+      },
+      "cls": "K2Node_CallFunction"
+    },
+    {
+      "title": "PlaySoundAtLocation",
+      "name": "t6_PlaySoundAtLocation_1",
+      "pos": {
+        "x": 3470,
+        "y": 5572
+      },
+      "cls": "K2Node_CallFunction"
+    },
+    {
+      "title": "SpawnActor BP Projectile",
+      "name": "t6_SpawnActorFromClass_1",
+      "pos": {
+        "x": 4885,
+        "y": 7722
+      },
+      "cls": "K2Node_SpawnActorFromClass"
+    },
+    {
+      "title": "Get MuzzleLocation",
+      "name": "K2Node_VariableGet_4",
+      "pos": {
+        "x": -1500,
+        "y": 2100
+      },
+      "cls": "K2Node_VariableGet"
+    },
+    {
+      "title": "Get MuzzleLocation",
+      "name": "K2Node_VariableGet_9",
+      "pos": {
+        "x": -1500,
+        "y": 2100
+      },
+      "cls": "K2Node_VariableGet"
+    }
+  ],
+  "socks": [
+    {
+      "lab": "BP_XR_SciFi_AssaultRifle_1",
+      "sockets": {
+        "muzzle": {
+          "rel": [
+            -62.28,
+            0.0,
+            7.21
+          ],
+          "rel_rot": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "body": "SK_Assault_Rifle"
+        },
+        "trigger": {
+          "rel": [
+            -6.5,
+            0.0,
+            5.18
+          ],
+          "rel_rot": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "body": "SK_Assault_Rifle"
+        },
+        "magazine": {
+          "rel": [
+            -16.63,
+            0.0,
+            4.99
+          ],
+          "rel_rot": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "body": "SK_Assault_Rifle"
+        }
+      }
+    },
+    {
+      "lab": "BP_XR_SciFi_AssaultRifle_2",
+      "sockets": {
+        "muzzle": {
+          "rel": [
+            -60.39,
+            -0.0,
+            12.44
+          ],
+          "rel_rot": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "body": "SK_Rifle"
+        },
+        "trigger": {
+          "rel": [
+            -7.51,
+            -0.0,
+            6.87
+          ],
+          "rel_rot": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "body": "SK_Rifle"
+        }
+      }
+    },
+    {
+      "lab": "BP_XR_SciFi_MachineGun",
+      "sockets": {
+        "trigger": {
+          "rel": [
+            -8.76,
+            0.0,
+            5.3
+          ],
+          "rel_rot": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "body": "SK_MachineGun"
+        }
+      }
+    },
+    {
+      "lab": "BP_XR_SciFi_Shotgun",
+      "sockets": {
+        "trigger": {
+          "rel": [
+            -10.94,
+            0.0,
+            -1.72
+          ],
+          "rel_rot": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "body": "SK_Shotgun"
+        }
+      }
+    },
+    {
+      "lab": "BP_XR_SciFi_Sniper",
+      "sockets": {
+        "muzzle": {
+          "rel": [
+            -102.4,
+            0.0,
+            10.78
+          ],
+          "rel_rot": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "body": "SK_Rifle"
+        },
+        "trigger": {
+          "rel": [
+            -6.0,
+            0.0,
+            4.59
+          ],
+          "rel_rot": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "body": "SK_Rifle"
+        },
+        "magazine": {
+          "rel": [
+            -16.69,
+            0.0,
+            7.48
+          ],
+          "rel_rot": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "body": "SK_Rifle"
+        }
+      }
+    },
+    {
+      "lab": "BP_XR_SciFi_Pistol",
+      "sockets": {
+        "trigger": {
+          "rel": [
+            -5.64,
+            -0.0,
+            -6.49
+          ],
+          "rel_rot": [
+            -90.0,
+            -180.0,
+            0.0
+          ],
+          "body": "SkeletalMesh"
+        },
+        "muzzle": {
+          "rel": [
+            -9.88,
+            -0.0,
+            -19.98
+          ],
+          "rel_rot": [
+            -90.0,
+            -180.0,
+            0.0
+          ],
+          "body": "SkeletalMesh"
+        }
+      }
+    }
+  ]
+}

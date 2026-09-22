@@ -1,0 +1,2414 @@
+{
+  "ammo_mats": [
+    {
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Pistol/Pistol/Material/Source/M_Ammo",
+      "class": "Material",
+      "scalars": [],
+      "vectors": [],
+      "textures": [],
+      "static_switches": [],
+      "all_scalar_names": [
+        "Roughness"
+      ],
+      "all_vector_names": [],
+      "all_texture_names": [
+        "MRA",
+        "Normal",
+        "Bace Color"
+      ]
+    },
+    {
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Pistol/Pistol/Material/MI_Ammo",
+      "class": "MaterialInstanceConstant",
+      "scalars": [
+        {
+          "n": "RefractionDepthBias",
+          "v": 0.0
+        }
+      ],
+      "vectors": [],
+      "textures": [
+        {
+          "n": "Bace Color",
+          "tex": "T_Ammo_BaseColor"
+        },
+        {
+          "n": "MRA",
+          "tex": "T_Ammo_OcclusionRoughnessMetallic"
+        },
+        {
+          "n": "Normal",
+          "tex": "T_Ammo_Normal"
+        }
+      ],
+      "static_switches": [],
+      "parent": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Pistol/Pistol/Material/Source/M_Ammo.M_Ammo",
+      "all_scalar_names": [
+        "Roughness"
+      ],
+      "all_vector_names": [],
+      "all_texture_names": [
+        "MRA",
+        "Normal",
+        "Bace Color"
+      ]
+    },
+    {
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Pistol/Pistol/Material/MI_Ammo_Full",
+      "class": "MaterialInstanceConstant",
+      "scalars": [
+        {
+          "n": "RefractionDepthBias",
+          "v": 0.0
+        }
+      ],
+      "vectors": [],
+      "textures": [
+        {
+          "n": "Bace Color",
+          "tex": "T_Ammo_Full_BaseColor"
+        },
+        {
+          "n": "MRA",
+          "tex": "T_Ammo_Full_OcclusionRoughnessMetallic"
+        },
+        {
+          "n": "Normal",
+          "tex": "T_Ammo_Full_Normal"
+        }
+      ],
+      "static_switches": [],
+      "parent": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Pistol/Pistol/Material/Source/M_Ammo.M_Ammo",
+      "all_scalar_names": [
+        "Roughness"
+      ],
+      "all_vector_names": [],
+      "all_texture_names": [
+        "MRA",
+        "Normal",
+        "Bace Color"
+      ]
+    },
+    {
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/Source/M_Ammo",
+      "class": "Material",
+      "scalars": [],
+      "vectors": [],
+      "textures": [],
+      "static_switches": [],
+      "all_scalar_names": [
+        "Multiply Roughness",
+        "Add Roughness"
+      ],
+      "all_vector_names": [],
+      "all_texture_names": []
+    }
+  ],
+  "rifle_mat_paths": [
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/Source/M_Aim_Sight",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/MI_Aim_Sight",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/Source/MF_Rifle/MF_Bace",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/Source/MF_Rifle/MF_Colorize",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/Source/M_Assault_Rifle",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/MI_Aim",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/MI_Butt",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/MI_Magazine",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/MI_Assault_Rifle",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/MI_Right_Kit",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/MI_Silencer",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/MI_Bullet",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/Source/M_Ammo",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Demo_Scene/Material/M_Demo",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Demo_Scene/Material_Instance/MI_Aim_Green",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Demo_Scene/Material_Instance/MI_Arc",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Demo_Scene/Material_Instance/MI_Assault_Rifle_Green",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Demo_Scene/Material_Instance/MI_Assault_Rifle_Yelow",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Demo_Scene/Material_Instance/MI_Butt_Green",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Demo_Scene/Material_Instance/MI_Chrome",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Demo_Scene/Material_Instance/MI_Ground",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Demo_Scene/Material_Instance/MI_Magazine_Green",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Demo_Scene/Material_Instance/MI_Magazine_Green_2",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Demo_Scene/Material_Instance/MI_Magazine_Yelow",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Demo_Scene/Material_Instance/MI_Manny_Instance",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Demo_Scene/Material_Instance/MI_Scene",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/Source/M_Aim",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/MI_Aim_Glass",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/Source/M_AssaultRifle",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/MI_Aim",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/MI_LeftKit",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/MI_Bullet",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/MI_Magazine",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/MI_Rifle",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/MI_Butt",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/MI_Foregrip",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/MI_RightKit",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/Demo_Scene/Material/M_Demo",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/Demo_Scene/Material_Instance/MI_Aim_Green",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/Demo_Scene/Material_Instance/MI_Arc"
+  ],
+  "interesting": [
+    {
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/Source/M_Aim_Sight",
+      "class": "Material",
+      "scalars": [],
+      "vectors": [],
+      "textures": [],
+      "static_switches": [],
+      "all_scalar_names": [
+        "Aim Emission",
+        "Side Emission"
+      ],
+      "all_vector_names": [
+        "Aim Color",
+        "Side Color"
+      ],
+      "all_texture_names": []
+    },
+    {
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/MI_Aim_Sight",
+      "class": "MaterialInstanceConstant",
+      "scalars": [
+        {
+          "n": "Aim Emission",
+          "v": 100.0
+        },
+        {
+          "n": "Side Emission",
+          "v": 1.0
+        },
+        {
+          "n": "RefractionDepthBias",
+          "v": 0.0
+        }
+      ],
+      "vectors": [],
+      "textures": [],
+      "static_switches": [],
+      "parent": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/Source/M_Aim_Sight.M_Aim_Sight",
+      "all_scalar_names": [
+        "Aim Emission",
+        "Side Emission"
+      ],
+      "all_vector_names": [
+        "Aim Color",
+        "Side Color"
+      ],
+      "all_texture_names": []
+    },
+    {
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/Source/M_Assault_Rifle",
+      "class": "Material",
+      "scalars": [],
+      "vectors": [],
+      "textures": [],
+      "static_switches": [],
+      "all_scalar_names": [
+        "Multiply Roughness",
+        "Add Roughness",
+        "Ammo \u0421ount",
+        "Speed Side  X",
+        "Speed Front Y",
+        "UV U",
+        "UV V",
+        "Backlight Display",
+        "Interface Brightness",
+        "Blue Brightness",
+        "Orange Brightness",
+        "Pipe Brightness",
+        "UV X",
+        "UV Y",
+        "Scale UV U",
+        "Scale UV V",
+        "Emission Line Intensity",
+        "Emission Point & Pipe Intensity",
+        "Base Roughness",
+        "Base Metall",
+        "Steel Roughness",
+        "Steel Metall",
+        "Chrome Roughness",
+        "Chrome Metall"
+      ],
+      "all_vector_names": [
+        "Blacklight Pipes",
+        "-Basic Color",
+        "-Steel Color",
+        "-Chrome Color",
+        "Emission Point & Pipe Color",
+        "Emission Line Color",
+        "Rubber Color",
+        "Interface Color"
+      ],
+      "all_texture_names": [
+        "Base Color",
+        "MRMA",
+        "Normal",
+        "Pipe Texture",
+        "Mask Pipe",
+        "Emission Mask & Handle",
+        "Display Mask",
+        "Ammo Counter Texture"
+      ]
+    },
+    {
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/MI_Aim",
+      "class": "MaterialInstanceConstant",
+      "scalars": [
+        {
+          "n": "Ammo \u0421ount",
+          "v": 30.0
+        },
+        {
+          "n": "Scale UV U",
+          "v": 1.2999999523162842
+        },
+        {
+          "n": "Scale UV V",
+          "v": 1.476307988166809
+        },
+        {
+          "n": "UV X",
+          "v": 7.14086389541626
+        },
+        {
+          "n": "UV Y",
+          "v": 13.770000457763672
+        },
+        {
+          "n": "RefractionDepthBias",
+          "v": 0.0
+        }
+      ],
+      "vectors": [
+        {
+          "n": "-Basic Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49E3AA0) {r: 0.052083, g: 0.052083, b: 0.052083, a: 1.000000}>"
+        },
+        {
+          "n": "-Chrome Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49ECD60) {r: 0.062500, g: 0.062500, b: 0.062500, a: 1.000000}>"
+        },
+        {
+          "n": "Rubber Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49E28A0) {r: 0.000000, g: 0.015678, b: 0.031250, a: 1.000000}>"
+        },
+        {
+          "n": "-Steel Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49EF520) {r: 0.322917, g: 0.322917, b: 0.322917, a: 1.000000}>"
+        }
+      ],
+      "textures": [
+        {
+          "n": "Ammo Counter Texture",
+          "tex": "T_Aim_Ammo_Counter"
+        },
+        {
+          "n": "Display Mask",
+          "tex": "T_Aim_Screen_Mask"
+        },
+        {
+          "n": "Base Color",
+          "tex": "T_Aim_Bse_Color"
+        },
+        {
+          "n": "Emission Mask & Handle",
+          "tex": "T_Aim_Mask_Compomemt"
+        },
+        {
+          "n": "MRMA",
+          "tex": "T_Aim_MRMA"
+        },
+        {
+          "n": "Normal",
+          "tex": "T_Aim_Normal"
+        }
+      ],
+      "static_switches": [],
+      "parent": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/Source/M_Assault_Rifle.M_Assault_Rifle",
+      "all_scalar_names": [
+        "Multiply Roughness",
+        "Add Roughness",
+        "Ammo \u0421ount",
+        "Speed Side  X",
+        "Speed Front Y",
+        "UV U",
+        "UV V",
+        "Backlight Display",
+        "Interface Brightness",
+        "Blue Brightness",
+        "Orange Brightness",
+        "Pipe Brightness",
+        "UV X",
+        "UV Y",
+        "Scale UV U",
+        "Scale UV V",
+        "Emission Line Intensity",
+        "Emission Point & Pipe Intensity",
+        "Base Roughness",
+        "Base Metall",
+        "Steel Roughness",
+        "Steel Metall",
+        "Chrome Roughness",
+        "Chrome Metall"
+      ],
+      "all_vector_names": [
+        "Blacklight Pipes",
+        "-Basic Color",
+        "-Steel Color",
+        "-Chrome Color",
+        "Emission Point & Pipe Color",
+        "Emission Line Color",
+        "Rubber Color",
+        "Interface Color"
+      ],
+      "all_texture_names": [
+        "Base Color",
+        "MRMA",
+        "Normal",
+        "Pipe Texture",
+        "Mask Pipe",
+        "Emission Mask & Handle",
+        "Display Mask",
+        "Ammo Counter Texture"
+      ]
+    },
+    {
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/MI_Butt",
+      "class": "MaterialInstanceConstant",
+      "scalars": [
+        {
+          "n": "Ammo \u0421ount",
+          "v": 30.0
+        },
+        {
+          "n": "Scale UV U",
+          "v": 10.058040618896484
+        },
+        {
+          "n": "Scale UV V",
+          "v": 10.978361129760742
+        },
+        {
+          "n": "UV X",
+          "v": -6.101119041442871
+        },
+        {
+          "n": "UV Y",
+          "v": -2.635003089904785
+        },
+        {
+          "n": "Blue Brightness",
+          "v": 1.0
+        },
+        {
+          "n": "Orange Brightness",
+          "v": 1.0
+        },
+        {
+          "n": "RefractionDepthBias",
+          "v": 0.0
+        }
+      ],
+      "vectors": [
+        {
+          "n": "-Basic Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49E0760) {r: 0.052083, g: 0.052083, b: 0.052083, a: 1.000000}>"
+        },
+        {
+          "n": "-Chrome Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49EC320) {r: 0.062500, g: 0.062500, b: 0.062500, a: 1.000000}>"
+        },
+        {
+          "n": "Rubber Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49EB0A0) {r: 0.000000, g: 0.015678, b: 0.031250, a: 1.000000}>"
+        },
+        {
+          "n": "-Steel Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49EDD20) {r: 0.322917, g: 0.322917, b: 0.322917, a: 1.000000}>"
+        }
+      ],
+      "textures": [
+        {
+          "n": "Ammo Counter Texture",
+          "tex": "T_Magazine_Display_Ammo_Counter"
+        },
+        {
+          "n": "Display Mask",
+          "tex": "T_Magazine_Display_Mask"
+        },
+        {
+          "n": "Mask Pipe",
+          "tex": "T_Butt_Pipe_Mask"
+        },
+        {
+          "n": "Base Color",
+          "tex": "T_Butt_Base_Color"
+        },
+        {
+          "n": "Emission Mask & Handle",
+          "tex": "T_Butt_Mask_Compomemt"
+        },
+        {
+          "n": "MRMA",
+          "tex": "T_Butt_MRMA"
+        },
+        {
+          "n": "Normal",
+          "tex": "T_Butt_Normal"
+        }
+      ],
+      "static_switches": [],
+      "parent": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/Source/M_Assault_Rifle.M_Assault_Rifle",
+      "all_scalar_names": [
+        "Multiply Roughness",
+        "Add Roughness",
+        "Ammo \u0421ount",
+        "Speed Side  X",
+        "Speed Front Y",
+        "UV U",
+        "UV V",
+        "Backlight Display",
+        "Interface Brightness",
+        "Blue Brightness",
+        "Orange Brightness",
+        "Pipe Brightness",
+        "UV X",
+        "UV Y",
+        "Scale UV U",
+        "Scale UV V",
+        "Emission Line Intensity",
+        "Emission Point & Pipe Intensity",
+        "Base Roughness",
+        "Base Metall",
+        "Steel Roughness",
+        "Steel Metall",
+        "Chrome Roughness",
+        "Chrome Metall"
+      ],
+      "all_vector_names": [
+        "Blacklight Pipes",
+        "-Basic Color",
+        "-Steel Color",
+        "-Chrome Color",
+        "Emission Point & Pipe Color",
+        "Emission Line Color",
+        "Rubber Color",
+        "Interface Color"
+      ],
+      "all_texture_names": [
+        "Base Color",
+        "MRMA",
+        "Normal",
+        "Pipe Texture",
+        "Mask Pipe",
+        "Emission Mask & Handle",
+        "Display Mask",
+        "Ammo Counter Texture"
+      ]
+    },
+    {
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/MI_Magazine",
+      "class": "MaterialInstanceConstant",
+      "scalars": [
+        {
+          "n": "Ammo \u0421ount",
+          "v": 30.0
+        },
+        {
+          "n": "Scale UV U",
+          "v": 10.058040618896484
+        },
+        {
+          "n": "Scale UV V",
+          "v": 10.978361129760742
+        },
+        {
+          "n": "UV X",
+          "v": -6.101119041442871
+        },
+        {
+          "n": "UV Y",
+          "v": -2.635003089904785
+        },
+        {
+          "n": "Blue Brightness",
+          "v": 1.0
+        },
+        {
+          "n": "Orange Brightness",
+          "v": 1.0
+        },
+        {
+          "n": "RefractionDepthBias",
+          "v": 0.0
+        }
+      ],
+      "vectors": [
+        {
+          "n": "-Basic Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49E95A0) {r: 0.052083, g: 0.052083, b: 0.052083, a: 1.000000}>"
+        },
+        {
+          "n": "-Chrome Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49EB0A0) {r: 0.062500, g: 0.062500, b: 0.062500, a: 1.000000}>"
+        },
+        {
+          "n": "-Steel Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49E23A0) {r: 0.322917, g: 0.322917, b: 0.322917, a: 1.000000}>"
+        }
+      ],
+      "textures": [
+        {
+          "n": "Ammo Counter Texture",
+          "tex": "T_Magazine_Display_Ammo_Counter"
+        },
+        {
+          "n": "Display Mask",
+          "tex": "T_Magazine_Display_Mask"
+        },
+        {
+          "n": "Base Color",
+          "tex": "T_Magazine_Base_Color"
+        },
+        {
+          "n": "Emission Mask & Handle",
+          "tex": "T_Magazine_Mask_Compomemt"
+        },
+        {
+          "n": "MRMA",
+          "tex": "T_Magazine_MRMA"
+        },
+        {
+          "n": "Normal",
+          "tex": "T_Magazine_Normal"
+        }
+      ],
+      "static_switches": [],
+      "parent": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/Source/M_Assault_Rifle.M_Assault_Rifle",
+      "all_scalar_names": [
+        "Multiply Roughness",
+        "Add Roughness",
+        "Ammo \u0421ount",
+        "Speed Side  X",
+        "Speed Front Y",
+        "UV U",
+        "UV V",
+        "Backlight Display",
+        "Interface Brightness",
+        "Blue Brightness",
+        "Orange Brightness",
+        "Pipe Brightness",
+        "UV X",
+        "UV Y",
+        "Scale UV U",
+        "Scale UV V",
+        "Emission Line Intensity",
+        "Emission Point & Pipe Intensity",
+        "Base Roughness",
+        "Base Metall",
+        "Steel Roughness",
+        "Steel Metall",
+        "Chrome Roughness",
+        "Chrome Metall"
+      ],
+      "all_vector_names": [
+        "Blacklight Pipes",
+        "-Basic Color",
+        "-Steel Color",
+        "-Chrome Color",
+        "Emission Point & Pipe Color",
+        "Emission Line Color",
+        "Rubber Color",
+        "Interface Color"
+      ],
+      "all_texture_names": [
+        "Base Color",
+        "MRMA",
+        "Normal",
+        "Pipe Texture",
+        "Mask Pipe",
+        "Emission Mask & Handle",
+        "Display Mask",
+        "Ammo Counter Texture"
+      ]
+    },
+    {
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/MI_Assault_Rifle",
+      "class": "MaterialInstanceConstant",
+      "scalars": [
+        {
+          "n": "Base Metall",
+          "v": 1.0
+        },
+        {
+          "n": "Base Roughness",
+          "v": 1.0
+        },
+        {
+          "n": "Steel Metall",
+          "v": 1.0
+        },
+        {
+          "n": "Steel Roughness",
+          "v": 1.0
+        },
+        {
+          "n": "Chrome Metall",
+          "v": 1.0
+        },
+        {
+          "n": "Chrome Roughness",
+          "v": 1.0
+        },
+        {
+          "n": "Ammo \u0421ount",
+          "v": 30.0
+        },
+        {
+          "n": "RefractionDepthBias",
+          "v": 0.0
+        }
+      ],
+      "vectors": [
+        {
+          "n": "-Basic Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49E2260) {r: 0.052083, g: 0.052083, b: 0.052083, a: 1.000000}>"
+        },
+        {
+          "n": "-Steel Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49E3020) {r: 0.322917, g: 0.322917, b: 0.322917, a: 1.000000}>"
+        },
+        {
+          "n": "-Chrome Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49E28A0) {r: 0.062500, g: 0.062500, b: 0.062500, a: 1.000000}>"
+        }
+      ],
+      "textures": [],
+      "static_switches": [],
+      "parent": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/Source/M_Assault_Rifle.M_Assault_Rifle",
+      "all_scalar_names": [
+        "Multiply Roughness",
+        "Add Roughness",
+        "Ammo \u0421ount",
+        "Speed Side  X",
+        "Speed Front Y",
+        "UV U",
+        "UV V",
+        "Backlight Display",
+        "Interface Brightness",
+        "Blue Brightness",
+        "Orange Brightness",
+        "Pipe Brightness",
+        "UV X",
+        "UV Y",
+        "Scale UV U",
+        "Scale UV V",
+        "Emission Line Intensity",
+        "Emission Point & Pipe Intensity",
+        "Base Roughness",
+        "Base Metall",
+        "Steel Roughness",
+        "Steel Metall",
+        "Chrome Roughness",
+        "Chrome Metall"
+      ],
+      "all_vector_names": [
+        "Blacklight Pipes",
+        "-Basic Color",
+        "-Steel Color",
+        "-Chrome Color",
+        "Emission Point & Pipe Color",
+        "Emission Line Color",
+        "Rubber Color",
+        "Interface Color"
+      ],
+      "all_texture_names": [
+        "Base Color",
+        "MRMA",
+        "Normal",
+        "Pipe Texture",
+        "Mask Pipe",
+        "Emission Mask & Handle",
+        "Display Mask",
+        "Ammo Counter Texture"
+      ]
+    },
+    {
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/MI_Right_Kit",
+      "class": "MaterialInstanceConstant",
+      "scalars": [
+        {
+          "n": "Ammo \u0421ount",
+          "v": 30.0
+        },
+        {
+          "n": "Scale UV U",
+          "v": 10.058040618896484
+        },
+        {
+          "n": "Scale UV V",
+          "v": 10.978361129760742
+        },
+        {
+          "n": "UV X",
+          "v": -6.101119041442871
+        },
+        {
+          "n": "UV Y",
+          "v": -2.635003089904785
+        },
+        {
+          "n": "Blue Brightness",
+          "v": 1.0
+        },
+        {
+          "n": "Orange Brightness",
+          "v": 1.0
+        },
+        {
+          "n": "RefractionDepthBias",
+          "v": 0.0
+        }
+      ],
+      "vectors": [
+        {
+          "n": "-Basic Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49EA320) {r: 0.052083, g: 0.052083, b: 0.052083, a: 1.000000}>"
+        },
+        {
+          "n": "-Chrome Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49EC2E0) {r: 0.062500, g: 0.062500, b: 0.062500, a: 1.000000}>"
+        },
+        {
+          "n": "Rubber Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49E3960) {r: 0.000000, g: 0.015678, b: 0.031250, a: 1.000000}>"
+        },
+        {
+          "n": "-Steel Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49E45E0) {r: 0.322917, g: 0.322917, b: 0.322917, a: 1.000000}>"
+        }
+      ],
+      "textures": [
+        {
+          "n": "Ammo Counter Texture",
+          "tex": "T_Magazine_Display_Ammo_Counter"
+        },
+        {
+          "n": "Display Mask",
+          "tex": "T_Magazine_Display_Mask"
+        },
+        {
+          "n": "Base Color",
+          "tex": "T_RightKit_Base_Color"
+        },
+        {
+          "n": "Emission Mask & Handle",
+          "tex": "T_Right_Kit_Mask_Compomemt"
+        },
+        {
+          "n": "MRMA",
+          "tex": "T_RightKit_MRMA"
+        },
+        {
+          "n": "Normal",
+          "tex": "T_RightKit_Normal"
+        }
+      ],
+      "static_switches": [],
+      "parent": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/Source/M_Assault_Rifle.M_Assault_Rifle",
+      "all_scalar_names": [
+        "Multiply Roughness",
+        "Add Roughness",
+        "Ammo \u0421ount",
+        "Speed Side  X",
+        "Speed Front Y",
+        "UV U",
+        "UV V",
+        "Backlight Display",
+        "Interface Brightness",
+        "Blue Brightness",
+        "Orange Brightness",
+        "Pipe Brightness",
+        "UV X",
+        "UV Y",
+        "Scale UV U",
+        "Scale UV V",
+        "Emission Line Intensity",
+        "Emission Point & Pipe Intensity",
+        "Base Roughness",
+        "Base Metall",
+        "Steel Roughness",
+        "Steel Metall",
+        "Chrome Roughness",
+        "Chrome Metall"
+      ],
+      "all_vector_names": [
+        "Blacklight Pipes",
+        "-Basic Color",
+        "-Steel Color",
+        "-Chrome Color",
+        "Emission Point & Pipe Color",
+        "Emission Line Color",
+        "Rubber Color",
+        "Interface Color"
+      ],
+      "all_texture_names": [
+        "Base Color",
+        "MRMA",
+        "Normal",
+        "Pipe Texture",
+        "Mask Pipe",
+        "Emission Mask & Handle",
+        "Display Mask",
+        "Ammo Counter Texture"
+      ]
+    },
+    {
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/MI_Silencer",
+      "class": "MaterialInstanceConstant",
+      "scalars": [
+        {
+          "n": "Ammo \u0421ount",
+          "v": 30.0
+        },
+        {
+          "n": "Scale UV U",
+          "v": 10.058040618896484
+        },
+        {
+          "n": "Scale UV V",
+          "v": 10.978361129760742
+        },
+        {
+          "n": "UV X",
+          "v": -6.101119041442871
+        },
+        {
+          "n": "UV Y",
+          "v": -2.635003089904785
+        },
+        {
+          "n": "Blue Brightness",
+          "v": 1.0
+        },
+        {
+          "n": "Orange Brightness",
+          "v": 1.0
+        },
+        {
+          "n": "RefractionDepthBias",
+          "v": 0.0
+        }
+      ],
+      "vectors": [
+        {
+          "n": "-Basic Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49EE4A0) {r: 0.052083, g: 0.052083, b: 0.052083, a: 1.000000}>"
+        },
+        {
+          "n": "-Chrome Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49E9E20) {r: 0.062500, g: 0.062500, b: 0.062500, a: 1.000000}>"
+        },
+        {
+          "n": "Rubber Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49E7020) {r: 0.000000, g: 0.015678, b: 0.031250, a: 1.000000}>"
+        },
+        {
+          "n": "-Steel Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49E3E60) {r: 0.322917, g: 0.322917, b: 0.322917, a: 1.000000}>"
+        }
+      ],
+      "textures": [
+        {
+          "n": "Ammo Counter Texture",
+          "tex": "T_Magazine_Display_Ammo_Counter"
+        },
+        {
+          "n": "Display Mask",
+          "tex": "T_Magazine_Display_Mask"
+        },
+        {
+          "n": "Base Color",
+          "tex": "T_Silencer_Base_Color"
+        },
+        {
+          "n": "Emission Mask & Handle",
+          "tex": "T_Silencer_Mask_Compomemt"
+        },
+        {
+          "n": "MRMA",
+          "tex": "T_Silencer_MRMAtga"
+        },
+        {
+          "n": "Normal",
+          "tex": "T_Silencer_Normal"
+        }
+      ],
+      "static_switches": [],
+      "parent": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/Source/M_Assault_Rifle.M_Assault_Rifle",
+      "all_scalar_names": [
+        "Multiply Roughness",
+        "Add Roughness",
+        "Ammo \u0421ount",
+        "Speed Side  X",
+        "Speed Front Y",
+        "UV U",
+        "UV V",
+        "Backlight Display",
+        "Interface Brightness",
+        "Blue Brightness",
+        "Orange Brightness",
+        "Pipe Brightness",
+        "UV X",
+        "UV Y",
+        "Scale UV U",
+        "Scale UV V",
+        "Emission Line Intensity",
+        "Emission Point & Pipe Intensity",
+        "Base Roughness",
+        "Base Metall",
+        "Steel Roughness",
+        "Steel Metall",
+        "Chrome Roughness",
+        "Chrome Metall"
+      ],
+      "all_vector_names": [
+        "Blacklight Pipes",
+        "-Basic Color",
+        "-Steel Color",
+        "-Chrome Color",
+        "Emission Point & Pipe Color",
+        "Emission Line Color",
+        "Rubber Color",
+        "Interface Color"
+      ],
+      "all_texture_names": [
+        "Base Color",
+        "MRMA",
+        "Normal",
+        "Pipe Texture",
+        "Mask Pipe",
+        "Emission Mask & Handle",
+        "Display Mask",
+        "Ammo Counter Texture"
+      ]
+    },
+    {
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/Source/M_Ammo",
+      "class": "Material",
+      "scalars": [],
+      "vectors": [],
+      "textures": [],
+      "static_switches": [],
+      "all_scalar_names": [
+        "Multiply Roughness",
+        "Add Roughness"
+      ],
+      "all_vector_names": [],
+      "all_texture_names": []
+    },
+    {
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Demo_Scene/Material_Instance/MI_Aim_Green",
+      "class": "MaterialInstanceConstant",
+      "scalars": [
+        {
+          "n": "Ammo \u0421ount",
+          "v": 30.0
+        },
+        {
+          "n": "Scale UV U",
+          "v": 1.2999999523162842
+        },
+        {
+          "n": "Scale UV V",
+          "v": 1.476307988166809
+        },
+        {
+          "n": "UV X",
+          "v": 7.14086389541626
+        },
+        {
+          "n": "UV Y",
+          "v": 13.770000457763672
+        },
+        {
+          "n": "RefractionDepthBias",
+          "v": 0.0
+        }
+      ],
+      "vectors": [
+        {
+          "n": "-Basic Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49EFFA0) {r: 0.052083, g: 0.052083, b: 0.052083, a: 1.000000}>"
+        },
+        {
+          "n": "-Chrome Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49E9E60) {r: 0.062500, g: 0.062500, b: 0.062500, a: 1.000000}>"
+        },
+        {
+          "n": "Rubber Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49E8160) {r: 0.000000, g: 0.015678, b: 0.031250, a: 1.000000}>"
+        },
+        {
+          "n": "-Steel Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49E0020) {r: 0.322917, g: 0.322917, b: 0.322917, a: 1.000000}>"
+        }
+      ],
+      "textures": [
+        {
+          "n": "Ammo Counter Texture",
+          "tex": "T_Aim_Ammo_Counter"
+        },
+        {
+          "n": "Display Mask",
+          "tex": "T_Aim_Screen_Mask"
+        },
+        {
+          "n": "Base Color",
+          "tex": "T_Aim_Bse_Color"
+        },
+        {
+          "n": "Emission Mask & Handle",
+          "tex": "T_Aim_Mask_Compomemt"
+        },
+        {
+          "n": "MRMA",
+          "tex": "T_Aim_MRMA"
+        },
+        {
+          "n": "Normal",
+          "tex": "T_Aim_Normal"
+        }
+      ],
+      "static_switches": [],
+      "parent": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/Source/M_Assault_Rifle.M_Assault_Rifle",
+      "all_scalar_names": [
+        "Multiply Roughness",
+        "Add Roughness",
+        "Ammo \u0421ount",
+        "Speed Side  X",
+        "Speed Front Y",
+        "UV U",
+        "UV V",
+        "Backlight Display",
+        "Interface Brightness",
+        "Blue Brightness",
+        "Orange Brightness",
+        "Pipe Brightness",
+        "UV X",
+        "UV Y",
+        "Scale UV U",
+        "Scale UV V",
+        "Emission Line Intensity",
+        "Emission Point & Pipe Intensity",
+        "Base Roughness",
+        "Base Metall",
+        "Steel Roughness",
+        "Steel Metall",
+        "Chrome Roughness",
+        "Chrome Metall"
+      ],
+      "all_vector_names": [
+        "Blacklight Pipes",
+        "-Basic Color",
+        "-Steel Color",
+        "-Chrome Color",
+        "Emission Point & Pipe Color",
+        "Emission Line Color",
+        "Rubber Color",
+        "Interface Color"
+      ],
+      "all_texture_names": [
+        "Base Color",
+        "MRMA",
+        "Normal",
+        "Pipe Texture",
+        "Mask Pipe",
+        "Emission Mask & Handle",
+        "Display Mask",
+        "Ammo Counter Texture"
+      ]
+    },
+    {
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Demo_Scene/Material_Instance/MI_Assault_Rifle_Green",
+      "class": "MaterialInstanceConstant",
+      "scalars": [
+        {
+          "n": "Ammo \u0421ount",
+          "v": 30.0
+        },
+        {
+          "n": "RefractionDepthBias",
+          "v": 0.0
+        }
+      ],
+      "vectors": [
+        {
+          "n": "-Basic Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49E0460) {r: 0.052083, g: 0.052083, b: 0.052083, a: 1.000000}>"
+        },
+        {
+          "n": "-Steel Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49E4920) {r: 0.322917, g: 0.322917, b: 0.322917, a: 1.000000}>"
+        },
+        {
+          "n": "-Chrome Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49E1120) {r: 0.062500, g: 0.062500, b: 0.062500, a: 1.000000}>"
+        },
+        {
+          "n": "Rubber Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49EC660) {r: 0.000000, g: 0.015678, b: 0.031250, a: 1.000000}>"
+        }
+      ],
+      "textures": [],
+      "static_switches": [],
+      "parent": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/Source/M_Assault_Rifle.M_Assault_Rifle",
+      "all_scalar_names": [
+        "Multiply Roughness",
+        "Add Roughness",
+        "Ammo \u0421ount",
+        "Speed Side  X",
+        "Speed Front Y",
+        "UV U",
+        "UV V",
+        "Backlight Display",
+        "Interface Brightness",
+        "Blue Brightness",
+        "Orange Brightness",
+        "Pipe Brightness",
+        "UV X",
+        "UV Y",
+        "Scale UV U",
+        "Scale UV V",
+        "Emission Line Intensity",
+        "Emission Point & Pipe Intensity",
+        "Base Roughness",
+        "Base Metall",
+        "Steel Roughness",
+        "Steel Metall",
+        "Chrome Roughness",
+        "Chrome Metall"
+      ],
+      "all_vector_names": [
+        "Blacklight Pipes",
+        "-Basic Color",
+        "-Steel Color",
+        "-Chrome Color",
+        "Emission Point & Pipe Color",
+        "Emission Line Color",
+        "Rubber Color",
+        "Interface Color"
+      ],
+      "all_texture_names": [
+        "Base Color",
+        "MRMA",
+        "Normal",
+        "Pipe Texture",
+        "Mask Pipe",
+        "Emission Mask & Handle",
+        "Display Mask",
+        "Ammo Counter Texture"
+      ]
+    },
+    {
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Demo_Scene/Material_Instance/MI_Assault_Rifle_Yelow",
+      "class": "MaterialInstanceConstant",
+      "scalars": [
+        {
+          "n": "Ammo \u0421ount",
+          "v": 30.0
+        },
+        {
+          "n": "RefractionDepthBias",
+          "v": 0.0
+        }
+      ],
+      "vectors": [
+        {
+          "n": "-Basic Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49E4260) {r: 0.052083, g: 0.052083, b: 0.052083, a: 1.000000}>"
+        },
+        {
+          "n": "-Steel Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49EE160) {r: 0.323143, g: 0.171441, b: 0.063010, a: 1.000000}>"
+        },
+        {
+          "n": "-Chrome Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49E44A0) {r: 0.062500, g: 0.062500, b: 0.062500, a: 1.000000}>"
+        },
+        {
+          "n": "Rubber Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49E2A60) {r: 0.020833, g: 0.006349, b: 0.000000, a: 1.000000}>"
+        },
+        {
+          "n": "Emission Line Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49E19A0) {r: 1.000000, g: 0.887923, b: 0.000000, a: 1.000000}>"
+        },
+        {
+          "n": "Emission Point & Pipe Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49E9660) {r: 1.000000, g: 0.357715, b: 0.000000, a: 1.000000}>"
+        }
+      ],
+      "textures": [],
+      "static_switches": [],
+      "parent": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/Source/M_Assault_Rifle.M_Assault_Rifle",
+      "all_scalar_names": [
+        "Multiply Roughness",
+        "Add Roughness",
+        "Ammo \u0421ount",
+        "Speed Side  X",
+        "Speed Front Y",
+        "UV U",
+        "UV V",
+        "Backlight Display",
+        "Interface Brightness",
+        "Blue Brightness",
+        "Orange Brightness",
+        "Pipe Brightness",
+        "UV X",
+        "UV Y",
+        "Scale UV U",
+        "Scale UV V",
+        "Emission Line Intensity",
+        "Emission Point & Pipe Intensity",
+        "Base Roughness",
+        "Base Metall",
+        "Steel Roughness",
+        "Steel Metall",
+        "Chrome Roughness",
+        "Chrome Metall"
+      ],
+      "all_vector_names": [
+        "Blacklight Pipes",
+        "-Basic Color",
+        "-Steel Color",
+        "-Chrome Color",
+        "Emission Point & Pipe Color",
+        "Emission Line Color",
+        "Rubber Color",
+        "Interface Color"
+      ],
+      "all_texture_names": [
+        "Base Color",
+        "MRMA",
+        "Normal",
+        "Pipe Texture",
+        "Mask Pipe",
+        "Emission Mask & Handle",
+        "Display Mask",
+        "Ammo Counter Texture"
+      ]
+    },
+    {
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Demo_Scene/Material_Instance/MI_Butt_Green",
+      "class": "MaterialInstanceConstant",
+      "scalars": [
+        {
+          "n": "Ammo \u0421ount",
+          "v": 30.0
+        },
+        {
+          "n": "Scale UV U",
+          "v": 10.058040618896484
+        },
+        {
+          "n": "Scale UV V",
+          "v": 10.978361129760742
+        },
+        {
+          "n": "UV X",
+          "v": -6.101119041442871
+        },
+        {
+          "n": "UV Y",
+          "v": -2.635003089904785
+        },
+        {
+          "n": "Blue Brightness",
+          "v": 1.0
+        },
+        {
+          "n": "Orange Brightness",
+          "v": 1.0
+        },
+        {
+          "n": "RefractionDepthBias",
+          "v": 0.0
+        }
+      ],
+      "vectors": [
+        {
+          "n": "-Basic Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49EFFE0) {r: 0.052083, g: 0.052083, b: 0.052083, a: 1.000000}>"
+        },
+        {
+          "n": "-Chrome Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49E16E0) {r: 0.062500, g: 0.062500, b: 0.062500, a: 1.000000}>"
+        },
+        {
+          "n": "Rubber Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49E4AE0) {r: 0.000000, g: 0.015678, b: 0.031250, a: 1.000000}>"
+        },
+        {
+          "n": "-Steel Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49E5920) {r: 0.322917, g: 0.322917, b: 0.322917, a: 1.000000}>"
+        }
+      ],
+      "textures": [
+        {
+          "n": "Ammo Counter Texture",
+          "tex": "T_Magazine_Display_Ammo_Counter"
+        },
+        {
+          "n": "Display Mask",
+          "tex": "T_Magazine_Display_Mask"
+        },
+        {
+          "n": "Mask Pipe",
+          "tex": "T_Butt_Pipe_Mask"
+        },
+        {
+          "n": "Base Color",
+          "tex": "T_Butt_Base_Color"
+        },
+        {
+          "n": "Emission Mask & Handle",
+          "tex": "T_Butt_Mask_Compomemt"
+        },
+        {
+          "n": "MRMA",
+          "tex": "T_Butt_MRMA"
+        },
+        {
+          "n": "Normal",
+          "tex": "T_Butt_Normal"
+        }
+      ],
+      "static_switches": [],
+      "parent": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/Source/M_Assault_Rifle.M_Assault_Rifle",
+      "all_scalar_names": [
+        "Multiply Roughness",
+        "Add Roughness",
+        "Ammo \u0421ount",
+        "Speed Side  X",
+        "Speed Front Y",
+        "UV U",
+        "UV V",
+        "Backlight Display",
+        "Interface Brightness",
+        "Blue Brightness",
+        "Orange Brightness",
+        "Pipe Brightness",
+        "UV X",
+        "UV Y",
+        "Scale UV U",
+        "Scale UV V",
+        "Emission Line Intensity",
+        "Emission Point & Pipe Intensity",
+        "Base Roughness",
+        "Base Metall",
+        "Steel Roughness",
+        "Steel Metall",
+        "Chrome Roughness",
+        "Chrome Metall"
+      ],
+      "all_vector_names": [
+        "Blacklight Pipes",
+        "-Basic Color",
+        "-Steel Color",
+        "-Chrome Color",
+        "Emission Point & Pipe Color",
+        "Emission Line Color",
+        "Rubber Color",
+        "Interface Color"
+      ],
+      "all_texture_names": [
+        "Base Color",
+        "MRMA",
+        "Normal",
+        "Pipe Texture",
+        "Mask Pipe",
+        "Emission Mask & Handle",
+        "Display Mask",
+        "Ammo Counter Texture"
+      ]
+    },
+    {
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Demo_Scene/Material_Instance/MI_Magazine_Green",
+      "class": "MaterialInstanceConstant",
+      "scalars": [
+        {
+          "n": "Ammo \u0421ount",
+          "v": 15.0
+        },
+        {
+          "n": "Scale UV U",
+          "v": 10.058040618896484
+        },
+        {
+          "n": "Scale UV V",
+          "v": 10.978361129760742
+        },
+        {
+          "n": "UV X",
+          "v": -6.101119041442871
+        },
+        {
+          "n": "UV Y",
+          "v": -2.635003089904785
+        },
+        {
+          "n": "Blue Brightness",
+          "v": 1.0
+        },
+        {
+          "n": "Orange Brightness",
+          "v": 1.0
+        },
+        {
+          "n": "RefractionDepthBias",
+          "v": 0.0
+        }
+      ],
+      "vectors": [
+        {
+          "n": "-Basic Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49E8720) {r: 0.052083, g: 0.052083, b: 0.052083, a: 1.000000}>"
+        },
+        {
+          "n": "-Chrome Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49EC1E0) {r: 0.062500, g: 0.062500, b: 0.062500, a: 1.000000}>"
+        },
+        {
+          "n": "-Steel Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49EEA20) {r: 0.322917, g: 0.322917, b: 0.322917, a: 1.000000}>"
+        }
+      ],
+      "textures": [
+        {
+          "n": "Ammo Counter Texture",
+          "tex": "T_Magazine_Display_Ammo_Counter"
+        },
+        {
+          "n": "Display Mask",
+          "tex": "T_Magazine_Display_Mask"
+        },
+        {
+          "n": "Base Color",
+          "tex": "T_Magazine_Base_Color"
+        },
+        {
+          "n": "Emission Mask & Handle",
+          "tex": "T_Magazine_Mask_Compomemt"
+        },
+        {
+          "n": "MRMA",
+          "tex": "T_Magazine_MRMA"
+        },
+        {
+          "n": "Normal",
+          "tex": "T_Magazine_Normal"
+        }
+      ],
+      "static_switches": [],
+      "parent": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/Source/M_Assault_Rifle.M_Assault_Rifle",
+      "all_scalar_names": [
+        "Multiply Roughness",
+        "Add Roughness",
+        "Ammo \u0421ount",
+        "Speed Side  X",
+        "Speed Front Y",
+        "UV U",
+        "UV V",
+        "Backlight Display",
+        "Interface Brightness",
+        "Blue Brightness",
+        "Orange Brightness",
+        "Pipe Brightness",
+        "UV X",
+        "UV Y",
+        "Scale UV U",
+        "Scale UV V",
+        "Emission Line Intensity",
+        "Emission Point & Pipe Intensity",
+        "Base Roughness",
+        "Base Metall",
+        "Steel Roughness",
+        "Steel Metall",
+        "Chrome Roughness",
+        "Chrome Metall"
+      ],
+      "all_vector_names": [
+        "Blacklight Pipes",
+        "-Basic Color",
+        "-Steel Color",
+        "-Chrome Color",
+        "Emission Point & Pipe Color",
+        "Emission Line Color",
+        "Rubber Color",
+        "Interface Color"
+      ],
+      "all_texture_names": [
+        "Base Color",
+        "MRMA",
+        "Normal",
+        "Pipe Texture",
+        "Mask Pipe",
+        "Emission Mask & Handle",
+        "Display Mask",
+        "Ammo Counter Texture"
+      ]
+    },
+    {
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Demo_Scene/Material_Instance/MI_Magazine_Green_2",
+      "class": "MaterialInstanceConstant",
+      "scalars": [
+        {
+          "n": "Ammo \u0421ount",
+          "v": 30.0
+        },
+        {
+          "n": "Scale UV U",
+          "v": 10.058040618896484
+        },
+        {
+          "n": "Scale UV V",
+          "v": 10.978361129760742
+        },
+        {
+          "n": "UV X",
+          "v": -6.101119041442871
+        },
+        {
+          "n": "UV Y",
+          "v": -2.635003089904785
+        },
+        {
+          "n": "Blue Brightness",
+          "v": 1.0
+        },
+        {
+          "n": "Orange Brightness",
+          "v": 1.0
+        },
+        {
+          "n": "RefractionDepthBias",
+          "v": 0.0
+        }
+      ],
+      "vectors": [
+        {
+          "n": "-Basic Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49E1CA0) {r: 0.052083, g: 0.052083, b: 0.052083, a: 1.000000}>"
+        },
+        {
+          "n": "-Chrome Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49E6860) {r: 0.062500, g: 0.062500, b: 0.062500, a: 1.000000}>"
+        },
+        {
+          "n": "-Steel Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49EB6A0) {r: 0.322917, g: 0.322917, b: 0.322917, a: 1.000000}>"
+        }
+      ],
+      "textures": [
+        {
+          "n": "Ammo Counter Texture",
+          "tex": "T_Magazine_Display_Ammo_Counter"
+        },
+        {
+          "n": "Display Mask",
+          "tex": "T_Magazine_Display_Mask"
+        },
+        {
+          "n": "Base Color",
+          "tex": "T_Magazine_Base_Color"
+        },
+        {
+          "n": "Emission Mask & Handle",
+          "tex": "T_Magazine_Mask_Compomemt"
+        },
+        {
+          "n": "MRMA",
+          "tex": "T_Magazine_MRMA"
+        },
+        {
+          "n": "Normal",
+          "tex": "T_Magazine_Normal"
+        }
+      ],
+      "static_switches": [],
+      "parent": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/Source/M_Assault_Rifle.M_Assault_Rifle",
+      "all_scalar_names": [
+        "Multiply Roughness",
+        "Add Roughness",
+        "Ammo \u0421ount",
+        "Speed Side  X",
+        "Speed Front Y",
+        "UV U",
+        "UV V",
+        "Backlight Display",
+        "Interface Brightness",
+        "Blue Brightness",
+        "Orange Brightness",
+        "Pipe Brightness",
+        "UV X",
+        "UV Y",
+        "Scale UV U",
+        "Scale UV V",
+        "Emission Line Intensity",
+        "Emission Point & Pipe Intensity",
+        "Base Roughness",
+        "Base Metall",
+        "Steel Roughness",
+        "Steel Metall",
+        "Chrome Roughness",
+        "Chrome Metall"
+      ],
+      "all_vector_names": [
+        "Blacklight Pipes",
+        "-Basic Color",
+        "-Steel Color",
+        "-Chrome Color",
+        "Emission Point & Pipe Color",
+        "Emission Line Color",
+        "Rubber Color",
+        "Interface Color"
+      ],
+      "all_texture_names": [
+        "Base Color",
+        "MRMA",
+        "Normal",
+        "Pipe Texture",
+        "Mask Pipe",
+        "Emission Mask & Handle",
+        "Display Mask",
+        "Ammo Counter Texture"
+      ]
+    },
+    {
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Demo_Scene/Material_Instance/MI_Magazine_Yelow",
+      "class": "MaterialInstanceConstant",
+      "scalars": [
+        {
+          "n": "Ammo \u0421ount",
+          "v": 0.0
+        },
+        {
+          "n": "Scale UV U",
+          "v": 10.058040618896484
+        },
+        {
+          "n": "Scale UV V",
+          "v": 10.978361129760742
+        },
+        {
+          "n": "UV X",
+          "v": -6.101119041442871
+        },
+        {
+          "n": "UV Y",
+          "v": -2.635003089904785
+        },
+        {
+          "n": "Blue Brightness",
+          "v": 1.0
+        },
+        {
+          "n": "Orange Brightness",
+          "v": 1.0
+        },
+        {
+          "n": "RefractionDepthBias",
+          "v": 0.0
+        }
+      ],
+      "vectors": [
+        {
+          "n": "-Basic Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49E01E0) {r: 0.052083, g: 0.052083, b: 0.052083, a: 1.000000}>"
+        },
+        {
+          "n": "-Chrome Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49E6A60) {r: 0.062500, g: 0.062500, b: 0.062500, a: 1.000000}>"
+        },
+        {
+          "n": "-Steel Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49E1120) {r: 0.323143, g: 0.171441, b: 0.063010, a: 1.000000}>"
+        },
+        {
+          "n": "Interface Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49ECA20) {r: 1.000000, g: 0.093322, b: 0.000000, a: 1.000000}>"
+        },
+        {
+          "n": "Emission Line Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49ED560) {r: 1.000000, g: 0.887923, b: 0.000000, a: 1.000000}>"
+        },
+        {
+          "n": "Emission Point & Pipe Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49EE820) {r: 1.000000, g: 0.356400, b: 0.000000, a: 1.000000}>"
+        }
+      ],
+      "textures": [
+        {
+          "n": "Ammo Counter Texture",
+          "tex": "T_Magazine_Display_Ammo_Counter"
+        },
+        {
+          "n": "Display Mask",
+          "tex": "T_Magazine_Display_Mask"
+        },
+        {
+          "n": "Base Color",
+          "tex": "T_Magazine_Base_Color"
+        },
+        {
+          "n": "Emission Mask & Handle",
+          "tex": "T_Magazine_Mask_Compomemt"
+        },
+        {
+          "n": "MRMA",
+          "tex": "T_Magazine_MRMA"
+        },
+        {
+          "n": "Normal",
+          "tex": "T_Magazine_Normal"
+        }
+      ],
+      "static_switches": [],
+      "parent": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/Source/M_Assault_Rifle.M_Assault_Rifle",
+      "all_scalar_names": [
+        "Multiply Roughness",
+        "Add Roughness",
+        "Ammo \u0421ount",
+        "Speed Side  X",
+        "Speed Front Y",
+        "UV U",
+        "UV V",
+        "Backlight Display",
+        "Interface Brightness",
+        "Blue Brightness",
+        "Orange Brightness",
+        "Pipe Brightness",
+        "UV X",
+        "UV Y",
+        "Scale UV U",
+        "Scale UV V",
+        "Emission Line Intensity",
+        "Emission Point & Pipe Intensity",
+        "Base Roughness",
+        "Base Metall",
+        "Steel Roughness",
+        "Steel Metall",
+        "Chrome Roughness",
+        "Chrome Metall"
+      ],
+      "all_vector_names": [
+        "Blacklight Pipes",
+        "-Basic Color",
+        "-Steel Color",
+        "-Chrome Color",
+        "Emission Point & Pipe Color",
+        "Emission Line Color",
+        "Rubber Color",
+        "Interface Color"
+      ],
+      "all_texture_names": [
+        "Base Color",
+        "MRMA",
+        "Normal",
+        "Pipe Texture",
+        "Mask Pipe",
+        "Emission Mask & Handle",
+        "Display Mask",
+        "Ammo Counter Texture"
+      ]
+    },
+    {
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/Source/M_Aim",
+      "class": "Material",
+      "scalars": [],
+      "vectors": [],
+      "textures": [],
+      "static_switches": [],
+      "all_scalar_names": [
+        "Color intensity",
+        "Distance",
+        "X Coordinate",
+        "Y Coordinate"
+      ],
+      "all_vector_names": [
+        "Color"
+      ],
+      "all_texture_names": [
+        "Aim Texture"
+      ]
+    },
+    {
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/MI_Aim_Glass",
+      "class": "MaterialInstanceConstant",
+      "scalars": [
+        {
+          "n": "Color intensity",
+          "v": 1.0
+        },
+        {
+          "n": "Distance",
+          "v": -18.0
+        },
+        {
+          "n": "X Coordinate",
+          "v": 0.5
+        },
+        {
+          "n": "Y Coordinate",
+          "v": -3.3533599376678467
+        },
+        {
+          "n": "RefractionDepthBias",
+          "v": 0.0
+        }
+      ],
+      "vectors": [
+        {
+          "n": "Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49E52A0) {r: 1.000000, g: 0.000000, b: 0.000000, a: 1.000000}>"
+        }
+      ],
+      "textures": [],
+      "static_switches": [],
+      "parent": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/Source/M_Aim.M_Aim",
+      "all_scalar_names": [
+        "Color intensity",
+        "Distance",
+        "X Coordinate",
+        "Y Coordinate"
+      ],
+      "all_vector_names": [
+        "Color"
+      ],
+      "all_texture_names": [
+        "Aim Texture"
+      ]
+    },
+    {
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/Source/M_AssaultRifle",
+      "class": "Material",
+      "scalars": [],
+      "vectors": [],
+      "textures": [],
+      "static_switches": [],
+      "all_scalar_names": [
+        "Multiply Roughness",
+        "Add Roughness",
+        "Ammo \u0421ount",
+        "Backlight Display",
+        "Interface Brightness",
+        "Blue Brightness",
+        "Orange Brightness",
+        "UV X",
+        "UV Y",
+        "Scale UV U",
+        "Scale UV V",
+        "Emission Line Intensity",
+        "Emission Point & Pipe Intensity",
+        "Base Roughness",
+        "Base Metall",
+        "Steel Roughness",
+        "Steel Metall",
+        "Chrome Roughness",
+        "Chrome Metall"
+      ],
+      "all_vector_names": [
+        "-Basic Color",
+        "-Steel Color",
+        "-Chrome Color",
+        "Emission Point & Pipe Color",
+        "Emission Line Color",
+        "Rubber Color",
+        "Interface Color"
+      ],
+      "all_texture_names": [
+        "Base Color",
+        "MRMA",
+        "Normal",
+        "Emission Mask & Handle",
+        "Display Mask",
+        "Ammo Counter Texture"
+      ]
+    },
+    {
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/MI_Aim",
+      "class": "MaterialInstanceConstant",
+      "scalars": [
+        {
+          "n": "Ammo \u0421ount",
+          "v": 30.0
+        },
+        {
+          "n": "Scale UV U",
+          "v": 2.200000047683716
+        },
+        {
+          "n": "Scale UV V",
+          "v": 2.200000047683716
+        },
+        {
+          "n": "UV X",
+          "v": -3.5999999046325684
+        },
+        {
+          "n": "UV Y",
+          "v": -1.590000033378601
+        },
+        {
+          "n": "RefractionDepthBias",
+          "v": 0.0
+        }
+      ],
+      "vectors": [],
+      "textures": [
+        {
+          "n": "Ammo Counter Texture",
+          "tex": "T_Aim_AmmoCounterMask_"
+        },
+        {
+          "n": "Display Mask",
+          "tex": "T_Aim_ScreenMask"
+        },
+        {
+          "n": "Base Color",
+          "tex": "T_Aim_Base_Color"
+        },
+        {
+          "n": "Emission Mask & Handle",
+          "tex": "T_Aim_MaskComponent"
+        },
+        {
+          "n": "MRMA",
+          "tex": "T_Aim_MRMA"
+        },
+        {
+          "n": "Normal",
+          "tex": "T_Aim_Normal"
+        }
+      ],
+      "static_switches": [],
+      "parent": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/Source/M_AssaultRifle.M_AssaultRifle",
+      "all_scalar_names": [
+        "Multiply Roughness",
+        "Add Roughness",
+        "Ammo \u0421ount",
+        "Backlight Display",
+        "Interface Brightness",
+        "Blue Brightness",
+        "Orange Brightness",
+        "UV X",
+        "UV Y",
+        "Scale UV U",
+        "Scale UV V",
+        "Emission Line Intensity",
+        "Emission Point & Pipe Intensity",
+        "Base Roughness",
+        "Base Metall",
+        "Steel Roughness",
+        "Steel Metall",
+        "Chrome Roughness",
+        "Chrome Metall"
+      ],
+      "all_vector_names": [
+        "-Basic Color",
+        "-Steel Color",
+        "-Chrome Color",
+        "Emission Point & Pipe Color",
+        "Emission Line Color",
+        "Rubber Color",
+        "Interface Color"
+      ],
+      "all_texture_names": [
+        "Base Color",
+        "MRMA",
+        "Normal",
+        "Emission Mask & Handle",
+        "Display Mask",
+        "Ammo Counter Texture"
+      ]
+    },
+    {
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/MI_LeftKit",
+      "class": "MaterialInstanceConstant",
+      "scalars": [
+        {
+          "n": "Ammo \u0421ount",
+          "v": 30.0
+        },
+        {
+          "n": "Scale UV U",
+          "v": 2.200000047683716
+        },
+        {
+          "n": "Scale UV V",
+          "v": 2.200000047683716
+        },
+        {
+          "n": "UV X",
+          "v": -3.5999999046325684
+        },
+        {
+          "n": "UV Y",
+          "v": -1.590000033378601
+        },
+        {
+          "n": "RefractionDepthBias",
+          "v": 0.0
+        }
+      ],
+      "vectors": [
+        {
+          "n": "-Basic Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49EB220) {r: 0.052083, g: 0.052083, b: 0.052083, a: 1.000000}>"
+        },
+        {
+          "n": "-Steel Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49E3A60) {r: 0.322917, g: 0.322917, b: 0.322917, a: 1.000000}>"
+        },
+        {
+          "n": "-Chrome Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49E5920) {r: 0.062500, g: 0.062500, b: 0.062500, a: 1.000000}>"
+        }
+      ],
+      "textures": [
+        {
+          "n": "Ammo Counter Texture",
+          "tex": "T_Aim_AmmoCounterMask_"
+        },
+        {
+          "n": "Display Mask",
+          "tex": "T_Aim_ScreenMask"
+        },
+        {
+          "n": "Base Color",
+          "tex": "T_LeftKit_Base_Color"
+        },
+        {
+          "n": "Emission Mask & Handle",
+          "tex": "T_LeftKit_MaskComponent"
+        },
+        {
+          "n": "MRMA",
+          "tex": "T_LeftKit_MRMA"
+        },
+        {
+          "n": "Normal",
+          "tex": "T_LeftKit_Normal"
+        }
+      ],
+      "static_switches": [],
+      "parent": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/Source/M_AssaultRifle.M_AssaultRifle",
+      "all_scalar_names": [
+        "Multiply Roughness",
+        "Add Roughness",
+        "Ammo \u0421ount",
+        "Backlight Display",
+        "Interface Brightness",
+        "Blue Brightness",
+        "Orange Brightness",
+        "UV X",
+        "UV Y",
+        "Scale UV U",
+        "Scale UV V",
+        "Emission Line Intensity",
+        "Emission Point & Pipe Intensity",
+        "Base Roughness",
+        "Base Metall",
+        "Steel Roughness",
+        "Steel Metall",
+        "Chrome Roughness",
+        "Chrome Metall"
+      ],
+      "all_vector_names": [
+        "-Basic Color",
+        "-Steel Color",
+        "-Chrome Color",
+        "Emission Point & Pipe Color",
+        "Emission Line Color",
+        "Rubber Color",
+        "Interface Color"
+      ],
+      "all_texture_names": [
+        "Base Color",
+        "MRMA",
+        "Normal",
+        "Emission Mask & Handle",
+        "Display Mask",
+        "Ammo Counter Texture"
+      ]
+    },
+    {
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/MI_Bullet",
+      "class": "MaterialInstanceConstant",
+      "scalars": [
+        {
+          "n": "Ammo \u0421ount",
+          "v": 30.0
+        },
+        {
+          "n": "Scale UV U",
+          "v": 2.200000047683716
+        },
+        {
+          "n": "Scale UV V",
+          "v": 2.200000047683716
+        },
+        {
+          "n": "UV X",
+          "v": -3.5999999046325684
+        },
+        {
+          "n": "UV Y",
+          "v": -1.590000033378601
+        },
+        {
+          "n": "RefractionDepthBias",
+          "v": 0.0
+        }
+      ],
+      "vectors": [
+        {
+          "n": "-Basic Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49E6560) {r: 0.052083, g: 0.052083, b: 0.052083, a: 1.000000}>"
+        },
+        {
+          "n": "-Steel Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49EA5E0) {r: 0.322917, g: 0.322917, b: 0.322917, a: 1.000000}>"
+        }
+      ],
+      "textures": [
+        {
+          "n": "Ammo Counter Texture",
+          "tex": "T_Aim_AmmoCounterMask_"
+        },
+        {
+          "n": "Display Mask",
+          "tex": "T_Aim_ScreenMask"
+        },
+        {
+          "n": "Base Color",
+          "tex": "T_Bullet_Base_Color"
+        },
+        {
+          "n": "Emission Mask & Handle",
+          "tex": "T_Black_Mask"
+        },
+        {
+          "n": "MRMA",
+          "tex": "T_Bullet_MRMA"
+        },
+        {
+          "n": "Normal",
+          "tex": "T_Bullet_Normal"
+        }
+      ],
+      "static_switches": [],
+      "parent": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/Source/M_AssaultRifle.M_AssaultRifle",
+      "all_scalar_names": [
+        "Multiply Roughness",
+        "Add Roughness",
+        "Ammo \u0421ount",
+        "Backlight Display",
+        "Interface Brightness",
+        "Blue Brightness",
+        "Orange Brightness",
+        "UV X",
+        "UV Y",
+        "Scale UV U",
+        "Scale UV V",
+        "Emission Line Intensity",
+        "Emission Point & Pipe Intensity",
+        "Base Roughness",
+        "Base Metall",
+        "Steel Roughness",
+        "Steel Metall",
+        "Chrome Roughness",
+        "Chrome Metall"
+      ],
+      "all_vector_names": [
+        "-Basic Color",
+        "-Steel Color",
+        "-Chrome Color",
+        "Emission Point & Pipe Color",
+        "Emission Line Color",
+        "Rubber Color",
+        "Interface Color"
+      ],
+      "all_texture_names": [
+        "Base Color",
+        "MRMA",
+        "Normal",
+        "Emission Mask & Handle",
+        "Display Mask",
+        "Ammo Counter Texture"
+      ]
+    },
+    {
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/MI_Magazine",
+      "class": "MaterialInstanceConstant",
+      "scalars": [
+        {
+          "n": "Ammo \u0421ount",
+          "v": 30.0
+        },
+        {
+          "n": "Scale UV U",
+          "v": 4.0
+        },
+        {
+          "n": "Scale UV V",
+          "v": 4.0
+        },
+        {
+          "n": "UV X",
+          "v": 35.75
+        },
+        {
+          "n": "UV Y",
+          "v": 14.600000381469727
+        },
+        {
+          "n": "RefractionDepthBias",
+          "v": 0.0
+        }
+      ],
+      "vectors": [],
+      "textures": [
+        {
+          "n": "Ammo Counter Texture",
+          "tex": "T_AmmoDisplayMagazine_Mask"
+        },
+        {
+          "n": "Display Mask",
+          "tex": "T_ScreenMagazine_Mask"
+        },
+        {
+          "n": "Base Color",
+          "tex": "T_Magazine_Base_Color"
+        },
+        {
+          "n": "Emission Mask & Handle",
+          "tex": "T_Magazine_MaskComponent"
+        },
+        {
+          "n": "MRMA",
+          "tex": "T_Magazine_MRMA"
+        },
+        {
+          "n": "Normal",
+          "tex": "T_Magazine_Normal"
+        }
+      ],
+      "static_switches": [],
+      "parent": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/Source/M_AssaultRifle.M_AssaultRifle",
+      "all_scalar_names": [
+        "Multiply Roughness",
+        "Add Roughness",
+        "Ammo \u0421ount",
+        "Backlight Display",
+        "Interface Brightness",
+        "Blue Brightness",
+        "Orange Brightness",
+        "UV X",
+        "UV Y",
+        "Scale UV U",
+        "Scale UV V",
+        "Emission Line Intensity",
+        "Emission Point & Pipe Intensity",
+        "Base Roughness",
+        "Base Metall",
+        "Steel Roughness",
+        "Steel Metall",
+        "Chrome Roughness",
+        "Chrome Metall"
+      ],
+      "all_vector_names": [
+        "-Basic Color",
+        "-Steel Color",
+        "-Chrome Color",
+        "Emission Point & Pipe Color",
+        "Emission Line Color",
+        "Rubber Color",
+        "Interface Color"
+      ],
+      "all_texture_names": [
+        "Base Color",
+        "MRMA",
+        "Normal",
+        "Emission Mask & Handle",
+        "Display Mask",
+        "Ammo Counter Texture"
+      ]
+    },
+    {
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/MI_Rifle",
+      "class": "MaterialInstanceConstant",
+      "scalars": [
+        {
+          "n": "RefractionDepthBias",
+          "v": 0.0
+        }
+      ],
+      "vectors": [
+        {
+          "n": "-Basic Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49EE9A0) {r: 0.052083, g: 0.052083, b: 0.052083, a: 1.000000}>"
+        },
+        {
+          "n": "-Steel Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49EBF60) {r: 0.322917, g: 0.322917, b: 0.322917, a: 1.000000}>"
+        },
+        {
+          "n": "-Chrome Color",
+          "v": "<Struct 'LinearColor' (0x00000212F49E0A20) {r: 0.062500, g: 0.062500, b: 0.062500, a: 1.000000}>"
+        }
+      ],
+      "textures": [],
+      "static_switches": [],
+      "parent": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/Source/M_AssaultRifle.M_AssaultRifle",
+      "all_scalar_names": [
+        "Multiply Roughness",
+        "Add Roughness",
+        "Ammo \u0421ount",
+        "Backlight Display",
+        "Interface Brightness",
+        "Blue Brightness",
+        "Orange Brightness",
+        "UV X",
+        "UV Y",
+        "Scale UV U",
+        "Scale UV V",
+        "Emission Line Intensity",
+        "Emission Point & Pipe Intensity",
+        "Base Roughness",
+        "Base Metall",
+        "Steel Roughness",
+        "Steel Metall",
+        "Chrome Roughness",
+        "Chrome Metall"
+      ],
+      "all_vector_names": [
+        "-Basic Color",
+        "-Steel Color",
+        "-Chrome Color",
+        "Emission Point & Pipe Color",
+        "Emission Line Color",
+        "Rubber Color",
+        "Interface Color"
+      ],
+      "all_texture_names": [
+        "Base Color",
+        "MRMA",
+        "Normal",
+        "Emission Mask & Handle",
+        "Display Mask",
+        "Ammo Counter Texture"
+      ]
+    }
+  ]
+}

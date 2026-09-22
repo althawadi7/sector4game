@@ -1,0 +1,151 @@
+{
+  "log": [
+    {
+      "bake": "BP_XR_SciFi_Pistol",
+      "ok": true
+    },
+    {
+      "bake": "BP_XR_SciFi_AssaultRifle_1",
+      "ok": true
+    },
+    {
+      "bake": "BP_XR_SciFi_AssaultRifle_2",
+      "ok": true
+    },
+    {
+      "bake": "BP_XR_SciFi_MachineGun",
+      "ok": true
+    },
+    {
+      "bake": "BP_XR_SciFi_Shotgun",
+      "ok": true
+    },
+    {
+      "bake": "BP_XR_SciFi_Sniper",
+      "ok": true
+    },
+    {
+      "bake": "BP_Rifle_parent",
+      "ok": true
+    }
+  ],
+  "destroyed": 6,
+  "spawned": [
+    {
+      "lab": "BP_XR_SciFi_Pistol",
+      "grab": {
+        "loc": [
+          0.0,
+          0.4,
+          -0.81
+        ],
+        "rot": [
+          0.0,
+          180.0,
+          0.0
+        ]
+      },
+      "kit": null
+    },
+    {
+      "lab": "BP_XR_SciFi_AssaultRifle_1",
+      "grab": {
+        "loc": [
+          -6.5,
+          0.0,
+          5.18
+        ],
+        "rot": [
+          120.0,
+          0.0,
+          0.0
+        ]
+      },
+      "kit": [
+        90.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "lab": "BP_XR_SciFi_AssaultRifle_2",
+      "grab": {
+        "loc": [
+          -7.51,
+          0.0,
+          6.87
+        ],
+        "rot": [
+          85.0,
+          90.0,
+          0.0
+        ]
+      },
+      "kit": [
+        90.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "lab": "BP_XR_SciFi_MachineGun",
+      "grab": {
+        "loc": [
+          -8.76,
+          0.0,
+          5.3
+        ],
+        "rot": [
+          85.0,
+          90.0,
+          0.0
+        ]
+      },
+      "kit": [
+        90.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "lab": "BP_XR_SciFi_Shotgun",
+      "grab": {
+        "loc": [
+          -10.94,
+          0.0,
+          -1.72
+        ],
+        "rot": [
+          85.0,
+          90.0,
+          0.0
+        ]
+      },
+      "kit": [
+        90.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "lab": "BP_XR_SciFi_Sniper",
+      "grab": {
+        "loc": [
+          -5.0,
+          0.0,
+          5.0
+        ],
+        "rot": [
+          85.0,
+          90.0,
+          0.0
+        ]
+      },
+      "kit": [
+        90.0,
+        0.0,
+        0.0
+      ]
+    }
+  ]
+}

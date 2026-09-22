@@ -1,0 +1,281 @@
+{
+  "log": [
+    {
+      "bp": "BP_XR_SciFi_Pistol",
+      "kit": null
+    },
+    {
+      "bp": "BP_XR_SciFi_AssaultRifle_1",
+      "kit": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/BP_Rifle/BP_Assault_Rifle",
+      "add_child": "",
+      "child_set": true,
+      "child_attached": true
+    },
+    {
+      "bp": "BP_XR_SciFi_AssaultRifle_2",
+      "kit": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/BP_AssaultRifle/BP_AssaultRifle",
+      "add_child": "",
+      "child_set": true,
+      "child_attached": true
+    },
+    {
+      "bp": "BP_XR_SciFi_MachineGun",
+      "kit": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_MachineGun/MachineGun/BP_MachineGun/BP_MachineGun",
+      "add_child": "",
+      "child_set": true,
+      "child_attached": true
+    },
+    {
+      "bp": "BP_XR_SciFi_Shotgun",
+      "kit": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Shotgun/Shotgun/BP_Shotgun/BP_Shotgun",
+      "add_child": "",
+      "child_set": true,
+      "child_attached": true
+    },
+    {
+      "bp": "BP_XR_SciFi_Sniper",
+      "kit": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/BP_Rifle/BP_Sniper_Rifle",
+      "add_child": "",
+      "child_set": true,
+      "child_attached": true
+    }
+  ],
+  "verify": [
+    {
+      "label": "BP_XR_SciFi_Pistol",
+      "kids": [],
+      "sk": [
+        {
+          "n": "SkeletalMesh",
+          "mesh": "SK_Pistol",
+          "vis": true
+        },
+        {
+          "n": "SK_Magazine_Full",
+          "mesh": "SK_Magazine_Full",
+          "vis": false
+        }
+      ]
+    },
+    {
+      "label": "BP_XR_SciFi_AssaultRifle_1",
+      "kids": [
+        {
+          "cac": "KitVisual",
+          "child": "KitVisual_GEN_VARIABLE_BP_Assault_Rifle_C_CAT_2",
+          "cls": "BP_Assault_Rifle_C"
+        }
+      ],
+      "sk": [
+        {
+          "n": "SkeletalMesh",
+          "mesh": "SK_Rifle_Assault_Rifle",
+          "vis": false
+        },
+        {
+          "n": "SkeletalMesh1",
+          "mesh": null,
+          "vis": false
+        },
+        {
+          "n": "SK_Silencer",
+          "mesh": "SK_Silencer",
+          "vis": false
+        },
+        {
+          "n": "SK_Right_Kit",
+          "mesh": "SK_Right_Kit",
+          "vis": false
+        },
+        {
+          "n": "SK_Magazine",
+          "mesh": "SK_Magazine",
+          "vis": false
+        },
+        {
+          "n": "SK_Butt",
+          "mesh": "SK_Butt",
+          "vis": false
+        },
+        {
+          "n": "SK_Aim",
+          "mesh": "SK_Aim",
+          "vis": false
+        }
+      ]
+    },
+    {
+      "label": "BP_XR_SciFi_AssaultRifle_2",
+      "kids": [
+        {
+          "cac": "KitVisual",
+          "child": "KitVisual_GEN_VARIABLE_BP_AssaultRifle_C_CAT_1",
+          "cls": "BP_AssaultRifle_C"
+        }
+      ],
+      "sk": [
+        {
+          "n": "SkeletalMesh",
+          "mesh": "SK_Rifle",
+          "vis": false
+        },
+        {
+          "n": "SkeletalMesh1",
+          "mesh": null,
+          "vis": false
+        },
+        {
+          "n": "SK_Magazine_Full",
+          "mesh": "SK_Magazine_Full",
+          "vis": false
+        },
+        {
+          "n": "SK_Left_Kit",
+          "mesh": "SK_Left_Kit",
+          "vis": false
+        },
+        {
+          "n": "SK_Aim",
+          "mesh": "SK_Aim",
+          "vis": false
+        }
+      ]
+    },
+    {
+      "label": "BP_XR_SciFi_MachineGun",
+      "kids": [
+        {
+          "cac": "KitVisual",
+          "child": "KitVisual_GEN_VARIABLE_BP_MachineGun_C_CAT_1",
+          "cls": "BP_MachineGun_C"
+        }
+      ],
+      "sk": [
+        {
+          "n": "SkeletalMesh",
+          "mesh": "SK_MachineGun",
+          "vis": false
+        },
+        {
+          "n": "SkeletalMesh1",
+          "mesh": null,
+          "vis": false
+        },
+        {
+          "n": "SK_Barrel",
+          "mesh": "SK_Barrel",
+          "vis": false
+        },
+        {
+          "n": "SK_Magazine",
+          "mesh": "SK_Magazine",
+          "vis": false
+        },
+        {
+          "n": "SK_Control_Handle",
+          "mesh": "SK_Control_Handle",
+          "vis": false
+        }
+      ]
+    },
+    {
+      "label": "BP_XR_SciFi_Shotgun",
+      "kids": [
+        {
+          "cac": "KitVisual",
+          "child": "KitVisual_GEN_VARIABLE_BP_Shotgun_C_CAT_1",
+          "cls": "BP_Shotgun_C"
+        }
+      ],
+      "sk": [
+        {
+          "n": "SkeletalMesh",
+          "mesh": "SK_Shotgun",
+          "vis": false
+        },
+        {
+          "n": "SkeletalMesh1",
+          "mesh": null,
+          "vis": false
+        },
+        {
+          "n": "SK_Aim",
+          "mesh": "SK_Aim",
+          "vis": false
+        },
+        {
+          "n": "SK_Right_Kit",
+          "mesh": "SK_Right_Kit",
+          "vis": false
+        },
+        {
+          "n": "SK_Left_Kit",
+          "mesh": "SK_Left_Kit",
+          "vis": false
+        }
+      ]
+    },
+    {
+      "label": "BP_XR_SciFi_Sniper",
+      "kids": [
+        {
+          "cac": "KitVisual",
+          "child": "KitVisual_GEN_VARIABLE_BP_Sniper_Rifle_C_CAT_1",
+          "cls": "BP_Sniper_Rifle_C"
+        }
+      ],
+      "sk": [
+        {
+          "n": "SkeletalMesh",
+          "mesh": "SK_Rifle",
+          "vis": false
+        },
+        {
+          "n": "SkeletalMesh1",
+          "mesh": null,
+          "vis": false
+        },
+        {
+          "n": "SK_Sopla",
+          "mesh": "SK_Sopla",
+          "vis": false
+        },
+        {
+          "n": "SK_Sleeve",
+          "mesh": "SK_Sleeve",
+          "vis": false
+        },
+        {
+          "n": "SK_Rail",
+          "mesh": "SK_Rail",
+          "vis": false
+        },
+        {
+          "n": "SK_Bipods",
+          "mesh": "SK_Bipods",
+          "vis": false
+        },
+        {
+          "n": "SK_Magazine_Full",
+          "mesh": "SK_Magazine_Full",
+          "vis": false
+        },
+        {
+          "n": "SK_Butt",
+          "mesh": "SK_Butt",
+          "vis": false
+        },
+        {
+          "n": "SK_Carrying",
+          "mesh": "SK_Carrying",
+          "vis": false
+        },
+        {
+          "n": "SK_Scope",
+          "mesh": "SK_Scope",
+          "vis": false
+        }
+      ]
+    }
+  ]
+}

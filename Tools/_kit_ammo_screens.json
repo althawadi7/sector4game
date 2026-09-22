@@ -1,0 +1,574 @@
+{
+  "ammo_assets": [
+    {
+      "name": "SK_Bullet",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/SK_AssaultRifle_Mesh/SK_Bullet",
+      "class": "SkeletalMesh"
+    },
+    {
+      "name": "SK_Bullet_Skeleton",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/SK_AssaultRifle_Skeleton/SK_Bullet_Skeleton",
+      "class": "Skeleton"
+    },
+    {
+      "name": "PA_Magazine",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/PA_Rifle/PA_Magazine",
+      "class": "PhysicsAsset"
+    },
+    {
+      "name": "SK_Magazine_Skeleton",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/SK_Rifle_Skeleton/SK_Magazine_Skeleton",
+      "class": "Skeleton"
+    },
+    {
+      "name": "PA_Magazine_PhysicsAsset",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/PA_AssaultRifle/PA_Magazine_PhysicsAsset",
+      "class": "PhysicsAsset"
+    },
+    {
+      "name": "SK_Magazine_Skeleton",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/SK_AssaultRifle_Skeleton/SK_Magazine_Skeleton",
+      "class": "Skeleton"
+    },
+    {
+      "name": "PA_Magazine",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_MachineGun/MachineGun/PA_MachineGun/PA_Magazine",
+      "class": "PhysicsAsset"
+    },
+    {
+      "name": "SK_Magazine_Skeleton",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_MachineGun/MachineGun/SK_MachineGun_Skeleton/SK_Magazine_Skeleton",
+      "class": "Skeleton"
+    },
+    {
+      "name": "SK_Magazine_Full_Skeleton",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Pistol/Pistol/SK_Mesh/Skeleton/SK_Magazine_Full_Skeleton",
+      "class": "Skeleton"
+    },
+    {
+      "name": "PA_Magazine",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/PA_Rifle/PA_Magazine",
+      "class": "PhysicsAsset"
+    },
+    {
+      "name": "SK_Magazine_Skeleton",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/SK_Rifle_Skeleton/SK_Magazine_Skeleton",
+      "class": "Skeleton"
+    },
+    {
+      "name": "PA_Bullet",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/PA_Rifle/PA_Bullet",
+      "class": "PhysicsAsset"
+    },
+    {
+      "name": "SK_Bullet_Skeleton",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/SK_Rifle_Skeleton/SK_Bullet_Skeleton",
+      "class": "Skeleton"
+    },
+    {
+      "name": "T_Aim_Ammo_Counter",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/Source/Texture/Mask/T_Aim_Ammo_Counter",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_Aim_Mask_Compomemt",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/Source/Texture/Mask/T_Aim_Mask_Compomemt",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_Aim_Screen_Mask",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/Source/Texture/Mask/T_Aim_Screen_Mask",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_Aim_Bse_Color",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/Source/Texture/T_Aim_Bse_Color",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_Aim_MRMA",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/Source/Texture/T_Aim_MRMA",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_Aim_Normal",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/Source/Texture/T_Aim_Normal",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_Butt_Mask_Compomemt",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/Source/Texture/Mask/T_Butt_Mask_Compomemt",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_Butt_Pipe_Mask",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/Source/Texture/Mask/T_Butt_Pipe_Mask",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_Magazine_Display_Ammo_Counter",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/Source/Texture/Mask/T_Magazine_Display_Ammo_Counter",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_Magazine_Display_Mask",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/Source/Texture/Mask/T_Magazine_Display_Mask",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_Butt_Base_Color",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/Source/Texture/T_Butt_Base_Color",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_Butt_MRMA",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/Source/Texture/T_Butt_MRMA",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_Butt_Normal",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/Source/Texture/T_Butt_Normal",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_Magazine_Mask_Compomemt",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/Source/Texture/Mask/T_Magazine_Mask_Compomemt",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_Magazine_Base_Color",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/Source/Texture/T_Magazine_Base_Color",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_Magazine_MRMA",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/Source/Texture/T_Magazine_MRMA",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_Magazine_Normal",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/Source/Texture/T_Magazine_Normal",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_Right_Kit_Mask_Compomemt",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/Source/Texture/Mask/T_Right_Kit_Mask_Compomemt",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_RightKit_Base_Color",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/Source/Texture/T_RightKit_Base_Color",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_RightKit_MRMA",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/Source/Texture/T_RightKit_MRMA",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_RightKit_Normal",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/Source/Texture/T_RightKit_Normal",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_Silencer_Mask_Compomemt",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/Source/Texture/Mask/T_Silencer_Mask_Compomemt",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_Silencer_Base_Color",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/Source/Texture/T_Silencer_Base_Color",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_Silencer_MRMAtga",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/Source/Texture/T_Silencer_MRMAtga",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_Silencer_Normal",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/Source/Texture/T_Silencer_Normal",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_Aim_AmmoCounterMask_",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/Source/Texture/Mask/T_Aim_AmmoCounterMask_",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_Aim_MaskComponent",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/Source/Texture/Mask/T_Aim_MaskComponent",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_Aim_ScreenMask",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/Source/Texture/Mask/T_Aim_ScreenMask",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_Aim_Base_Color",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/Source/Texture/T_Aim_Base_Color",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_Aim_MRMA",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/Source/Texture/T_Aim_MRMA",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_Aim_Normal",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/Source/Texture/T_Aim_Normal",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_LeftKit_MaskComponent",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/Source/Texture/Mask/T_LeftKit_MaskComponent",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_LeftKit_Base_Color",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/Source/Texture/T_LeftKit_Base_Color",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_LeftKit_MRMA",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/Source/Texture/T_LeftKit_MRMA",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_LeftKit_Normal",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/Source/Texture/T_LeftKit_Normal",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_Black_Mask",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/Source/Texture/Mask/T_Black_Mask",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_Bullet_Base_Color",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/Source/Texture/T_Bullet_Base_Color",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_Bullet_MRMA",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/Source/Texture/T_Bullet_MRMA",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_Bullet_Normal",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/Source/Texture/T_Bullet_Normal",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_AmmoDisplayMagazine_Mask",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/Source/Texture/Mask/T_AmmoDisplayMagazine_Mask",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_Magazine_MaskComponent",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/Source/Texture/Mask/T_Magazine_MaskComponent",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_ScreenMagazine_Mask",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/Source/Texture/Mask/T_ScreenMagazine_Mask",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_Magazine_Base_Color",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/Source/Texture/T_Magazine_Base_Color",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_Magazine_MRMA",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/Source/Texture/T_Magazine_MRMA",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_Magazine_Normal",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/Source/Texture/T_Magazine_Normal",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_Butt_MaskComponent",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/Source/Texture/Mask/T_Butt_MaskComponent",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_Butt_Base_Color",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/Source/Texture/T_Butt_Base_Color",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_Butt_MRMA",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/Source/Texture/T_Butt_MRMA",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_Butt_Normal",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/Source/Texture/T_Butt_Normal",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_Foregrip_MaskComponent",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/Source/Texture/Mask/T_Foregrip_MaskComponent",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_Foregrip_Base_Color",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/Source/Texture/T_Foregrip_Base_Color",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_Foregrip_MRMA",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/Source/Texture/T_Foregrip_MRMA",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_Foregrip_Normal",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/Source/Texture/T_Foregrip_Normal",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_RightKit_MaskComponent",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/Source/Texture/Mask/T_RightKit_MaskComponent",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_RightKit_Base_Color",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/Source/Texture/T_RightKit_Base_Color",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_RightKit_MRMA",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/Source/Texture/T_RightKit_MRMA",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_RightKit_Normal",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/Source/Texture/T_RightKit_Normal",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_Ammo_BaseColor",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Pistol/Pistol/Material/Source/Texture/Ammo/T_Ammo_BaseColor",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_Ammo_Normal",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Pistol/Pistol/Material/Source/Texture/Ammo/T_Ammo_Normal",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_Ammo_OcclusionRoughnessMetallic",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Pistol/Pistol/Material/Source/Texture/Ammo/T_Ammo_OcclusionRoughnessMetallic",
+      "class": "Texture2D"
+    },
+    {
+      "name": "M_Ammo",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Pistol/Pistol/Material/Source/M_Ammo",
+      "class": "Material"
+    },
+    {
+      "name": "MI_Ammo",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Pistol/Pistol/Material/MI_Ammo",
+      "class": "MaterialInstanceConstant"
+    },
+    {
+      "name": "T_Ammo_Full_BaseColor",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Pistol/Pistol/Material/Source/Texture/Ammo/T_Ammo_Full_BaseColor",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_Ammo_Full_Normal",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Pistol/Pistol/Material/Source/Texture/Ammo/T_Ammo_Full_Normal",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_Ammo_Full_OcclusionRoughnessMetallic",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Pistol/Pistol/Material/Source/Texture/Ammo/T_Ammo_Full_OcclusionRoughnessMetallic",
+      "class": "Texture2D"
+    },
+    {
+      "name": "MI_Ammo_Full",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Pistol/Pistol/Material/MI_Ammo_Full",
+      "class": "MaterialInstanceConstant"
+    },
+    {
+      "name": "T_Ammo_Sleeve_BaseColor",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Pistol/Pistol/Material/Source/Texture/Ammo/T_Ammo_Sleeve_BaseColor",
+      "class": "Texture2D"
+    }
+  ],
+  "AR1": {
+    "comps": [
+      {
+        "n": "SK_Magazine_Full",
+        "cls": "SkeletalMeshComponent",
+        "mesh": "SK_Magazine"
+      },
+      {
+        "n": "SK_Bullet_Full_Magazine",
+        "cls": "SkeletalMeshComponent",
+        "mesh": "SK_Bullet_Full_Magazine"
+      },
+      {
+        "n": "SK_Bullet_Full_Magazine",
+        "cls": "SkeletalMeshComponent",
+        "mesh": "SK_Bullet_Full_Magazine"
+      },
+      {
+        "n": "SK_Magazine_Full",
+        "cls": "SkeletalMeshComponent",
+        "mesh": "SK_Magazine"
+      },
+      {
+        "n": "SK_Magazine_Emty",
+        "cls": "SkeletalMeshComponent",
+        "mesh": "SK_Magazine"
+      },
+      {
+        "n": "SK_Magazine_Emty",
+        "cls": "SkeletalMeshComponent",
+        "mesh": "SK_Magazine"
+      }
+    ],
+    "vars": []
+  },
+  "AR2": {
+    "comps": [
+      {
+        "n": "SK_Magazine_Empty",
+        "cls": "SkeletalMeshComponent",
+        "mesh": "SK_Magazine_Empty"
+      },
+      {
+        "n": "SM_Scheme",
+        "cls": "StaticMeshComponent",
+        "mesh": "SM_Scheme",
+        "hidden": false
+      },
+      {
+        "n": "SM_Scheme",
+        "cls": "StaticMeshComponent",
+        "mesh": "SM_Scheme",
+        "hidden": false
+      },
+      {
+        "n": "SM_Aim_Glass",
+        "cls": "StaticMeshComponent",
+        "mesh": "SM_Aim_Glass",
+        "hidden": false
+      },
+      {
+        "n": "SM_Aim_Glass",
+        "cls": "StaticMeshComponent",
+        "mesh": "SM_Aim_Glass",
+        "hidden": false
+      },
+      {
+        "n": "SK_Magazine_Empty",
+        "cls": "SkeletalMeshComponent",
+        "mesh": "SK_Magazine_Empty"
+      },
+      {
+        "n": "SK_Magazine_Full",
+        "cls": "SkeletalMeshComponent",
+        "mesh": "SK_Magazine_Full"
+      },
+      {
+        "n": "SK_Magazine_Full",
+        "cls": "SkeletalMeshComponent",
+        "mesh": "SK_Magazine_Full"
+      }
+    ],
+    "vars": []
+  },
+  "MG": {
+    "comps": [
+      {
+        "n": "SK_Magazine_Unload",
+        "cls": "SkeletalMeshComponent",
+        "mesh": "SK_Magazine"
+      },
+      {
+        "n": "SK_Magazine_Unload",
+        "cls": "SkeletalMeshComponent",
+        "mesh": "SK_Magazine"
+      },
+      {
+        "n": "SK_Magazine_Load",
+        "cls": "SkeletalMeshComponent",
+        "mesh": "SK_Magazine"
+      },
+      {
+        "n": "SK_Magazine_Load",
+        "cls": "SkeletalMeshComponent",
+        "mesh": "SK_Magazine"
+      }
+    ],
+    "vars": []
+  },
+  "SG": {
+    "comps": [],
+    "vars": []
+  },
+  "SN": {
+    "comps": [
+      {
+        "n": "SK_Magazine_Empty",
+        "cls": "SkeletalMeshComponent",
+        "mesh": "SK_Magazine_Empty"
+      },
+      {
+        "n": "SK_Magazine_Empty",
+        "cls": "SkeletalMeshComponent",
+        "mesh": "SK_Magazine_Empty"
+      },
+      {
+        "n": "SK_Magazine_Full",
+        "cls": "SkeletalMeshComponent",
+        "mesh": "SK_Magazine_Full"
+      },
+      {
+        "n": "SK_Magazine_Full",
+        "cls": "SkeletalMeshComponent",
+        "mesh": "SK_Magazine_Full"
+      },
+      {
+        "n": "SM_Glass_Aim",
+        "cls": "StaticMeshComponent",
+        "mesh": "SM_Glass_Aim",
+        "hidden": false
+      },
+      {
+        "n": "SM_Glass_Aim",
+        "cls": "StaticMeshComponent",
+        "mesh": "SM_Glass_Aim",
+        "hidden": false
+      },
+      {
+        "n": "SM_Glass_Front",
+        "cls": "StaticMeshComponent",
+        "mesh": "SM_Glass_Front",
+        "hidden": false
+      },
+      {
+        "n": "SM_Glass_Front",
+        "cls": "StaticMeshComponent",
+        "mesh": "SM_Glass_Front",
+        "hidden": false
+      },
+      {
+        "n": "RifleDisplayCapture",
+        "cls": "SceneCaptureComponent2D"
+      },
+      {
+        "n": "RifleDisplayCapture",
+        "cls": "SceneCaptureComponent2D"
+      }
+    ],
+    "vars": []
+  }
+}

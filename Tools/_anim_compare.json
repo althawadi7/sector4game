@@ -1,0 +1,1637 @@
+{
+  "KITREF_AR1": {
+    "label": "KITREF_AR1",
+    "class": "BP_Assault_Rifle_C",
+    "sk": [
+      {
+        "comp": "SK_Assault_Rifle",
+        "mesh": "SK_Rifle_Assault_Rifle",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": null,
+        "rel_rot": [
+          90.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          90.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Butt",
+        "mesh": "SK_Butt",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SK_Assault_Rifle",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          90.0,
+          -0.0,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Magazine_Full",
+        "mesh": "SK_Magazine",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SK_Assault_Rifle",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          90.0,
+          -0.0,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Bullet_Full_Magazine",
+        "mesh": "SK_Bullet_Full_Magazine",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SK_Magazine_Full",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          90.0,
+          5.088887490341627e-14,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Bullet",
+        "mesh": "SK_Bullet",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SK_Assault_Rifle",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          90.0,
+          -0.0,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Aim",
+        "mesh": "SK_Aim",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SK_Assault_Rifle",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          90.0,
+          -0.0,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Right_Kit",
+        "mesh": "SK_Right_Kit",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SK_Assault_Rifle",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          90.0,
+          -0.0,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Silencer",
+        "mesh": "SK_Silencer",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SK_Assault_Rifle",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          90.0,
+          -0.0,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Magazine_Emty",
+        "mesh": "SK_Magazine",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SK_Assault_Rifle",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          90.0,
+          -0.0,
+          0.0
+        ]
+      }
+    ],
+    "root": {
+      "name": "SK_Assault_Rifle",
+      "class": "SkeletalMeshComponent",
+      "rel_rot": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "rel_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_rot": [
+        90.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "KITREF_AR2": {
+    "label": "KITREF_AR2",
+    "class": "BP_AssaultRifle_C",
+    "sk": [
+      {
+        "comp": "SK_Rifle",
+        "mesh": "SK_Rifle",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": null,
+        "rel_rot": [
+          90.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          90.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Aim",
+        "mesh": "SK_Aim",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SK_Rifle",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          90.0,
+          2.5044780613825424e-06,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Bullet",
+        "mesh": "SK_Bullet",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SK_Rifle",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          90.0,
+          2.5044780613825424e-06,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Left_Kit",
+        "mesh": "SK_Left_Kit",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SK_Rifle",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          90.0,
+          2.5044780613825424e-06,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Magazine_Empty",
+        "mesh": "SK_Magazine_Empty",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SK_Rifle",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          90.0,
+          2.5044780613825424e-06,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Magazine_Full",
+        "mesh": "SK_Magazine_Full",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SK_Rifle",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          90.0,
+          2.5044780613825424e-06,
+          0.0
+        ]
+      }
+    ],
+    "root": {
+      "name": "SK_Rifle",
+      "class": "SkeletalMeshComponent",
+      "rel_rot": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "rel_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_rot": [
+        90.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "KITREF_MG": {
+    "label": "KITREF_MG",
+    "class": "BP_MachineGun_C",
+    "sk": [
+      {
+        "comp": "SK_MachineGun",
+        "mesh": "SK_MachineGun",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": null,
+        "rel_rot": [
+          90.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          90.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Barrel",
+        "mesh": "SK_Barrel",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SK_MachineGun",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          90.0,
+          1.4343623359884212e-05,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Control_Handle",
+        "mesh": "SK_Control_Handle",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SK_MachineGun",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          90.0,
+          4.325711097933611e-06,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Magazine_Unload",
+        "mesh": "SK_Magazine",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SK_MachineGun",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          90.0,
+          1.4343623359884212e-05,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Magazine_Load",
+        "mesh": "SK_Magazine",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SK_MachineGun",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          90.0,
+          1.4343623359884212e-05,
+          0.0
+        ]
+      }
+    ],
+    "root": {
+      "name": "SK_MachineGun",
+      "class": "SkeletalMeshComponent",
+      "rel_rot": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "rel_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_rot": [
+        90.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "KITREF_SG": {
+    "label": "KITREF_SG",
+    "class": "BP_Shotgun_C",
+    "sk": [
+      {
+        "comp": "SK_Shotgun",
+        "mesh": "SK_Shotgun",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": null,
+        "rel_rot": [
+          90.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          90.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Aim",
+        "mesh": "SK_Aim",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SK_Shotgun",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          90.0,
+          2.5444437451708134e-14,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Left_Kit",
+        "mesh": "SK_Left_Kit",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SK_Shotgun",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          90.0,
+          2.5444437451708134e-14,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Right_Kit",
+        "mesh": "SK_Right_Kit",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SK_Shotgun",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          90.0,
+          2.5444437451708134e-14,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Bullet_Left",
+        "mesh": "SK_Bullet",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SK_Shotgun",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          90.0,
+          2.5444437451708134e-14,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Bullet_Right",
+        "mesh": "SK_Bullet",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SK_Shotgun",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          90.0,
+          2.5444437451708134e-14,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Bullet_Empty_L",
+        "mesh": "SK_Bullet_Empty",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SK_Shotgun",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          90.0,
+          2.5444437451708134e-14,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Bullet_Empty_R",
+        "mesh": "SK_Bullet_Empty",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SK_Shotgun",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          90.0,
+          2.5444437451708134e-14,
+          0.0
+        ]
+      }
+    ],
+    "root": {
+      "name": "SK_Shotgun",
+      "class": "SkeletalMeshComponent",
+      "rel_rot": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "rel_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_rot": [
+        90.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "KITREF_SN": {
+    "label": "KITREF_SN",
+    "class": "BP_Sniper_Rifle_C",
+    "sk": [
+      {
+        "comp": "SK_Rifle",
+        "mesh": "SK_Rifle",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": null,
+        "rel_rot": [
+          90.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          90.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Carrying",
+        "mesh": "SK_Carrying",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SK_Rifle",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          90.0,
+          -0.0,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Butt",
+        "mesh": "SK_Butt",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SK_Rifle",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          90.0,
+          -0.0,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Sopla_1",
+        "mesh": "SK_Sopla",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SK_Rifle",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          90.0,
+          -52.88273267247672,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Sopla_2",
+        "mesh": "SK_Sopla",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SK_Rifle",
+        "rel_rot": [
+          -3.320064934086986e-08,
+          49.99999961268108,
+          -3.076734823099776e-08
+        ],
+        "world_rot": [
+          -49.99997630927858,
+          37.11749527927018,
+          89.99904505657827
+        ]
+      },
+      {
+        "comp": "SK_Sopla_3",
+        "mesh": "SK_Sopla",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SK_Rifle",
+        "rel_rot": [
+          5.774152385295373e-08,
+          89.99999930282493,
+          -1.0181349520203373e-08
+        ],
+        "world_rot": [
+          -2.3996658906301132e-05,
+          -142.88323626266626,
+          -89.99938617842315
+        ]
+      },
+      {
+        "comp": "SK_Sopla_4",
+        "mesh": "SK_Sopla",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SK_Rifle",
+        "rel_rot": [
+          2.3162426296557487e-09,
+          -99.99999922536404,
+          -9.052694489178536e-08
+        ],
+        "world_rot": [
+          -79.99997745650349,
+          37.1202450135543,
+          89.9964649880119
+        ]
+      },
+      {
+        "comp": "SK_Bullet",
+        "mesh": "SK_Bullet",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SK_Rifle",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          90.0,
+          -0.0,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Sleeve",
+        "mesh": "SK_Sleeve",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SK_Rifle",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          90.0,
+          -0.0,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Magazine_Empty",
+        "mesh": "SK_Magazine_Empty",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SK_Rifle",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          90.0,
+          -0.0,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Magazine_Full",
+        "mesh": "SK_Magazine_Full",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SK_Rifle",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          90.0,
+          -0.0,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Scope",
+        "mesh": "SK_Scope",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SK_Rifle",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          90.0,
+          -0.0,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Bipods",
+        "mesh": "SK_Bipods",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SK_Rifle",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          90.0,
+          -0.0,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_FireFlame",
+        "mesh": "SK_FireFlame",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SK_Rifle",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          90.0,
+          -0.0,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Rail",
+        "mesh": "SK_Rail",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SK_Rifle",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          90.0,
+          -0.0,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Rail_L_1",
+        "mesh": "SK_Rail_L",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SK_Rifle",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          90.0,
+          -0.0,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Rail_L_2",
+        "mesh": "SK_Rail_L",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SK_Rifle",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          90.0,
+          2.5444437451708134e-14,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Rail_L_3",
+        "mesh": "SK_Rail_L",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SK_Rifle",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          90.0,
+          -0.0,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Rail_L_4",
+        "mesh": "SK_Rail_L",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SK_Rifle",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          90.0,
+          2.5444437451708134e-14,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Rail_R_1",
+        "mesh": "SK_Rail_R",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SK_Rifle",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          90.0,
+          -0.0,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Rail_R_2",
+        "mesh": "SK_Rail_R",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SK_Rifle",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          90.0,
+          2.5444437451708134e-14,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Rail_R_3",
+        "mesh": "SK_Rail_R",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SK_Rifle",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          90.0,
+          -0.0,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Rail_R_4",
+        "mesh": "SK_Rail_R",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SK_Rifle",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          90.0,
+          2.5444437451708134e-14,
+          0.0
+        ]
+      }
+    ],
+    "root": {
+      "name": "SK_Rifle",
+      "class": "SkeletalMeshComponent",
+      "rel_rot": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "rel_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_rot": [
+        90.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "BP_XR_SciFi_Pistol": {
+    "label": "BP_XR_SciFi_Pistol",
+    "class": "BP_XR_SciFi_Pistol_C",
+    "sk": [
+      {
+        "comp": "SkeletalMesh",
+        "mesh": "SK_Pistol",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SM_Pistol",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Magazine_Full",
+        "mesh": "SK_Magazine_Full",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SkeletalMesh",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "root": {
+      "name": "SM_Pistol",
+      "class": "StaticMeshComponent",
+      "rel_rot": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "rel_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_rot": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "BP_XR_SciFi_AssaultRifle_1": {
+    "label": "BP_XR_SciFi_AssaultRifle_1",
+    "class": "BP_XR_SciFi_AssaultRifle_1_C",
+    "sk": [
+      {
+        "comp": "SkeletalMesh",
+        "mesh": "SK_Rifle_Assault_Rifle",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SM_Pistol",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Aim",
+        "mesh": "SK_Aim",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SkeletalMesh",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Butt",
+        "mesh": "SK_Butt",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SkeletalMesh",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Magazine",
+        "mesh": "SK_Magazine",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SkeletalMesh",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Right_Kit",
+        "mesh": "SK_Right_Kit",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SkeletalMesh",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Silencer",
+        "mesh": "SK_Silencer",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SkeletalMesh",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "root": {
+      "name": "SM_Pistol",
+      "class": "StaticMeshComponent",
+      "rel_rot": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "rel_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_rot": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "BP_XR_SciFi_AssaultRifle_2": {
+    "label": "BP_XR_SciFi_AssaultRifle_2",
+    "class": "BP_XR_SciFi_AssaultRifle_2_C",
+    "sk": [
+      {
+        "comp": "SkeletalMesh",
+        "mesh": "SK_Rifle",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SM_Pistol",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Aim",
+        "mesh": "SK_Aim",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SkeletalMesh",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Left_Kit",
+        "mesh": "SK_Left_Kit",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SkeletalMesh",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Magazine_Full",
+        "mesh": "SK_Magazine_Full",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SkeletalMesh",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "root": {
+      "name": "SM_Pistol",
+      "class": "StaticMeshComponent",
+      "rel_rot": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "rel_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_rot": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "BP_XR_SciFi_MachineGun": {
+    "label": "BP_XR_SciFi_MachineGun",
+    "class": "BP_XR_SciFi_MachineGun_C",
+    "sk": [
+      {
+        "comp": "SkeletalMesh",
+        "mesh": "SK_MachineGun",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SM_Pistol",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Barrel",
+        "mesh": "SK_Barrel",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SkeletalMesh",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Control_Handle",
+        "mesh": "SK_Control_Handle",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SkeletalMesh",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Magazine",
+        "mesh": "SK_Magazine",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SkeletalMesh",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "root": {
+      "name": "SM_Pistol",
+      "class": "StaticMeshComponent",
+      "rel_rot": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "rel_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_rot": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "BP_XR_SciFi_Shotgun": {
+    "label": "BP_XR_SciFi_Shotgun",
+    "class": "BP_XR_SciFi_Shotgun_C",
+    "sk": [
+      {
+        "comp": "SkeletalMesh",
+        "mesh": "SK_Shotgun",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SM_Pistol",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Aim",
+        "mesh": "SK_Aim",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SkeletalMesh",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Left_Kit",
+        "mesh": "SK_Left_Kit",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SkeletalMesh",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Right_Kit",
+        "mesh": "SK_Right_Kit",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SkeletalMesh",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "root": {
+      "name": "SM_Pistol",
+      "class": "StaticMeshComponent",
+      "rel_rot": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "rel_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_rot": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "BP_XR_SciFi_Sniper": {
+    "label": "BP_XR_SciFi_Sniper",
+    "class": "BP_XR_SciFi_Sniper_C",
+    "sk": [
+      {
+        "comp": "SkeletalMesh",
+        "mesh": "SK_Rifle",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SM_Pistol",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Butt",
+        "mesh": "SK_Butt",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SkeletalMesh",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Magazine_Full",
+        "mesh": "SK_Magazine_Full",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SkeletalMesh",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Sopla",
+        "mesh": "SK_Sopla",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SkeletalMesh",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Scope",
+        "mesh": "SK_Scope",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SM_Pistol",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Carrying",
+        "mesh": "SK_Carrying",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SM_Pistol",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Bipods",
+        "mesh": "SK_Bipods",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SM_Pistol",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Rail",
+        "mesh": "SK_Rail",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SM_Pistol",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "comp": "SK_Sleeve",
+        "mesh": "SK_Sleeve",
+        "anim_class": null,
+        "anim_mode": "<AnimationMode.ANIMATION_BLUEPRINT: 0>",
+        "parent": "SM_Pistol",
+        "rel_rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "world_rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "root": {
+      "name": "SM_Pistol",
+      "class": "StaticMeshComponent",
+      "rel_rot": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "rel_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_rot": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  }
+}

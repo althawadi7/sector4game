@@ -1,0 +1,204 @@
+{
+  "nodes": [
+    {
+      "t": "XRFireNow",
+      "cls": "K2Node_FunctionEntry"
+    },
+    {
+      "t": "PrintString",
+      "cls": "K2Node_CallFunction"
+    },
+    {
+      "t": "Get MuzzleLocation",
+      "cls": "K2Node_VariableGet"
+    },
+    {
+      "t": "Get World Location",
+      "cls": "K2Node_CallFunction",
+      "self": "",
+      "self_l": [
+        "Get MuzzleLocation::MuzzleLocation"
+      ]
+    },
+    {
+      "t": "Get World Rotation",
+      "cls": "K2Node_CallFunction",
+      "self": "",
+      "self_l": [
+        "Get MuzzleLocation::MuzzleLocation"
+      ]
+    },
+    {
+      "t": "SpawnSystemAtLocation",
+      "cls": "K2Node_CallFunction"
+    },
+    {
+      "t": "PlaySoundAtLocation",
+      "cls": "K2Node_CallFunction"
+    },
+    {
+      "t": "MakeTransform",
+      "cls": "K2Node_CallFunction"
+    },
+    {
+      "t": "DoFire",
+      "cls": "K2Node_CallFunction",
+      "self": "",
+      "self_l": []
+    },
+    {
+      "t": "GetComponentsByTag",
+      "cls": "K2Node_CallFunction",
+      "self": "",
+      "self_l": [],
+      "Tag": "XRMuzzleTip",
+      "Tag_l": []
+    },
+    {
+      "t": "Length",
+      "cls": "K2Node_CallArrayFunction"
+    },
+    {
+      "t": "integer > integer",
+      "cls": "K2Node_PromotableOperator"
+    },
+    {
+      "t": "Get",
+      "cls": "K2Node_CallArrayFunction",
+      "Item": "",
+      "Item_l": []
+    },
+    {
+      "t": "SelectObject",
+      "cls": "K2Node_CallFunction"
+    },
+    {
+      "t": "GetComponentByClass",
+      "cls": "K2Node_CallFunction",
+      "self": "",
+      "self_l": []
+    },
+    {
+      "t": "GetComponentsByTag",
+      "cls": "K2Node_CallFunction",
+      "self": "",
+      "self_l": [],
+      "Tag": "WeaponFire",
+      "Tag_l": []
+    },
+    {
+      "t": "GetComponentsByTag",
+      "cls": "K2Node_CallFunction",
+      "self": "",
+      "self_l": [],
+      "Tag": "WeaponMuzzle",
+      "Tag_l": []
+    },
+    {
+      "t": "Get",
+      "cls": "K2Node_CallArrayFunction",
+      "Item": "",
+      "Item_l": [
+        "Play::self"
+      ]
+    },
+    {
+      "t": "Get",
+      "cls": "K2Node_CallArrayFunction",
+      "Item": "",
+      "Item_l": [
+        "SetActive::self"
+      ]
+    },
+    {
+      "t": "Play",
+      "cls": "K2Node_CallFunction",
+      "self": "",
+      "self_l": [
+        "Get::Item"
+      ]
+    },
+    {
+      "t": "SetActive",
+      "cls": "K2Node_CallFunction",
+      "self": "",
+      "self_l": [
+        "Get::Item"
+      ]
+    },
+    {
+      "t": "Get CurrentAmmo",
+      "cls": "K2Node_VariableGet"
+    }
+  ],
+  "extra": [
+    {
+      "lab": "BP_XR_SciFi_MachineGun",
+      "socks": {
+        "SK_MachineGun.barrel": {
+          "rel": [
+            -128.82,
+            0.0,
+            -7.18
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            -0.0
+          ]
+        },
+        "SK_MachineGun.trigger": {
+          "rel": [
+            -8.76,
+            0.0,
+            5.3
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            -0.0
+          ]
+        }
+      },
+      "bounds": [
+        {
+          "err": "'SkeletalMeshComponent' object has no attribute 'get_local_bounds'"
+        }
+      ]
+    },
+    {
+      "lab": "BP_XR_SciFi_Shotgun",
+      "socks": {
+        "SK_Shotgun.trigger": {
+          "rel": [
+            -10.94,
+            0.0,
+            -1.72
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            -0.0
+          ]
+        },
+        "SK_Right_Kit.flash": {
+          "rel": [
+            -37.52,
+            -8.74,
+            3.44
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            -0.0
+          ]
+        }
+      },
+      "bounds": [
+        {
+          "err": "'SkeletalMeshComponent' object has no attribute 'get_local_bounds'"
+        }
+      ]
+    }
+  ]
+}

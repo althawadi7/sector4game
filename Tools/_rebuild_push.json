@@ -1,0 +1,26 @@
+{
+  "log": [
+    "removed_evt_def",
+    {
+      "get_child": "Get ChildActor",
+      "pins": [
+        {
+          "name": "self",
+          "direction": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "type": "Child Actor Component Object Reference"
+        },
+        {
+          "name": "ChildActor",
+          "direction": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "type": "Actor Object Reference"
+        }
+      ]
+    },
+    {
+      "child_out": "ChildActor"
+    },
+    {
+      "status": "ok"
+    }
+  ]
+}

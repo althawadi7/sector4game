@@ -1,0 +1,19 @@
+{
+  "rifle": {
+    "vars": [],
+    "funcs": [],
+    "events": [],
+    "vars_err": "'Blueprint' object has no attribute 'new_variables'",
+    "uber_err": "'Blueprint' object has no attribute 'ubergraph_pages'",
+    "func_err": "'Blueprint' object has no attribute 'function_graphs'",
+    "CurrentAmmo": "30",
+    "MaxAmmo": "30",
+    "bReloadLatch": "False",
+    "AmmoTextRender": "None"
+  },
+  "ar1": {
+    "funcs": [],
+    "uber": []
+  },
+  "param": "Ammo \u0421ount"
+}

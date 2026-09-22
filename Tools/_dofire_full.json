@@ -1,0 +1,277 @@
+{
+  "chain": [
+    {
+      "t": "DoFire",
+      "cls": "K2Node_CustomEvent",
+      "d": 0,
+      "pins": [
+        {
+          "n": "OutputDelegate",
+          "d": "OUT",
+          "v": "",
+          "l": []
+        },
+        {
+          "n": "then",
+          "d": "OUT",
+          "v": "",
+          "l": [
+            "PrintString::execute"
+          ]
+        }
+      ]
+    },
+    {
+      "t": "PrintString",
+      "cls": "K2Node_CallFunction",
+      "d": 1,
+      "pins": [
+        {
+          "n": "execute",
+          "d": "IN",
+          "v": "",
+          "l": []
+        },
+        {
+          "n": "InString",
+          "d": "IN",
+          "v": "VRSHOOT DOFIRE RUN",
+          "l": []
+        },
+        {
+          "n": "bPrintToScreen",
+          "d": "IN",
+          "v": "true",
+          "l": []
+        },
+        {
+          "n": "bPrintToLog",
+          "d": "IN",
+          "v": "true",
+          "l": []
+        },
+        {
+          "n": "TextColor",
+          "d": "IN",
+          "v": "(R=0.000000,G=0.660000,B=1.000000,A=1.000000)",
+          "l": []
+        },
+        {
+          "n": "Duration",
+          "d": "IN",
+          "v": "2.000000",
+          "l": []
+        },
+        {
+          "n": "Key",
+          "d": "IN",
+          "v": "None",
+          "l": []
+        },
+        {
+          "n": "then",
+          "d": "OUT",
+          "v": "",
+          "l": [
+            "Sequence::execute"
+          ]
+        }
+      ]
+    },
+    {
+      "t": "Sequence",
+      "cls": "K2Node_ExecutionSequence",
+      "d": 2,
+      "pins": [
+        {
+          "n": "execute",
+          "d": "IN",
+          "v": "",
+          "l": []
+        },
+        {
+          "n": "then_0",
+          "d": "OUT",
+          "v": "",
+          "l": [
+            "Set CurrentAmmo::execute"
+          ]
+        },
+        {
+          "n": "then_1",
+          "d": "OUT",
+          "v": "",
+          "l": [
+            "SpawnActor BP Projectile::execute"
+          ]
+        }
+      ]
+    },
+    {
+      "t": "Set CurrentAmmo",
+      "cls": "K2Node_VariableSet",
+      "d": 3,
+      "pins": [
+        {
+          "n": "execute",
+          "d": "IN",
+          "v": "",
+          "l": []
+        },
+        {
+          "n": "CurrentAmmo",
+          "d": "IN",
+          "v": "0",
+          "l": []
+        },
+        {
+          "n": "then",
+          "d": "OUT",
+          "v": "",
+          "l": [
+            "XRPushKitAmmo::execute"
+          ]
+        },
+        {
+          "n": "Output_Get",
+          "d": "OUT",
+          "v": "0",
+          "l": []
+        }
+      ]
+    },
+    {
+      "t": "SpawnActor BP Projectile",
+      "cls": "K2Node_SpawnActorFromClass",
+      "d": 3,
+      "pins": [
+        {
+          "n": "execute",
+          "d": "IN",
+          "v": "",
+          "l": []
+        },
+        {
+          "n": "Class",
+          "d": "IN",
+          "v": "/Game/XRFramework/Blueprints/BP_Projectile.BP_Projectile_C",
+          "l": []
+        },
+        {
+          "n": "SpawnTransform",
+          "d": "IN",
+          "v": "",
+          "l": []
+        },
+        {
+          "n": "CollisionHandlingOverride",
+          "d": "IN",
+          "v": "AlwaysSpawn",
+          "l": []
+        },
+        {
+          "n": "TransformScaleMethod",
+          "d": "IN",
+          "v": "OverrideRootScale",
+          "l": []
+        },
+        {
+          "n": "Owner",
+          "d": "IN",
+          "v": "",
+          "l": []
+        },
+        {
+          "n": "Instigator",
+          "d": "IN",
+          "v": "",
+          "l": []
+        },
+        {
+          "n": "then",
+          "d": "OUT",
+          "v": "",
+          "l": [
+            "ServerDoFire::execute"
+          ]
+        },
+        {
+          "n": "ReturnValue",
+          "d": "OUT",
+          "v": "",
+          "l": []
+        }
+      ]
+    },
+    {
+      "t": "XRPushKitAmmo",
+      "cls": "K2Node_CallFunction",
+      "d": 4,
+      "pins": [
+        {
+          "n": "execute",
+          "d": "IN",
+          "v": "",
+          "l": []
+        },
+        {
+          "n": "self",
+          "d": "IN",
+          "v": "",
+          "l": []
+        },
+        {
+          "n": "then",
+          "d": "OUT",
+          "v": "",
+          "l": []
+        }
+      ]
+    },
+    {
+      "t": "ServerDoFire",
+      "cls": "K2Node_CallFunction",
+      "d": 4,
+      "pins": [
+        {
+          "n": "execute",
+          "d": "IN",
+          "v": "",
+          "l": []
+        },
+        {
+          "n": "self",
+          "d": "IN",
+          "v": "",
+          "l": []
+        },
+        {
+          "n": "SpawnTransform",
+          "d": "IN",
+          "v": "",
+          "l": []
+        },
+        {
+          "n": "then",
+          "d": "OUT",
+          "v": "",
+          "l": []
+        }
+      ]
+    }
+  ],
+  "graphs": [
+    "UserConstructionScript",
+    "XRFireNow",
+    "EventGraph"
+  ],
+  "xr": {
+    "XRFireNow": [
+      "XRFireNow/K2Node_FunctionEntry_0"
+    ]
+  },
+  "grab_paths": [
+    "/Game/XRFramework/Blueprints/BP_Grabbable_SmallCube.BP_Grabbable_SmallCube",
+    "/Game/XRFramework/Blueprints/BP_GrabComponent.BP_GrabComponent"
+  ]
+}

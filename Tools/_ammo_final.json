@@ -1,0 +1,80 @@
+{
+  "results": [
+    {
+      "path": "/Game/XRFramework/Blueprints/SciFiWeapons/BP_XR_SciFi_AssaultRifle_1",
+      "hooked": 0,
+      "status": "ok"
+    },
+    {
+      "path": "/Game/XRFramework/Blueprints/SciFiWeapons/BP_XR_SciFi_AssaultRifle_2",
+      "hooked": 0,
+      "status": "ok"
+    },
+    {
+      "path": "/Game/XRFramework/Blueprints/SciFiWeapons/BP_XR_SciFi_MachineGun",
+      "hooked": 0,
+      "status": "ok"
+    },
+    {
+      "path": "/Game/XRFramework/Blueprints/SciFiWeapons/BP_XR_SciFi_Shotgun",
+      "hooked": 0,
+      "status": "ok"
+    },
+    {
+      "path": "/Game/XRFramework/Blueprints/SciFiWeapons/BP_XR_SciFi_Sniper",
+      "hooked": 0,
+      "status": "ok"
+    },
+    {
+      "path": "/Game/XRFramework/Blueprints/SciFiWeapons/BP_XR_SciFi_Pistol",
+      "status": "pistol_ok"
+    }
+  ],
+  "live": [
+    {
+      "lab": "BP_XR_SciFi_AssaultRifle_1",
+      "ammo": 17,
+      "mats": 7
+    },
+    {
+      "lab": "BP_XR_SciFi_AssaultRifle_2",
+      "ammo": 22,
+      "mats": 12
+    },
+    {
+      "lab": "BP_XR_SciFi_MachineGun",
+      "ammo": 64,
+      "mats": 14
+    },
+    {
+      "lab": "BP_MachineGun6",
+      "ammo": 64,
+      "mats": 14
+    },
+    {
+      "lab": "BP_XR_SciFi_Shotgun",
+      "ammo": 3,
+      "mats": 0
+    },
+    {
+      "lab": "BP_Shotgun6",
+      "ammo": 3,
+      "mats": 0
+    },
+    {
+      "lab": "BP_XR_SciFi_Sniper",
+      "ammo": 2,
+      "mats": 0
+    },
+    {
+      "lab": "BP_Sniper_Rifle6",
+      "ammo": 2,
+      "mats": 0
+    },
+    {
+      "lab": "BP_XR_SciFi_Pistol",
+      "ammo": 9,
+      "mats": 0
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "log": [
+    {
+      "child_hits": [
+        "Class|ChildActorComponent|GetChildActorClass",
+        "Class|ChildActorComponent|GetChildActor",
+        "Class|BPChildActorAssaultRifle|GetChildActor"
+      ]
+    },
+    {
+      "hooked_title": "XRPushKitAmmo",
+      "pins": [
+        {
+          "name": "execute",
+          "direction": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "type": "Exec"
+        },
+        {
+          "name": "self",
+          "direction": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "type": "Self Object Reference"
+        },
+        {
+          "name": "then",
+          "direction": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "type": "Exec"
+        }
+      ]
+    },
+    {
+      "hooked_title": "XRPushKitAmmo",
+      "pins": [
+        {
+          "name": "execute",
+          "direction": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "type": "Exec"
+        },
+        {
+          "name": "self",
+          "direction": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "type": "Self Object Reference"
+        },
+        {
+          "name": "then",
+          "direction": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "type": "Exec"
+        }
+      ]
+    },
+    {
+      "hooked_title": "XRPushKitAmmo",
+      "pins": [
+        {
+          "name": "execute",
+          "direction": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "type": "Exec"
+        },
+        {
+          "name": "self",
+          "direction": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "type": "Self Object Reference"
+        },
+        {
+          "name": "then",
+          "direction": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "type": "Exec"
+        }
+      ]
+    },
+    {
+      "hooked": 3
+    },
+    {
+      "created_child_node": "Class|ChildActorComponent|GetChildActorClass",
+      "title": "Get ChildActorClass",
+      "pins": [
+        {
+          "name": "self",
+          "direction": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+          "type": "Child Actor Component Object Reference"
+        },
+        {
+          "name": "ChildActorClass",
+          "direction": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+          "type": "Actor Class Reference"
+        }
+      ]
+    },
+    {
+      "status": "ok"
+    }
+  ]
+}

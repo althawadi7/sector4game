@@ -1,0 +1,50 @@
+{
+  "live": [
+    {
+      "label": "BP_XR_SciFi_AssaultRifle_1",
+      "ammo": 30,
+      "mats": 7
+    },
+    {
+      "label": "BP_XR_SciFi_AssaultRifle_2",
+      "ammo": 30,
+      "mats": 12
+    },
+    {
+      "label": "BP_XR_SciFi_MachineGun",
+      "ammo": 100,
+      "mats": 14
+    },
+    {
+      "label": "BP_XR_SciFi_Pistol",
+      "ammo": 15,
+      "mats": 2
+    },
+    {
+      "label": "BP_XR_SciFi_Shotgun",
+      "ammo": 8,
+      "mats": 0
+    },
+    {
+      "label": "BP_XR_SciFi_Sniper",
+      "ammo": 5,
+      "mats": 0
+    }
+  ],
+  "mi_updated": 40,
+  "mi_sample": [
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/MI_Aim",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/MI_Butt",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/MI_Magazine",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/MI_Assault_Rifle",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/MI_Right_Kit",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/MI_Silencer",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Demo_Scene/Material_Instance/MI_Butt_Green",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Demo_Scene/Material_Instance/MI_Assault_Rifle_Yelow",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Demo_Scene/Material_Instance/MI_Magazine_Yelow",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Demo_Scene/Material_Instance/MI_Magazine_Green_2",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Demo_Scene/Material_Instance/MI_Magazine_Green",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Demo_Scene/Material_Instance/MI_Assault_Rifle_Green"
+  ],
+  "log": []
+}

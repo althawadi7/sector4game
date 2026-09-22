@@ -1,0 +1,73 @@
+[
+  {
+    "lab": "Env_ReflectionCapture_Guns",
+    "cn": "SphereReflectionCapture",
+    "loc": [
+      -110,
+      200,
+      200
+    ],
+    "vis_sk": [],
+    "n_vis": 0
+  },
+  {
+    "lab": "Spot_GunTable7",
+    "cn": "SpotLight",
+    "loc": [
+      1130,
+      1180,
+      600
+    ],
+    "vis_sk": [],
+    "n_vis": 0
+  },
+  {
+    "lab": "Spot_GunTable8",
+    "cn": "SpotLight",
+    "loc": [
+      870,
+      1180,
+      520
+    ],
+    "vis_sk": [],
+    "n_vis": 0
+  },
+  {
+    "lab": "Fill_CharacterReadability",
+    "cn": "PointLight",
+    "loc": [
+      1700,
+      470,
+      1110
+    ],
+    "vis_sk": [],
+    "n_vis": 0
+  },
+  {
+    "lab": "ONLY_KIT_AR1",
+    "cn": "BP_Assault_Rifle_C",
+    "loc": [
+      5150,
+      -600,
+      120
+    ],
+    "vis_sk": [
+      "SK_Assault_Rifle:SK_Rifle_Assault_Rifle"
+    ],
+    "n_vis": 1
+  },
+  {
+    "lab": "BP_XRPawn",
+    "cn": "BP_XRPawn_C",
+    "loc": [
+      4600,
+      560,
+      210
+    ],
+    "vis_sk": [
+      "HandLeft:SKM_SciFiSoldier_XR_left",
+      "HandRight:SKM_SciFiSoldier_XR_right"
+    ],
+    "n_vis": 2
+  }
+]

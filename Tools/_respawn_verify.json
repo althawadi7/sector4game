@@ -1,0 +1,361 @@
+[
+  {
+    "label": "BP_XR_SciFi_Pistol",
+    "body_rot": [
+      0.0,
+      0.0,
+      90.0
+    ],
+    "parts": [
+      {
+        "n": "SK_Magazine_Full",
+        "mesh": "SK_Magazine_Full",
+        "parent": "SM_Pistol",
+        "lead": null,
+        "vis": true
+      },
+      {
+        "n": "SkeletalMesh",
+        "mesh": "SK_Pistol",
+        "parent": "SK_Magazine_Full",
+        "lead": null,
+        "vis": true
+      }
+    ],
+    "body_mesh": "SK_Pistol"
+  },
+  {
+    "label": "BP_XR_SciFi_AssaultRifle_1",
+    "body_rot": [
+      0.0,
+      0.0,
+      90.0
+    ],
+    "parts": [
+      {
+        "n": "SK_Silencer",
+        "mesh": "SK_Silencer",
+        "parent": "SM_Pistol",
+        "lead": null,
+        "vis": true
+      },
+      {
+        "n": "SkeletalMesh",
+        "mesh": "SK_Rifle_Assault_Rifle",
+        "parent": "SK_Silencer",
+        "lead": null,
+        "vis": true
+      },
+      {
+        "n": "SK_Aim",
+        "mesh": "SK_Aim",
+        "parent": "SkeletalMesh",
+        "lead": null,
+        "vis": true
+      },
+      {
+        "n": "SK_Butt",
+        "mesh": "SK_Butt",
+        "parent": "SkeletalMesh",
+        "lead": null,
+        "vis": true
+      },
+      {
+        "n": "SK_Magazine",
+        "mesh": "SK_Magazine",
+        "parent": "SkeletalMesh",
+        "lead": null,
+        "vis": true
+      },
+      {
+        "n": "SK_Right_Kit",
+        "mesh": "SK_Right_Kit",
+        "parent": "SkeletalMesh",
+        "lead": null,
+        "vis": true
+      }
+    ],
+    "body_mesh": "SK_Rifle_Assault_Rifle"
+  },
+  {
+    "label": "BP_XR_SciFi_AssaultRifle_2",
+    "body_rot": [
+      0.0,
+      0.0,
+      90.0
+    ],
+    "parts": [
+      {
+        "n": "SkeletalMesh",
+        "mesh": "SK_Rifle",
+        "parent": "SM_Scheme",
+        "lead": null,
+        "vis": true
+      },
+      {
+        "n": "SK_Aim",
+        "mesh": "SK_Aim",
+        "parent": "SkeletalMesh",
+        "lead": null,
+        "vis": true
+      },
+      {
+        "n": "SK_Left_Kit",
+        "mesh": "SK_Left_Kit",
+        "parent": "SkeletalMesh",
+        "lead": null,
+        "vis": true
+      },
+      {
+        "n": "SK_Magazine_Full",
+        "mesh": "SK_Magazine_Full",
+        "parent": "SkeletalMesh",
+        "lead": null,
+        "vis": true
+      },
+      {
+        "n": "SM_Scheme",
+        "mesh": "SM_Scheme",
+        "parent": "SM_Pistol",
+        "vis": true
+      },
+      {
+        "n": "SM_Aim_Glass",
+        "mesh": "SM_Aim_Glass",
+        "parent": "SkeletalMesh",
+        "vis": true
+      },
+      {
+        "n": "SM_Butt",
+        "mesh": "SM_Butt",
+        "parent": "SkeletalMesh",
+        "vis": true
+      },
+      {
+        "n": "SM_Foregrip",
+        "mesh": "SM_Foregrip",
+        "parent": "SkeletalMesh",
+        "vis": true
+      },
+      {
+        "n": "SM_Reactor",
+        "mesh": "SM_Reactor",
+        "parent": "SkeletalMesh",
+        "vis": true
+      },
+      {
+        "n": "SM_Right_Kit",
+        "mesh": "SM_Right_Kit",
+        "parent": "SkeletalMesh",
+        "vis": true
+      }
+    ],
+    "body_mesh": "SK_Rifle"
+  },
+  {
+    "label": "BP_XR_SciFi_MachineGun",
+    "body_rot": [
+      0.0,
+      0.0,
+      90.0
+    ],
+    "parts": [
+      {
+        "n": "SkeletalMesh",
+        "mesh": "SK_MachineGun",
+        "parent": "SM_Tube_Right",
+        "lead": null,
+        "vis": true
+      },
+      {
+        "n": "SK_Barrel",
+        "mesh": "SK_Barrel",
+        "parent": "SkeletalMesh",
+        "lead": null,
+        "vis": true
+      },
+      {
+        "n": "SK_Control_Handle",
+        "mesh": "SK_Control_Handle",
+        "parent": "SkeletalMesh",
+        "lead": null,
+        "vis": true
+      },
+      {
+        "n": "SK_Magazine",
+        "mesh": "SK_Magazine",
+        "parent": "SkeletalMesh",
+        "lead": null,
+        "vis": true
+      },
+      {
+        "n": "SM_Tube_Right",
+        "mesh": "SM_Tube_Right",
+        "parent": "SM_Pistol",
+        "vis": false
+      },
+      {
+        "n": "SM_Sensors",
+        "mesh": "SM_Sensors",
+        "parent": "SkeletalMesh",
+        "vis": false
+      },
+      {
+        "n": "SM_Sopla_Bottom",
+        "mesh": "SM_Sopla_Bottom",
+        "parent": "SkeletalMesh",
+        "vis": false
+      },
+      {
+        "n": "SM_Sopla_Right",
+        "mesh": "SM_Sopla_Right",
+        "parent": "SkeletalMesh",
+        "vis": false
+      },
+      {
+        "n": "SM_Sopla_Side",
+        "mesh": "SM_Sopla_Side",
+        "parent": "SkeletalMesh",
+        "vis": false
+      },
+      {
+        "n": "SM_Tube_Middle",
+        "mesh": "SM_Tube_Middle",
+        "parent": "SkeletalMesh",
+        "vis": false
+      },
+      {
+        "n": "SM_Turbine",
+        "mesh": "SM_Turbine",
+        "parent": "SkeletalMesh",
+        "vis": false
+      }
+    ],
+    "body_mesh": "SK_MachineGun"
+  },
+  {
+    "label": "BP_XR_SciFi_Shotgun",
+    "body_rot": [
+      0.0,
+      0.0,
+      90.0
+    ],
+    "parts": [
+      {
+        "n": "SK_Aim",
+        "mesh": "SK_Aim",
+        "parent": "SM_Pistol",
+        "lead": null,
+        "vis": true
+      },
+      {
+        "n": "SkeletalMesh",
+        "mesh": "SK_Shotgun",
+        "parent": "SK_Aim",
+        "lead": null,
+        "vis": true
+      },
+      {
+        "n": "SK_Left_Kit",
+        "mesh": "SK_Left_Kit",
+        "parent": "SkeletalMesh",
+        "lead": null,
+        "vis": true
+      },
+      {
+        "n": "SK_Right_Kit",
+        "mesh": "SK_Right_Kit",
+        "parent": "SkeletalMesh",
+        "lead": null,
+        "vis": true
+      }
+    ],
+    "body_mesh": "SK_Shotgun"
+  },
+  {
+    "label": "BP_XR_SciFi_Sniper",
+    "body_rot": [
+      0.0,
+      0.0,
+      90.0
+    ],
+    "parts": [
+      {
+        "n": "SK_Scope",
+        "mesh": "SK_Scope",
+        "parent": "SM_Pistol",
+        "lead": null,
+        "vis": true
+      },
+      {
+        "n": "SK_Carrying",
+        "mesh": "SK_Carrying",
+        "parent": "SM_Pistol",
+        "lead": null,
+        "vis": true
+      },
+      {
+        "n": "SK_Bipods",
+        "mesh": "SK_Bipods",
+        "parent": "SM_Pistol",
+        "lead": null,
+        "vis": true
+      },
+      {
+        "n": "SK_Rail",
+        "mesh": "SK_Rail",
+        "parent": "SM_Pistol",
+        "lead": null,
+        "vis": true
+      },
+      {
+        "n": "SK_Sleeve",
+        "mesh": "SK_Sleeve",
+        "parent": "SM_Pistol",
+        "lead": null,
+        "vis": true
+      },
+      {
+        "n": "SkeletalMesh",
+        "mesh": "SK_Rifle",
+        "parent": "SM_Glass_Front",
+        "lead": null,
+        "vis": true
+      },
+      {
+        "n": "SK_Butt",
+        "mesh": "SK_Butt",
+        "parent": "SkeletalMesh",
+        "lead": null,
+        "vis": true
+      },
+      {
+        "n": "SK_Magazine_Full",
+        "mesh": "SK_Magazine_Full",
+        "parent": "SkeletalMesh",
+        "lead": null,
+        "vis": true
+      },
+      {
+        "n": "SK_Sopla",
+        "mesh": "SK_Sopla",
+        "parent": "SkeletalMesh",
+        "lead": null,
+        "vis": true
+      },
+      {
+        "n": "SM_Glass_Front",
+        "mesh": "SM_Glass_Front",
+        "parent": "SM_Pistol",
+        "vis": true
+      },
+      {
+        "n": "SM_Glass_Aim",
+        "mesh": "SM_Glass_Aim",
+        "parent": "SkeletalMesh",
+        "vis": true
+      }
+    ],
+    "body_mesh": "SK_Rifle"
+  }
+]

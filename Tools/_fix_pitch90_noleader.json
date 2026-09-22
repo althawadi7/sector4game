@@ -1,0 +1,130 @@
+{
+  "log": [
+    {
+      "bp": "BP_XR_SciFi_Pistol",
+      "actions": [
+        "pitch90",
+        "attach_fail:SK_Magazine_Full",
+        "hide:AmmoScreenMesh"
+      ]
+    },
+    {
+      "bp": "BP_XR_SciFi_AssaultRifle_1",
+      "actions": [
+        "pitch90",
+        "attach_fail:SK_Silencer",
+        "attach_fail:SK_Right_Kit",
+        "attach_fail:SK_Magazine",
+        "attach_fail:SK_Butt",
+        "attach_fail:SK_Aim",
+        "hide:SkeletalMesh1",
+        "hide:AmmoScreenMesh"
+      ]
+    },
+    {
+      "bp": "BP_XR_SciFi_AssaultRifle_2",
+      "actions": [
+        "pitch90",
+        "attach_fail:SM_Aim_Glass",
+        "attach_fail:SM_Butt",
+        "attach_fail:SM_Foregrip",
+        "attach_fail:SM_Reactor",
+        "attach_fail:SM_Right_Kit",
+        "attach_fail:SK_Magazine_Full",
+        "hide:SkeletalMesh1",
+        "attach_fail:SK_Left_Kit",
+        "attach_fail:SK_Aim",
+        "attach_fail:SM_Scheme",
+        "hide:AmmoScreenMesh"
+      ]
+    },
+    {
+      "bp": "BP_XR_SciFi_MachineGun",
+      "actions": [
+        "pitch90",
+        "attach_fail:SM_Sensors",
+        "attach_fail:SM_Sopla_Bottom",
+        "attach_fail:SM_Sopla_Left",
+        "attach_fail:SM_Sopla_Right",
+        "attach_fail:SM_Sopla_Side",
+        "attach_fail:SM_Tube_Left",
+        "hide:SkeletalMesh1",
+        "attach_fail:SK_Barrel",
+        "attach_fail:SK_Magazine",
+        "attach_fail:SK_Control_Handle",
+        "attach_fail:SM_Tube_Middle",
+        "hide:AmmoScreenMesh",
+        "attach_fail:SM_Turbine",
+        "attach_fail:SM_Tube_Right"
+      ]
+    },
+    {
+      "bp": "BP_XR_SciFi_Shotgun",
+      "actions": [
+        "pitch90",
+        "attach_fail:SK_Aim",
+        "attach_fail:SK_Right_Kit",
+        "attach_fail:SK_Left_Kit",
+        "hide:SkeletalMesh1",
+        "hide:AmmoScreenMesh"
+      ]
+    },
+    {
+      "bp": "BP_XR_SciFi_Sniper",
+      "actions": [
+        "body=/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/SK_Rifle_Mesh/SK_Rifle",
+        "pitch90",
+        "attach_fail:SK_Sopla",
+        "attach_fail:SM_Glass_Aim",
+        "attach_fail:SM_Glass_Front",
+        "attach_fail:SK_Sleeve",
+        "attach_fail:SK_Rail",
+        "attach_fail:SK_Bipods",
+        "hide:SkeletalMesh1",
+        "attach_fail:SK_Magazine_Full",
+        "attach_fail:SK_Butt",
+        "attach_fail:SK_Carrying",
+        "attach_fail:SK_Scope",
+        "hide:AmmoScreenMesh"
+      ]
+    }
+  ],
+  "spawned": [
+    {
+      "fail": "BP_XR_SciFi_Pistol"
+    },
+    {
+      "fail": "BP_XR_SciFi_AssaultRifle_1"
+    },
+    {
+      "fail": "BP_XR_SciFi_AssaultRifle_2"
+    },
+    {
+      "fail": "BP_XR_SciFi_MachineGun"
+    },
+    {
+      "fail": "BP_XR_SciFi_Shotgun"
+    },
+    {
+      "fail": "BP_XR_SciFi_Sniper"
+    }
+  ],
+  "kit": false,
+  "sniper_meshes": [
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/SK_Rifle_Mesh/SK_Bipods",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/SK_Rifle_Mesh/SK_Butt",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/SK_Rifle_Mesh/SK_Carrying",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/SK_Rifle_Mesh/SK_Magazine_Full",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/SK_Rifle_Mesh/SK_Sleeve",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/SK_Rifle_Mesh/SK_Rail",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/SK_Rifle_Mesh/SK_Rifle",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/SK_Rifle_Mesh/SK_Scope",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/SK_Rifle_Mesh/SK_Sopla",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/SK_Rifle_Mesh/SK_FireFlame",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/SK_Rifle_Mesh/SK_Rail_R",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/SK_Rifle_Mesh/SK_Rail_L",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/SK_Rifle_Mesh/SK_Magazine_Empty",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/SK_Rifle_Mesh/SK_Bullet",
+    "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Demo_Scene/Mannequin/SKM_Manny"
+  ]
+}

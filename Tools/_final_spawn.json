@@ -1,0 +1,32 @@
+[
+  {
+    "label": "BP_XR_SciFi_Pistol",
+    "kit": null,
+    "own_vis": []
+  },
+  {
+    "label": "BP_XR_SciFi_AssaultRifle_1",
+    "kit": "BP_Assault_Rifle_C",
+    "own_vis": []
+  },
+  {
+    "label": "BP_XR_SciFi_AssaultRifle_2",
+    "kit": "BP_AssaultRifle_C",
+    "own_vis": []
+  },
+  {
+    "label": "BP_XR_SciFi_MachineGun",
+    "kit": "BP_MachineGun_C",
+    "own_vis": []
+  },
+  {
+    "label": "BP_XR_SciFi_Shotgun",
+    "kit": "BP_Shotgun_C",
+    "own_vis": []
+  },
+  {
+    "label": "BP_XR_SciFi_Sniper",
+    "kit": "BP_Sniper_Rifle_C",
+    "own_vis": []
+  }
+]

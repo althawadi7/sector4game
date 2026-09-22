@@ -1,0 +1,41 @@
+{
+  "log": [
+    "evt",
+    {
+      "get_child": null,
+      "pins": []
+    },
+    {
+      "hooked": 0
+    },
+    {
+      "status": "saved"
+    }
+  ],
+  "demo": {
+    "BP_XR_SciFi_AssaultRifle_1": {
+      "ammo": 17,
+      "mats": 7
+    },
+    "BP_XR_SciFi_AssaultRifle_2": {
+      "ammo": 22,
+      "mats": 12
+    },
+    "BP_XR_SciFi_MachineGun": {
+      "ammo": 64,
+      "mats": 14
+    },
+    "BP_XR_SciFi_Pistol": {
+      "ammo": 9,
+      "mats": 0
+    },
+    "BP_XR_SciFi_Shotgun": {
+      "ammo": 3,
+      "mats": 0
+    },
+    "BP_XR_SciFi_Sniper": {
+      "ammo": 2,
+      "mats": 0
+    }
+  }
+}

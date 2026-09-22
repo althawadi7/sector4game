@@ -1,0 +1,239 @@
+{
+  "xrfire": [
+    {
+      "t": "XRFireNow",
+      "cls": "K2Node_FunctionEntry",
+      "d": 0,
+      "pins": [
+        {
+          "n": "then",
+          "d": "OUT",
+          "v": "",
+          "l": [
+            "PrintString::execute"
+          ]
+        }
+      ]
+    },
+    {
+      "t": "PrintString",
+      "cls": "K2Node_CallFunction",
+      "d": 1,
+      "pins": [
+        {
+          "n": "execute",
+          "d": "IN",
+          "v": "",
+          "l": [
+            "<-XRFireNow::then"
+          ]
+        },
+        {
+          "n": "InString",
+          "d": "IN",
+          "v": "VRSHOOT XRFireNow",
+          "l": []
+        },
+        {
+          "n": "bPrintToScreen",
+          "d": "IN",
+          "v": "true",
+          "l": []
+        },
+        {
+          "n": "bPrintToLog",
+          "d": "IN",
+          "v": "true",
+          "l": []
+        },
+        {
+          "n": "TextColor",
+          "d": "IN",
+          "v": "(R=0.000000,G=0.660000,B=1.000000,A=1.000000)",
+          "l": []
+        },
+        {
+          "n": "Duration",
+          "d": "IN",
+          "v": "2.000000",
+          "l": []
+        },
+        {
+          "n": "Key",
+          "d": "IN",
+          "v": "None",
+          "l": []
+        },
+        {
+          "n": "then",
+          "d": "OUT",
+          "v": "",
+          "l": [
+            "Play::execute"
+          ]
+        }
+      ]
+    },
+    {
+      "t": "Play",
+      "cls": "K2Node_CallFunction",
+      "d": 2,
+      "pins": [
+        {
+          "n": "execute",
+          "d": "IN",
+          "v": "",
+          "l": [
+            "<-PrintString::then"
+          ]
+        },
+        {
+          "n": "self",
+          "d": "IN",
+          "v": "",
+          "l": [
+            "<-Get::Item"
+          ]
+        },
+        {
+          "n": "StartTime",
+          "d": "IN",
+          "v": "0.000000",
+          "l": []
+        },
+        {
+          "n": "then",
+          "d": "OUT",
+          "v": "",
+          "l": [
+            "SetActive::execute"
+          ]
+        }
+      ]
+    },
+    {
+      "t": "SetActive",
+      "cls": "K2Node_CallFunction",
+      "d": 3,
+      "pins": [
+        {
+          "n": "execute",
+          "d": "IN",
+          "v": "",
+          "l": [
+            "<-Play::then"
+          ]
+        },
+        {
+          "n": "self",
+          "d": "IN",
+          "v": "",
+          "l": [
+            "<-Get::Item"
+          ]
+        },
+        {
+          "n": "bNewActive",
+          "d": "IN",
+          "v": "true",
+          "l": []
+        },
+        {
+          "n": "bReset",
+          "d": "IN",
+          "v": "true",
+          "l": []
+        },
+        {
+          "n": "then",
+          "d": "OUT",
+          "v": "",
+          "l": [
+            "DoFire::execute"
+          ]
+        }
+      ]
+    },
+    {
+      "t": "DoFire",
+      "cls": "K2Node_CallFunction",
+      "d": 4,
+      "pins": [
+        {
+          "n": "execute",
+          "d": "IN",
+          "v": "",
+          "l": [
+            "<-SetActive::then"
+          ]
+        },
+        {
+          "n": "self",
+          "d": "IN",
+          "v": "",
+          "l": []
+        },
+        {
+          "n": "then",
+          "d": "OUT",
+          "v": "",
+          "l": []
+        }
+      ]
+    }
+  ],
+  "server": [
+    {
+      "t": "ServerDoFire",
+      "d": 0,
+      "outs": [
+        "then->GetActorOfClass",
+        "SpawnTransform->Acquire",
+        "SpawnTransform->SpawnActor BP Projectile"
+      ]
+    },
+    {
+      "t": "GetActorOfClass",
+      "d": 1,
+      "outs": [
+        "then->Cast To BP_ActorPool",
+        "ReturnValue->Cast To BP_ActorPool"
+      ]
+    },
+    {
+      "t": "Acquire",
+      "d": 1,
+      "outs": [
+        "then->Cast To BP_Projectile",
+        "PooledActor->Cast To BP_Projectile"
+      ]
+    },
+    {
+      "t": "SpawnActor BP Projectile",
+      "d": 1,
+      "outs": []
+    },
+    {
+      "t": "Cast To BP_ActorPool",
+      "d": 2,
+      "outs": [
+        "then->Acquire",
+        "CastFailed->SpawnActor BP Projectile",
+        "AsBP Actor Pool->Acquire"
+      ]
+    },
+    {
+      "t": "Cast To BP_Projectile",
+      "d": 2,
+      "outs": [
+        "then->PoolActivate",
+        "AsBP Projectile->PoolActivate"
+      ]
+    },
+    {
+      "t": "PoolActivate",
+      "d": 3,
+      "outs": []
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "path": "/Game/XRFramework/Blueprints/SciFiWeapons/BP_XR_SciFi_Pistol",
+    "exc": "Traceback (most recent call last):\n  File \"<string>\", line 199, in <module>\n  File \"<string>\", line 85, in wire\n  File \"<string>\", line 27, in link\nAttributeError: 'NoneType' object has no attribute 'list_input_pins'\n"
+  },
+  {
+    "path": "/Game/XRFramework/Blueprints/SciFiWeapons/BP_XR_SciFi_AssaultRifle_1",
+    "exc": "Traceback (most recent call last):\n  File \"<string>\", line 199, in <module>\n  File \"<string>\", line 185, in wire\nAttributeError: 'K2Node_VariableSet' object has no attribute 'node_pos_x'\n"
+  },
+  {
+    "path": "/Game/XRFramework/Blueprints/SciFiWeapons/BP_XR_SciFi_AssaultRifle_2",
+    "exc": "Traceback (most recent call last):\n  File \"<string>\", line 199, in <module>\n  File \"<string>\", line 185, in wire\nAttributeError: 'K2Node_VariableSet' object has no attribute 'node_pos_x'\n"
+  },
+  {
+    "path": "/Game/XRFramework/Blueprints/SciFiWeapons/BP_XR_SciFi_MachineGun",
+    "exc": "Traceback (most recent call last):\n  File \"<string>\", line 199, in <module>\n  File \"<string>\", line 185, in wire\nAttributeError: 'K2Node_VariableSet' object has no attribute 'node_pos_x'\n"
+  },
+  {
+    "path": "/Game/XRFramework/Blueprints/SciFiWeapons/BP_XR_SciFi_Shotgun",
+    "exc": "Traceback (most recent call last):\n  File \"<string>\", line 199, in <module>\n  File \"<string>\", line 185, in wire\nAttributeError: 'K2Node_VariableSet' object has no attribute 'node_pos_x'\n"
+  },
+  {
+    "path": "/Game/XRFramework/Blueprints/SciFiWeapons/BP_XR_SciFi_Sniper",
+    "exc": "Traceback (most recent call last):\n  File \"<string>\", line 199, in <module>\n  File \"<string>\", line 185, in wire\nAttributeError: 'K2Node_VariableSet' object has no attribute 'node_pos_x'\n"
+  },
+  {
+    "path": "/Game/XRFramework/Blueprints/BP_Rifle",
+    "exc": "Traceback (most recent call last):\n  File \"<string>\", line 211, in <module>\n  File \"<string>\", line 98, in wire\nAttributeError: 'NoneType' object has no attribute 'list_output_pins'\n"
+  }
+]

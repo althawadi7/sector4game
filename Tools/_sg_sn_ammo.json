@@ -1,0 +1,674 @@
+{
+  "SG": [
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Shotgun_C_CAT_6",
+      "mesh": "SK_Shotgun",
+      "slot": 0,
+      "mat": "MI_Shotgun",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Shotgun/Shotgun/Material_Shotgun/MI_Shotgun.MI_Shotgun",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Shotgun_C_CAT_6",
+      "mesh": "SK_Aim",
+      "slot": 0,
+      "mat": "MI_Aim",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Shotgun/Shotgun/Material_Shotgun/MI_Aim.MI_Aim",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Shotgun_C_CAT_6",
+      "mesh": "SK_Left_Kit",
+      "slot": 0,
+      "mat": "MI_Bullet",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Shotgun/Shotgun/Material_Shotgun/MI_Bullet.MI_Bullet",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Shotgun_C_CAT_6",
+      "mesh": "SK_Left_Kit",
+      "slot": 1,
+      "mat": "MI_Left_Kit",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Shotgun/Shotgun/Material_Shotgun/MI_Left_Kit.MI_Left_Kit",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Shotgun_C_CAT_6",
+      "mesh": "SK_Right_Kit",
+      "slot": 0,
+      "mat": "MI_Right_Kit",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Shotgun/Shotgun/Material_Shotgun/MI_Right_Kit.MI_Right_Kit",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Shotgun_C_CAT_6",
+      "mesh": "SK_Bullet_Left",
+      "slot": 0,
+      "mat": "MI_Bullet",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Shotgun/Shotgun/Material_Shotgun/MI_Bullet.MI_Bullet",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Shotgun_C_CAT_6",
+      "mesh": "SK_Bullet_Right",
+      "slot": 0,
+      "mat": "MI_Bullet",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Shotgun/Shotgun/Material_Shotgun/MI_Bullet.MI_Bullet",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Shotgun_C_CAT_6",
+      "mesh": "SK_Bullet_Empty_L",
+      "slot": 0,
+      "mat": "MI_Bullet",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Shotgun/Shotgun/Material_Shotgun/MI_Bullet.MI_Bullet",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Shotgun_C_CAT_6",
+      "mesh": "SK_Bullet_Empty_R",
+      "slot": 0,
+      "mat": "MI_Bullet",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Shotgun/Shotgun/Material_Shotgun/MI_Bullet.MI_Bullet",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "BP_XR_SciFi_Shotgun_C_7",
+      "mesh": "SM_Pistol",
+      "slot": 0,
+      "mat": "M_Weapon",
+      "path": "/Game/Weapons/Rifle/Materials/M_Weapon.M_Weapon",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Shotgun_C_CAT_6",
+      "mesh": "SK_Shotgun",
+      "slot": 0,
+      "mat": "MI_Shotgun",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Shotgun/Shotgun/Material_Shotgun/MI_Shotgun.MI_Shotgun",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Shotgun_C_CAT_6",
+      "mesh": "SK_Aim",
+      "slot": 0,
+      "mat": "MI_Aim",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Shotgun/Shotgun/Material_Shotgun/MI_Aim.MI_Aim",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Shotgun_C_CAT_6",
+      "mesh": "SK_Left_Kit",
+      "slot": 0,
+      "mat": "MI_Bullet",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Shotgun/Shotgun/Material_Shotgun/MI_Bullet.MI_Bullet",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Shotgun_C_CAT_6",
+      "mesh": "SK_Left_Kit",
+      "slot": 1,
+      "mat": "MI_Left_Kit",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Shotgun/Shotgun/Material_Shotgun/MI_Left_Kit.MI_Left_Kit",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Shotgun_C_CAT_6",
+      "mesh": "SK_Right_Kit",
+      "slot": 0,
+      "mat": "MI_Right_Kit",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Shotgun/Shotgun/Material_Shotgun/MI_Right_Kit.MI_Right_Kit",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Shotgun_C_CAT_6",
+      "mesh": "SK_Bullet_Left",
+      "slot": 0,
+      "mat": "MI_Bullet",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Shotgun/Shotgun/Material_Shotgun/MI_Bullet.MI_Bullet",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Shotgun_C_CAT_6",
+      "mesh": "SK_Bullet_Right",
+      "slot": 0,
+      "mat": "MI_Bullet",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Shotgun/Shotgun/Material_Shotgun/MI_Bullet.MI_Bullet",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Shotgun_C_CAT_6",
+      "mesh": "SK_Bullet_Empty_L",
+      "slot": 0,
+      "mat": "MI_Bullet",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Shotgun/Shotgun/Material_Shotgun/MI_Bullet.MI_Bullet",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Shotgun_C_CAT_6",
+      "mesh": "SK_Bullet_Empty_R",
+      "slot": 0,
+      "mat": "MI_Bullet",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Shotgun/Shotgun/Material_Shotgun/MI_Bullet.MI_Bullet",
+      "ammo_params": [],
+      "has_param": false
+    }
+  ],
+  "SN": [
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Sniper_Rifle_C_CAT_6",
+      "mesh": "SK_Rifle",
+      "slot": 0,
+      "mat": "MI_Rifle",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Rifle.MI_Rifle",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Sniper_Rifle_C_CAT_6",
+      "mesh": "SK_Carrying",
+      "slot": 0,
+      "mat": "MI_Carrying",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Carrying.MI_Carrying",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Sniper_Rifle_C_CAT_6",
+      "mesh": "SK_Butt",
+      "slot": 0,
+      "mat": "MI_Butt",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Butt.MI_Butt",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Sniper_Rifle_C_CAT_6",
+      "mesh": "SK_Sopla_1",
+      "slot": 0,
+      "mat": "MI_Sopla",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Sopla.MI_Sopla",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Sniper_Rifle_C_CAT_6",
+      "mesh": "SK_Sopla_2",
+      "slot": 0,
+      "mat": "MI_Sopla",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Sopla.MI_Sopla",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Sniper_Rifle_C_CAT_6",
+      "mesh": "SK_Sopla_3",
+      "slot": 0,
+      "mat": "MI_Sopla",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Sopla.MI_Sopla",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Sniper_Rifle_C_CAT_6",
+      "mesh": "SK_Sopla_4",
+      "slot": 0,
+      "mat": "MI_Sopla",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Sopla.MI_Sopla",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Sniper_Rifle_C_CAT_6",
+      "mesh": "SK_Bullet",
+      "slot": 0,
+      "mat": "MI_Bullet",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Bullet.MI_Bullet",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Sniper_Rifle_C_CAT_6",
+      "mesh": "SK_Sleeve",
+      "slot": 0,
+      "mat": "MI_Bullet",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Bullet.MI_Bullet",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Sniper_Rifle_C_CAT_6",
+      "mesh": "SK_Magazine_Empty",
+      "slot": 0,
+      "mat": "MI_Magazine",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Magazine.MI_Magazine",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Sniper_Rifle_C_CAT_6",
+      "mesh": "SK_Magazine_Full",
+      "slot": 0,
+      "mat": "MI_Bullet",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Bullet.MI_Bullet",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Sniper_Rifle_C_CAT_6",
+      "mesh": "SK_Magazine_Full",
+      "slot": 1,
+      "mat": "MI_Magazine",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Magazine.MI_Magazine",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Sniper_Rifle_C_CAT_6",
+      "mesh": "SK_Scope",
+      "slot": 0,
+      "mat": "MI_Scope",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Scope.MI_Scope",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Sniper_Rifle_C_CAT_6",
+      "mesh": "SK_Bipods",
+      "slot": 0,
+      "mat": "MI_Bipod",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Bipod.MI_Bipod",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Sniper_Rifle_C_CAT_6",
+      "mesh": "SK_FireFlame",
+      "slot": 0,
+      "mat": "MI_FireFlame",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_FireFlame.MI_FireFlame",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Sniper_Rifle_C_CAT_6",
+      "mesh": "SK_Rail",
+      "slot": 0,
+      "mat": "MI_Rail",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Rail.MI_Rail",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Sniper_Rifle_C_CAT_6",
+      "mesh": "SK_Rail_L_1",
+      "slot": 0,
+      "mat": "MI_Rail",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Rail.MI_Rail",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Sniper_Rifle_C_CAT_6",
+      "mesh": "SK_Rail_L_2",
+      "slot": 0,
+      "mat": "MI_Rail",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Rail.MI_Rail",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Sniper_Rifle_C_CAT_6",
+      "mesh": "SK_Rail_L_3",
+      "slot": 0,
+      "mat": "MI_Rail",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Rail.MI_Rail",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Sniper_Rifle_C_CAT_6",
+      "mesh": "SK_Rail_L_4",
+      "slot": 0,
+      "mat": "MI_Rail",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Rail.MI_Rail",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Sniper_Rifle_C_CAT_6",
+      "mesh": "SK_Rail_R_1",
+      "slot": 0,
+      "mat": "MI_Rail",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Rail.MI_Rail",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Sniper_Rifle_C_CAT_6",
+      "mesh": "SK_Rail_R_2",
+      "slot": 0,
+      "mat": "MI_Rail",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Rail.MI_Rail",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Sniper_Rifle_C_CAT_6",
+      "mesh": "SK_Rail_R_3",
+      "slot": 0,
+      "mat": "MI_Rail",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Rail.MI_Rail",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Sniper_Rifle_C_CAT_6",
+      "mesh": "SK_Rail_R_4",
+      "slot": 0,
+      "mat": "MI_Rail",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Rail.MI_Rail",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Sniper_Rifle_C_CAT_6",
+      "mesh": "SM_Glass_Aim",
+      "slot": 0,
+      "mat": "MI_Aim_Sight",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Aim_Sight.MI_Aim_Sight",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Sniper_Rifle_C_CAT_6",
+      "mesh": "SM_Glass_Front",
+      "slot": 0,
+      "mat": "MI_Glass_Front",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Glass_Front.MI_Glass_Front",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Sniper_Rifle_C_CAT_6",
+      "mesh": "StaticMeshComponent_0",
+      "slot": 0,
+      "mat": "MatineeCam_mat",
+      "path": "/Engine/EditorMaterials/MatineeCam_mat.MatineeCam_mat",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "BP_XR_SciFi_Sniper_C_7",
+      "mesh": "SM_Pistol",
+      "slot": 0,
+      "mat": "M_Weapon",
+      "path": "/Game/Weapons/Rifle/Materials/M_Weapon.M_Weapon",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Sniper_Rifle_C_CAT_6",
+      "mesh": "SK_Rifle",
+      "slot": 0,
+      "mat": "MI_Rifle",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Rifle.MI_Rifle",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Sniper_Rifle_C_CAT_6",
+      "mesh": "SK_Carrying",
+      "slot": 0,
+      "mat": "MI_Carrying",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Carrying.MI_Carrying",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Sniper_Rifle_C_CAT_6",
+      "mesh": "SK_Butt",
+      "slot": 0,
+      "mat": "MI_Butt",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Butt.MI_Butt",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Sniper_Rifle_C_CAT_6",
+      "mesh": "SK_Sopla_1",
+      "slot": 0,
+      "mat": "MI_Sopla",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Sopla.MI_Sopla",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Sniper_Rifle_C_CAT_6",
+      "mesh": "SK_Sopla_2",
+      "slot": 0,
+      "mat": "MI_Sopla",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Sopla.MI_Sopla",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Sniper_Rifle_C_CAT_6",
+      "mesh": "SK_Sopla_3",
+      "slot": 0,
+      "mat": "MI_Sopla",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Sopla.MI_Sopla",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Sniper_Rifle_C_CAT_6",
+      "mesh": "SK_Sopla_4",
+      "slot": 0,
+      "mat": "MI_Sopla",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Sopla.MI_Sopla",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Sniper_Rifle_C_CAT_6",
+      "mesh": "SK_Bullet",
+      "slot": 0,
+      "mat": "MI_Bullet",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Bullet.MI_Bullet",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Sniper_Rifle_C_CAT_6",
+      "mesh": "SK_Sleeve",
+      "slot": 0,
+      "mat": "MI_Bullet",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Bullet.MI_Bullet",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Sniper_Rifle_C_CAT_6",
+      "mesh": "SK_Magazine_Empty",
+      "slot": 0,
+      "mat": "MI_Magazine",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Magazine.MI_Magazine",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Sniper_Rifle_C_CAT_6",
+      "mesh": "SK_Magazine_Full",
+      "slot": 0,
+      "mat": "MI_Bullet",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Bullet.MI_Bullet",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Sniper_Rifle_C_CAT_6",
+      "mesh": "SK_Magazine_Full",
+      "slot": 1,
+      "mat": "MI_Magazine",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Magazine.MI_Magazine",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Sniper_Rifle_C_CAT_6",
+      "mesh": "SK_Scope",
+      "slot": 0,
+      "mat": "MI_Scope",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Scope.MI_Scope",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Sniper_Rifle_C_CAT_6",
+      "mesh": "SK_Bipods",
+      "slot": 0,
+      "mat": "MI_Bipod",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Bipod.MI_Bipod",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Sniper_Rifle_C_CAT_6",
+      "mesh": "SK_FireFlame",
+      "slot": 0,
+      "mat": "MI_FireFlame",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_FireFlame.MI_FireFlame",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Sniper_Rifle_C_CAT_6",
+      "mesh": "SK_Rail",
+      "slot": 0,
+      "mat": "MI_Rail",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Rail.MI_Rail",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Sniper_Rifle_C_CAT_6",
+      "mesh": "SK_Rail_L_1",
+      "slot": 0,
+      "mat": "MI_Rail",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Rail.MI_Rail",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Sniper_Rifle_C_CAT_6",
+      "mesh": "SK_Rail_L_2",
+      "slot": 0,
+      "mat": "MI_Rail",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Rail.MI_Rail",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Sniper_Rifle_C_CAT_6",
+      "mesh": "SK_Rail_L_3",
+      "slot": 0,
+      "mat": "MI_Rail",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Rail.MI_Rail",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Sniper_Rifle_C_CAT_6",
+      "mesh": "SK_Rail_L_4",
+      "slot": 0,
+      "mat": "MI_Rail",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Rail.MI_Rail",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Sniper_Rifle_C_CAT_6",
+      "mesh": "SK_Rail_R_1",
+      "slot": 0,
+      "mat": "MI_Rail",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Rail.MI_Rail",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Sniper_Rifle_C_CAT_6",
+      "mesh": "SK_Rail_R_2",
+      "slot": 0,
+      "mat": "MI_Rail",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Rail.MI_Rail",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Sniper_Rifle_C_CAT_6",
+      "mesh": "SK_Rail_R_3",
+      "slot": 0,
+      "mat": "MI_Rail",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Rail.MI_Rail",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Sniper_Rifle_C_CAT_6",
+      "mesh": "SK_Rail_R_4",
+      "slot": 0,
+      "mat": "MI_Rail",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Rail.MI_Rail",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Sniper_Rifle_C_CAT_6",
+      "mesh": "SM_Glass_Aim",
+      "slot": 0,
+      "mat": "MI_Aim_Sight",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Aim_Sight.MI_Aim_Sight",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Sniper_Rifle_C_CAT_6",
+      "mesh": "SM_Glass_Front",
+      "slot": 0,
+      "mat": "MI_Glass_Front",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Glass_Front.MI_Glass_Front",
+      "ammo_params": [],
+      "has_param": false
+    },
+    {
+      "actor": "KitVisual_GEN_VARIABLE_BP_Sniper_Rifle_C_CAT_6",
+      "mesh": "StaticMeshComponent_0",
+      "slot": 0,
+      "mat": "MatineeCam_mat",
+      "path": "/Engine/EditorMaterials/MatineeCam_mat.MatineeCam_mat",
+      "ammo_params": [],
+      "has_param": false
+    }
+  ],
+  "SG_assets": [],
+  "SN_assets": []
+}

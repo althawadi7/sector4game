@@ -1,0 +1,26 @@
+{
+  "nodes": [],
+  "child_func_pins": [],
+  "prop_pins": [],
+  "evt": {
+    "title": "XRUpdateKitAmmoScreen",
+    "name": "K2Node_CallFunction_25",
+    "pins": [
+      {
+        "name": "execute",
+        "direction": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+        "type": "Exec"
+      },
+      {
+        "name": "self",
+        "direction": "<EdGraphPinDirection.EGPD_INPUT: 0>",
+        "type": "Self Object Reference"
+      },
+      {
+        "name": "then",
+        "direction": "<EdGraphPinDirection.EGPD_OUTPUT: 1>",
+        "type": "Exec"
+      }
+    ]
+  }
+}

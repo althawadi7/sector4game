@@ -1,0 +1,26 @@
+[
+  {
+    "path": "/Game/XRFramework/Blueprints/SciFiWeapons/BP_XR_SciFi_Pistol",
+    "exc": "Traceback (most recent call last):\n  File \"<string>\", line 230, in <module>\n  File \"<string>\", line 77, in wire_gun\n  File \"<string>\", line 42, in link\n  File \"<string>\", line 27, in find_pin\nAttributeError: 'K2Node_VariableGet' object has no attribute 'get_all_pins'\n"
+  },
+  {
+    "path": "/Game/XRFramework/Blueprints/SciFiWeapons/BP_XR_SciFi_AssaultRifle_1",
+    "exc": "Traceback (most recent call last):\n  File \"<string>\", line 230, in <module>\n  File \"<string>\", line 77, in wire_gun\n  File \"<string>\", line 42, in link\n  File \"<string>\", line 27, in find_pin\nAttributeError: 'K2Node_VariableGet' object has no attribute 'get_all_pins'\n"
+  },
+  {
+    "path": "/Game/XRFramework/Blueprints/SciFiWeapons/BP_XR_SciFi_AssaultRifle_2",
+    "exc": "Traceback (most recent call last):\n  File \"<string>\", line 230, in <module>\n  File \"<string>\", line 77, in wire_gun\n  File \"<string>\", line 42, in link\n  File \"<string>\", line 27, in find_pin\nAttributeError: 'K2Node_VariableGet' object has no attribute 'get_all_pins'\n"
+  },
+  {
+    "path": "/Game/XRFramework/Blueprints/SciFiWeapons/BP_XR_SciFi_MachineGun",
+    "exc": "Traceback (most recent call last):\n  File \"<string>\", line 230, in <module>\n  File \"<string>\", line 77, in wire_gun\n  File \"<string>\", line 42, in link\n  File \"<string>\", line 27, in find_pin\nAttributeError: 'K2Node_VariableGet' object has no attribute 'get_all_pins'\n"
+  },
+  {
+    "path": "/Game/XRFramework/Blueprints/SciFiWeapons/BP_XR_SciFi_Shotgun",
+    "exc": "Traceback (most recent call last):\n  File \"<string>\", line 230, in <module>\n  File \"<string>\", line 77, in wire_gun\n  File \"<string>\", line 42, in link\n  File \"<string>\", line 27, in find_pin\nAttributeError: 'K2Node_VariableGet' object has no attribute 'get_all_pins'\n"
+  },
+  {
+    "path": "/Game/XRFramework/Blueprints/SciFiWeapons/BP_XR_SciFi_Sniper",
+    "exc": "Traceback (most recent call last):\n  File \"<string>\", line 230, in <module>\n  File \"<string>\", line 77, in wire_gun\n  File \"<string>\", line 42, in link\n  File \"<string>\", line 27, in find_pin\nAttributeError: 'K2Node_VariableGet' object has no attribute 'get_all_pins'\n"
+  }
+]

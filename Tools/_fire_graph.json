@@ -1,0 +1,276 @@
+{
+  "xrfire": [],
+  "dofire_related": [
+    {
+      "title": "DoFire",
+      "name": "t5_CustomEvent_1",
+      "pos": {
+        "x": -1600,
+        "y": 8122
+      },
+      "pins": [
+        "OutputDelegate",
+        "then"
+      ]
+    },
+    {
+      "title": "SpawnSystemAtLocation",
+      "name": "t19_NiagaraFunctionLibrary_SpawnSystemAtLocation_1",
+      "pos": {
+        "x": 2035,
+        "y": 8922
+      },
+      "pins": [
+        "execute",
+        "SystemTemplate",
+        "Location",
+        "Rotation",
+        "Scale",
+        "bAutoDestroy",
+        "bAutoActivate",
+        "PoolingMethod",
+        "bPreCullCheck",
+        "then",
+        "ReturnValue"
+      ]
+    },
+    {
+      "title": "SpawnActor BP Projectile",
+      "name": "t21_SpawnActorFromClass_1",
+      "pos": {
+        "x": 1005,
+        "y": 5308
+      },
+      "pins": [
+        "execute",
+        "Class",
+        "SpawnTransform",
+        "CollisionHandlingOverride",
+        "TransformScaleMethod",
+        "Owner",
+        "Instigator",
+        "then",
+        "ReturnValue"
+      ]
+    },
+    {
+      "title": "PlaySoundAtLocation",
+      "name": "t19_PlaySoundAtLocation_1",
+      "pos": {
+        "x": 2330,
+        "y": 8922
+      },
+      "pins": [
+        "execute",
+        "Sound",
+        "Location",
+        "Rotation",
+        "VolumeMultiplier",
+        "PitchMultiplier",
+        "StartTime",
+        "AttenuationSettings",
+        "ConcurrencySettings",
+        "OwningActor",
+        "InitialParams",
+        "then"
+      ]
+    },
+    {
+      "title": "SpawnActor BP Projectile",
+      "name": "t19_SpawnActorFromClass_1",
+      "pos": {
+        "x": 3470,
+        "y": 9872
+      },
+      "pins": [
+        "execute",
+        "Class",
+        "SpawnTransform",
+        "CollisionHandlingOverride",
+        "TransformScaleMethod",
+        "Owner",
+        "Instigator",
+        "then",
+        "ReturnValue"
+      ]
+    },
+    {
+      "title": "SpawnSystemAtLocation",
+      "name": "t6_NiagaraFunctionLibrary_SpawnSystemAtLocation_1",
+      "pos": {
+        "x": 3175,
+        "y": 5572
+      },
+      "pins": [
+        "execute",
+        "SystemTemplate",
+        "Location",
+        "Rotation",
+        "Scale",
+        "bAutoDestroy",
+        "bAutoActivate",
+        "PoolingMethod",
+        "bPreCullCheck",
+        "then",
+        "ReturnValue"
+      ]
+    },
+    {
+      "title": "PlaySoundAtLocation",
+      "name": "t6_PlaySoundAtLocation_1",
+      "pos": {
+        "x": 3470,
+        "y": 5572
+      },
+      "pins": [
+        "execute",
+        "Sound",
+        "Location",
+        "Rotation",
+        "VolumeMultiplier",
+        "PitchMultiplier",
+        "StartTime",
+        "AttenuationSettings",
+        "ConcurrencySettings",
+        "OwningActor",
+        "InitialParams",
+        "then"
+      ]
+    },
+    {
+      "title": "SpawnActor BP Projectile",
+      "name": "t6_SpawnActorFromClass_1",
+      "pos": {
+        "x": 4885,
+        "y": 7722
+      },
+      "pins": [
+        "execute",
+        "Class",
+        "SpawnTransform",
+        "CollisionHandlingOverride",
+        "TransformScaleMethod",
+        "Owner",
+        "Instigator",
+        "then",
+        "ReturnValue"
+      ]
+    }
+  ],
+  "server": [
+    {
+      "title": "ServerDoFire",
+      "name": "t21_CustomEvent_1",
+      "pos": {
+        "x": 120,
+        "y": 4908
+      },
+      "pins": [
+        "OutputDelegate",
+        "then",
+        "SpawnTransform"
+      ]
+    },
+    {
+      "title": "ServerDoFire",
+      "name": "t19_ServerDoFire_1",
+      "pos": {
+        "x": 2330,
+        "y": 10072
+      },
+      "pins": [
+        "execute",
+        "self",
+        "SpawnTransform",
+        "then"
+      ]
+    }
+  ],
+  "mg_titles": [],
+  "bounds": [
+    {
+      "comp": "SK_Assault_Rifle",
+      "mesh": "SK_Rifle_Assault_Rifle",
+      "sockets": [
+        "trigger",
+        "magazine",
+        "muzzle",
+        "bracing_magazine"
+      ],
+      "rel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rel_rot": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "comp": "SK_Butt",
+      "mesh": "SK_Butt",
+      "sockets": [],
+      "rel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rel_rot": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "comp": "SK_Aim",
+      "mesh": "SK_Aim",
+      "sockets": [],
+      "rel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rel_rot": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "comp": "SK_Right_Kit",
+      "mesh": "SK_Right_Kit",
+      "sockets": [
+        "flash"
+      ],
+      "rel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rel_rot": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "comp": "SK_Silencer",
+      "mesh": "SK_Silencer",
+      "sockets": [
+        "muzzle"
+      ],
+      "rel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rel_rot": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "pistol_hits": [
+    {
+      "name": "SK_Pistol_Skeleton",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Pistol/Pistol/SK_Mesh/Skeleton/SK_Pistol_Skeleton",
+      "class": "Skeleton"
+    },
+    {
+      "name": "T_Pistol_BaseColor",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Pistol/Pistol/Material/Source/Texture/Pistol/T_Pistol_BaseColor",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_Pistol_Emissive",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Pistol/Pistol/Material/Source/Texture/Pistol/T_Pistol_Emissive",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_Pistol_Normal",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Pistol/Pistol/Material/Source/Texture/Pistol/T_Pistol_Normal",
+      "class": "Texture2D"
+    },
+    {
+      "name": "T_Pistol_OcclusionRoughnessMetallic",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Pistol/Pistol/Material/Source/Texture/Pistol/T_Pistol_OcclusionRoughnessMetallic",
+      "class": "Texture2D"
+    },
+    {
+      "name": "M_Pistol",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Pistol/Pistol/Material/Source/M_Pistol",
+      "class": "Material"
+    },
+    {
+      "name": "SK_Pistol",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Pistol/Pistol/SK_Mesh/SK_Pistol",
+      "class": "SkeletalMesh"
+    },
+    {
+      "name": "SK_Pistol_Physics",
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Pistol/Pistol/SK_Mesh/Physics_Asset/SK_Pistol_Physics",
+      "class": "PhysicsAsset"
+    }
+  ],
+  "KITREF_AR1": [
+    {
+      "comp": "SK_Assault_Rifle",
+      "mesh": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/SK_Rifle_Mesh/SK_Rifle_Assault_Rifle.SK_Rifle_Assault_Rifle",
+      "skel": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/SK_Rifle_Skeleton/SK_Assault_Rifle_Skeleton.SK_Assault_Rifle_Skeleton",
+      "leader": null
+    },
+    {
+      "comp": "SK_Butt",
+      "mesh": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/SK_Rifle_Mesh/SK_Butt.SK_Butt",
+      "skel": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/SK_Rifle_Skeleton/SK_Butt_Skeleton.SK_Butt_Skeleton",
+      "leader": "SK_Assault_Rifle"
+    },
+    {
+      "comp": "SK_Magazine_Full",
+      "mesh": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/SK_Rifle_Mesh/SK_Magazine.SK_Magazine",
+      "skel": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/SK_Rifle_Skeleton/SK_Magazine_Skeleton.SK_Magazine_Skeleton",
+      "leader": "SK_Assault_Rifle"
+    },
+    {
+      "comp": "SK_Bullet_Full_Magazine",
+      "mesh": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/SK_Rifle_Mesh/SK_Bullet_Full_Magazine.SK_Bullet_Full_Magazine",
+      "skel": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/SK_Rifle_Skeleton/SK_Bullet_Full_Magazine_Skeleton.SK_Bullet_Full_Magazine_Skeleton",
+      "leader": null
+    },
+    {
+      "comp": "SK_Bullet",
+      "mesh": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/SK_Rifle_Mesh/SK_Bullet.SK_Bullet",
+      "skel": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/SK_Rifle_Skeleton/SK_Bullet_Skeleton.SK_Bullet_Skeleton",
+      "leader": null
+    },
+    {
+      "comp": "SK_Aim",
+      "mesh": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/SK_Rifle_Mesh/SK_Aim.SK_Aim",
+      "skel": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/SK_Rifle_Skeleton/SK_Aim_Skeleton.SK_Aim_Skeleton",
+      "leader": "SK_Assault_Rifle"
+    },
+    {
+      "comp": "SK_Right_Kit",
+      "mesh": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/SK_Rifle_Mesh/SK_Right_Kit.SK_Right_Kit",
+      "skel": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/SK_Rifle_Skeleton/SK_Right_Kit_Skeleton.SK_Right_Kit_Skeleton",
+      "leader": "SK_Assault_Rifle"
+    },
+    {
+      "comp": "SK_Silencer",
+      "mesh": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/SK_Rifle_Mesh/SK_Silencer.SK_Silencer",
+      "skel": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/SK_Rifle_Skeleton/SK_Silencer_Skeleton.SK_Silencer_Skeleton",
+      "leader": "SK_Assault_Rifle"
+    },
+    {
+      "comp": "SK_Magazine_Emty",
+      "mesh": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/SK_Rifle_Mesh/SK_Magazine.SK_Magazine",
+      "skel": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/SK_Rifle_Skeleton/SK_Magazine_Skeleton.SK_Magazine_Skeleton",
+      "leader": "SK_Assault_Rifle"
+    }
+  ],
+  "BP_XR_SciFi_AssaultRifle_1": [
+    {
+      "comp": "SkeletalMesh",
+      "mesh": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/SK_Rifle_Mesh/SK_Rifle_Assault_Rifle.SK_Rifle_Assault_Rifle",
+      "skel": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/SK_Rifle_Skeleton/SK_Assault_Rifle_Skeleton.SK_Assault_Rifle_Skeleton",
+      "leader": null
+    },
+    {
+      "comp": "SK_Aim",
+      "mesh": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/SK_Rifle_Mesh/SK_Aim.SK_Aim",
+      "skel": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/SK_Rifle_Skeleton/SK_Aim_Skeleton.SK_Aim_Skeleton",
+      "leader": "SkeletalMesh"
+    },
+    {
+      "comp": "SK_Butt",
+      "mesh": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/SK_Rifle_Mesh/SK_Butt.SK_Butt",
+      "skel": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/SK_Rifle_Skeleton/SK_Butt_Skeleton.SK_Butt_Skeleton",
+      "leader": "SkeletalMesh"
+    },
+    {
+      "comp": "SK_Magazine",
+      "mesh": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/SK_Rifle_Mesh/SK_Magazine.SK_Magazine",
+      "skel": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/SK_Rifle_Skeleton/SK_Magazine_Skeleton.SK_Magazine_Skeleton",
+      "leader": "SkeletalMesh"
+    },
+    {
+      "comp": "SK_Right_Kit",
+      "mesh": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/SK_Rifle_Mesh/SK_Right_Kit.SK_Right_Kit",
+      "skel": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/SK_Rifle_Skeleton/SK_Right_Kit_Skeleton.SK_Right_Kit_Skeleton",
+      "leader": "SkeletalMesh"
+    },
+    {
+      "comp": "SK_Silencer",
+      "mesh": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/SK_Rifle_Mesh/SK_Silencer.SK_Silencer",
+      "skel": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/SK_Rifle_Skeleton/SK_Silencer_Skeleton.SK_Silencer_Skeleton",
+      "leader": "SkeletalMesh"
+    }
+  ]
+}

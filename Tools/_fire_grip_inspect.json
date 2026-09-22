@@ -1,0 +1,963 @@
+{
+  "guns": [
+    {
+      "lab": "BP_XR_SciFi_AssaultRifle_1",
+      "comps": [
+        {
+          "n": "SM_Pistol",
+          "cls": "StaticMeshComponent",
+          "rel": [
+            5150.0,
+            -695.0,
+            110.0
+          ],
+          "rot": [
+            90.0,
+            0.0,
+            0.0
+          ],
+          "parent": null
+        },
+        {
+          "n": "GrabComponentSnap",
+          "cls": "BP_GrabComponent_C",
+          "rel": [
+            0.0,
+            10.0,
+            2.0
+          ],
+          "rot": [
+            85.0,
+            90.0,
+            0.0
+          ],
+          "parent": "SM_Pistol"
+        },
+        {
+          "n": "MuzzleLocation",
+          "cls": "SceneComponent",
+          "rel": [
+            0.0,
+            80.0,
+            7.0
+          ],
+          "rot": [
+            0.0,
+            90.0,
+            0.0
+          ],
+          "parent": "SM_Pistol"
+        },
+        {
+          "n": "XRMuzzleTip",
+          "cls": "SceneComponent",
+          "rel": [
+            0.0,
+            -311.0,
+            7.0
+          ],
+          "rot": [
+            0.0,
+            90.0,
+            0.0
+          ],
+          "parent": "SM_Pistol"
+        },
+        {
+          "n": "XRMuzzleTip_0",
+          "cls": "SceneComponent",
+          "rel": [
+            0.0,
+            55.0,
+            8.0
+          ],
+          "rot": [
+            90.0,
+            0.0,
+            0.0
+          ],
+          "parent": "SM_Pistol"
+        },
+        {
+          "n": "WeaponFireAudio",
+          "cls": "AudioComponent",
+          "rel": [
+            0.0,
+            55.0,
+            8.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "parent": "MuzzleLocation",
+          "sound": "assault_rifle_gunshot_01_Cue",
+          "auto": false
+        },
+        {
+          "n": "WeaponMuzzleFXComp",
+          "cls": "NiagaraComponent",
+          "rel": [
+            0.0,
+            55.0,
+            8.0
+          ],
+          "rot": [
+            90.0,
+            0.0,
+            0.0
+          ],
+          "parent": "MuzzleLocation",
+          "niagara": "FXS_NS_MuzzleFlash_02"
+        },
+        {
+          "n": "SkeletalMesh",
+          "cls": "SkeletalMeshComponent",
+          "rel": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            90.0,
+            0.0,
+            0.0
+          ],
+          "parent": "SM_Pistol"
+        },
+        {
+          "n": "SkeletalMesh1",
+          "cls": "SkeletalMeshComponent",
+          "rel": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "parent": "SkeletalMesh"
+        },
+        {
+          "n": "KitVisual",
+          "cls": "ChildActorComponent",
+          "rel": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "parent": "SM_Pistol",
+          "child_cls": "<Object '/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/BP_Rifle/BP_Assault_Rifle.BP_Assault_Rifle_C' (0x00000212F3DC7000) Class 'BlueprintGeneratedClass'>",
+          "has_child": true
+        }
+      ]
+    },
+    {
+      "lab": "BP_XR_SciFi_AssaultRifle_2",
+      "comps": [
+        {
+          "n": "SM_Pistol",
+          "cls": "StaticMeshComponent",
+          "rel": [
+            5150.0,
+            -605.0,
+            110.0
+          ],
+          "rot": [
+            90.0,
+            0.0,
+            0.0
+          ],
+          "parent": null
+        },
+        {
+          "n": "GrabComponentSnap",
+          "cls": "BP_GrabComponent_C",
+          "rel": [
+            0.0,
+            10.0,
+            2.0
+          ],
+          "rot": [
+            85.0,
+            90.0,
+            0.0
+          ],
+          "parent": "SM_Pistol"
+        },
+        {
+          "n": "MuzzleLocation",
+          "cls": "SceneComponent",
+          "rel": [
+            0.0,
+            80.0,
+            7.0
+          ],
+          "rot": [
+            0.0,
+            90.0,
+            0.0
+          ],
+          "parent": "SM_Pistol"
+        },
+        {
+          "n": "XRMuzzleTip",
+          "cls": "SceneComponent",
+          "rel": [
+            0.0,
+            -311.0,
+            7.0
+          ],
+          "rot": [
+            0.0,
+            90.0,
+            0.0
+          ],
+          "parent": "SM_Pistol"
+        },
+        {
+          "n": "XRMuzzleTip_0",
+          "cls": "SceneComponent",
+          "rel": [
+            0.0,
+            55.0,
+            8.0
+          ],
+          "rot": [
+            90.0,
+            0.0,
+            0.0
+          ],
+          "parent": "SM_Pistol"
+        },
+        {
+          "n": "WeaponFireAudio",
+          "cls": "AudioComponent",
+          "rel": [
+            0.0,
+            55.0,
+            8.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "parent": "MuzzleLocation",
+          "sound": "assault_rifle_sil_gunshot_01_Cue",
+          "auto": false
+        },
+        {
+          "n": "WeaponMuzzleFXComp",
+          "cls": "NiagaraComponent",
+          "rel": [
+            0.0,
+            55.0,
+            8.0
+          ],
+          "rot": [
+            90.0,
+            0.0,
+            0.0
+          ],
+          "parent": "MuzzleLocation",
+          "niagara": "FXS_NS_MuzzleFlash_03"
+        },
+        {
+          "n": "SkeletalMesh",
+          "cls": "SkeletalMeshComponent",
+          "rel": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            90.0,
+            0.0,
+            0.0
+          ],
+          "parent": "SM_Pistol"
+        },
+        {
+          "n": "SkeletalMesh1",
+          "cls": "SkeletalMeshComponent",
+          "rel": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "parent": "SkeletalMesh"
+        },
+        {
+          "n": "KitVisual",
+          "cls": "ChildActorComponent",
+          "rel": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "parent": "SM_Pistol",
+          "child_cls": "<Object '/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/BP_AssaultRifle/BP_AssaultRifle.BP_AssaultRifle_C' (0x00000212F4FF7000) Class 'BlueprintGeneratedClass'>",
+          "has_child": true
+        }
+      ]
+    },
+    {
+      "lab": "BP_XR_SciFi_MachineGun",
+      "comps": [
+        {
+          "n": "SM_Pistol",
+          "cls": "StaticMeshComponent",
+          "rel": [
+            5150.0,
+            -515.0,
+            110.0
+          ],
+          "rot": [
+            90.0,
+            0.0,
+            0.0
+          ],
+          "parent": null
+        },
+        {
+          "n": "GrabComponentSnap",
+          "cls": "BP_GrabComponent_C",
+          "rel": [
+            0.0,
+            10.0,
+            2.0
+          ],
+          "rot": [
+            85.0,
+            90.0,
+            0.0
+          ],
+          "parent": "SM_Pistol"
+        },
+        {
+          "n": "MuzzleLocation",
+          "cls": "SceneComponent",
+          "rel": [
+            0.0,
+            80.0,
+            7.0
+          ],
+          "rot": [
+            0.0,
+            90.0,
+            0.0
+          ],
+          "parent": "SM_Pistol"
+        },
+        {
+          "n": "XRMuzzleTip",
+          "cls": "SceneComponent",
+          "rel": [
+            0.0,
+            -311.0,
+            7.0
+          ],
+          "rot": [
+            0.0,
+            90.0,
+            0.0
+          ],
+          "parent": "SM_Pistol"
+        },
+        {
+          "n": "XRMuzzleTip_0",
+          "cls": "SceneComponent",
+          "rel": [
+            0.0,
+            85.0,
+            8.0
+          ],
+          "rot": [
+            90.0,
+            0.0,
+            0.0
+          ],
+          "parent": "SM_Pistol"
+        },
+        {
+          "n": "WeaponFireAudio",
+          "cls": "AudioComponent",
+          "rel": [
+            0.0,
+            85.0,
+            8.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "parent": "MuzzleLocation",
+          "sound": "AK47_Fire_Cue",
+          "auto": false
+        },
+        {
+          "n": "WeaponMuzzleFXComp",
+          "cls": "NiagaraComponent",
+          "rel": [
+            0.0,
+            85.0,
+            8.0
+          ],
+          "rot": [
+            90.0,
+            0.0,
+            0.0
+          ],
+          "parent": "MuzzleLocation",
+          "niagara": "FXS_NS_ShotBurst_01"
+        },
+        {
+          "n": "SkeletalMesh",
+          "cls": "SkeletalMeshComponent",
+          "rel": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            90.0,
+            0.0,
+            0.0
+          ],
+          "parent": "SM_Pistol"
+        },
+        {
+          "n": "SkeletalMesh1",
+          "cls": "SkeletalMeshComponent",
+          "rel": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "parent": "SkeletalMesh"
+        },
+        {
+          "n": "KitVisual",
+          "cls": "ChildActorComponent",
+          "rel": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "parent": "SM_Pistol",
+          "child_cls": "<Object '/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_MachineGun/MachineGun/BP_MachineGun/BP_MachineGun.BP_MachineGun_C' (0x0000021298BD6900) Class 'BlueprintGeneratedClass'>",
+          "has_child": true
+        }
+      ]
+    },
+    {
+      "lab": "BP_XR_SciFi_Shotgun",
+      "comps": [
+        {
+          "n": "SM_Pistol",
+          "cls": "StaticMeshComponent",
+          "rel": [
+            5150.0,
+            -425.0,
+            110.0
+          ],
+          "rot": [
+            90.0,
+            0.0,
+            0.0
+          ],
+          "parent": null
+        },
+        {
+          "n": "GrabComponentSnap",
+          "cls": "BP_GrabComponent_C",
+          "rel": [
+            0.0,
+            10.0,
+            2.0
+          ],
+          "rot": [
+            85.0,
+            90.0,
+            0.0
+          ],
+          "parent": "SM_Pistol"
+        },
+        {
+          "n": "MuzzleLocation",
+          "cls": "SceneComponent",
+          "rel": [
+            0.0,
+            80.0,
+            7.0
+          ],
+          "rot": [
+            0.0,
+            90.0,
+            0.0
+          ],
+          "parent": "SM_Pistol"
+        },
+        {
+          "n": "XRMuzzleTip",
+          "cls": "SceneComponent",
+          "rel": [
+            0.0,
+            -311.0,
+            7.0
+          ],
+          "rot": [
+            0.0,
+            90.0,
+            0.0
+          ],
+          "parent": "SM_Pistol"
+        },
+        {
+          "n": "XRMuzzleTip_0",
+          "cls": "SceneComponent",
+          "rel": [
+            0.0,
+            58.0,
+            7.0
+          ],
+          "rot": [
+            90.0,
+            0.0,
+            0.0
+          ],
+          "parent": "SM_Pistol"
+        },
+        {
+          "n": "WeaponFireAudio",
+          "cls": "AudioComponent",
+          "rel": [
+            0.0,
+            58.0,
+            7.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "parent": "MuzzleLocation",
+          "sound": "shotgun_gunshot_01_Cue",
+          "auto": false
+        },
+        {
+          "n": "WeaponMuzzleFXComp",
+          "cls": "NiagaraComponent",
+          "rel": [
+            0.0,
+            58.0,
+            7.0
+          ],
+          "rot": [
+            90.0,
+            0.0,
+            0.0
+          ],
+          "parent": "MuzzleLocation",
+          "niagara": "FXS_NS_ShotBurst_02"
+        },
+        {
+          "n": "SkeletalMesh",
+          "cls": "SkeletalMeshComponent",
+          "rel": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            90.0,
+            0.0,
+            0.0
+          ],
+          "parent": "SM_Pistol"
+        },
+        {
+          "n": "SkeletalMesh1",
+          "cls": "SkeletalMeshComponent",
+          "rel": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "parent": "SkeletalMesh"
+        },
+        {
+          "n": "KitVisual",
+          "cls": "ChildActorComponent",
+          "rel": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "parent": "SM_Pistol",
+          "child_cls": "<Object '/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Shotgun/Shotgun/BP_Shotgun/BP_Shotgun.BP_Shotgun_C' (0x00000212F4FF0E00) Class 'BlueprintGeneratedClass'>",
+          "has_child": true
+        }
+      ]
+    },
+    {
+      "lab": "BP_XR_SciFi_Sniper",
+      "comps": [
+        {
+          "n": "SM_Pistol",
+          "cls": "StaticMeshComponent",
+          "rel": [
+            5150.0,
+            -335.0,
+            110.0
+          ],
+          "rot": [
+            90.0,
+            0.0,
+            0.0
+          ],
+          "parent": null
+        },
+        {
+          "n": "GrabComponentSnap",
+          "cls": "BP_GrabComponent_C",
+          "rel": [
+            0.0,
+            10.0,
+            2.0
+          ],
+          "rot": [
+            85.0,
+            90.0,
+            0.0
+          ],
+          "parent": "SM_Pistol"
+        },
+        {
+          "n": "MuzzleLocation",
+          "cls": "SceneComponent",
+          "rel": [
+            0.0,
+            80.0,
+            7.0
+          ],
+          "rot": [
+            0.0,
+            90.0,
+            0.0
+          ],
+          "parent": "SM_Pistol"
+        },
+        {
+          "n": "XRMuzzleTip",
+          "cls": "SceneComponent",
+          "rel": [
+            0.0,
+            -311.0,
+            7.0
+          ],
+          "rot": [
+            0.0,
+            90.0,
+            0.0
+          ],
+          "parent": "SM_Pistol"
+        },
+        {
+          "n": "XRMuzzleTip_0",
+          "cls": "SceneComponent",
+          "rel": [
+            0.0,
+            80.0,
+            7.0
+          ],
+          "rot": [
+            90.0,
+            0.0,
+            0.0
+          ],
+          "parent": "SM_Pistol"
+        },
+        {
+          "n": "WeaponFireAudio",
+          "cls": "AudioComponent",
+          "rel": [
+            0.0,
+            80.0,
+            7.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "parent": "MuzzleLocation",
+          "sound": "UMP45_Fire_Cue",
+          "auto": false
+        },
+        {
+          "n": "WeaponMuzzleFXComp",
+          "cls": "NiagaraComponent",
+          "rel": [
+            0.0,
+            80.0,
+            7.0
+          ],
+          "rot": [
+            90.0,
+            0.0,
+            0.0
+          ],
+          "parent": "MuzzleLocation",
+          "niagara": "FXS_NS_MuzzleFlash_05"
+        },
+        {
+          "n": "SkeletalMesh",
+          "cls": "SkeletalMeshComponent",
+          "rel": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            90.0,
+            0.0,
+            0.0
+          ],
+          "parent": "SM_Pistol"
+        },
+        {
+          "n": "SkeletalMesh1",
+          "cls": "SkeletalMeshComponent",
+          "rel": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "parent": "SkeletalMesh"
+        },
+        {
+          "n": "KitVisual",
+          "cls": "ChildActorComponent",
+          "rel": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "parent": "SM_Pistol",
+          "child_cls": "<Object '/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/BP_Rifle/BP_Sniper_Rifle.BP_Sniper_Rifle_C' (0x00000212DB9B4D00) Class 'BlueprintGeneratedClass'>",
+          "has_child": true
+        }
+      ]
+    },
+    {
+      "lab": "BP_XR_SciFi_Pistol",
+      "comps": [
+        {
+          "n": "SM_Pistol",
+          "cls": "StaticMeshComponent",
+          "rel": [
+            5150.0,
+            -785.0,
+            110.0
+          ],
+          "rot": [
+            90.0,
+            0.0,
+            0.0
+          ],
+          "parent": null
+        },
+        {
+          "n": "GrabComponentSnap",
+          "cls": "BP_GrabComponent_C",
+          "rel": [
+            0.0,
+            10.0,
+            2.0
+          ],
+          "rot": [
+            85.0,
+            90.0,
+            0.0
+          ],
+          "parent": "SM_Pistol"
+        },
+        {
+          "n": "MuzzleLocation",
+          "cls": "SceneComponent",
+          "rel": [
+            0.0,
+            80.0,
+            7.0
+          ],
+          "rot": [
+            0.0,
+            90.0,
+            0.0
+          ],
+          "parent": "SM_Pistol"
+        },
+        {
+          "n": "XRMuzzleTip",
+          "cls": "SceneComponent",
+          "rel": [
+            0.0,
+            -311.0,
+            7.0
+          ],
+          "rot": [
+            0.0,
+            90.0,
+            0.0
+          ],
+          "parent": "SM_Pistol"
+        },
+        {
+          "n": "SkeletalMesh",
+          "cls": "SkeletalMeshComponent",
+          "rel": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            90.0,
+            0.0,
+            0.0
+          ],
+          "parent": "SM_Pistol"
+        }
+      ]
+    }
+  ],
+  "fire_titles": [
+    "GetPlayerController",
+    "GetPlayerController",
+    "GetPlayerController",
+    "GetPlayerController",
+    "GetPlayerController",
+    "Get bWantsFire",
+    "GetPlayerController",
+    "DoFire",
+    "GetPlayerController",
+    "Get MuzzleLocation",
+    "Get PistolFireHapticEffect",
+    "GetPlayerPawn",
+    "GetPlayerController",
+    "Get MuzzleLocation",
+    "Get PistolFireHapticEffect",
+    "GetPlayerPawn",
+    "ServerDoFire",
+    "GetPlayerPawn",
+    "GetPlayerController",
+    "Get EnhancedInputLocalPlayerSubsystem",
+    "Get EnhancedInputLocalPlayerSubsystem",
+    "Set bWantsFire",
+    "Branch",
+    "SpawnSystemAtLocation",
+    "Branch",
+    "SpawnActor BP Projectile",
+    "PlaySoundAtLocation",
+    "ServerDoFire",
+    "Cast To BP_Projectile",
+    "PlayHapticEffect",
+    "SpawnActor BP Projectile",
+    "Branch",
+    "Cast To BP_Projectile",
+    "Branch",
+    "Set bWantsFire",
+    "Branch",
+    "Branch",
+    "Branch",
+    "Branch",
+    "SpawnSystemAtLocation",
+    "PlaySoundAtLocation",
+    "PlayHapticEffect",
+    "SpawnActor BP Projectile",
+    "Cast To BP_Projectile",
+    "Get CurrentAmmo",
+    "Get CurrentAmmo",
+    "Set CurrentAmmo",
+    "Get AmmoTextRender",
+    "Get MuzzleLocation",
+    "Get CurrentAmmo",
+    "Get CurrentAmmo",
+    "Set CurrentAmmo",
+    "Get AmmoTextRender",
+    "Get MuzzleLocation",
+    "Get MaxAmmo",
+    "Set CurrentAmmo",
+    "Get AmmoTextRender",
+    "Get CurrentAmmo",
+    "Get CurrentAmmo",
+    "Get CurrentAmmo",
+    "Get CurrentAmmo",
+    "Get AmmoTextRender",
+    "XRPushKitAmmo",
+    "XRPushKitAmmo",
+    "XRPushKitAmmo",
+    "XRPushKitAmmo",
+    "Get CurrentAmmo",
+    "Get AmmoTextRender"
+  ],
+  "vars": [
+    "PistolFireHapticEffect",
+    "FireInterval",
+    "bWantsFire",
+    "CurrentAmmo",
+    "MaxAmmo",
+    "WeaponFireSound",
+    "WeaponMuzzleFX"
+  ]
+}

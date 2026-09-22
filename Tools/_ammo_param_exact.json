@@ -1,0 +1,641 @@
+{
+  "kits": {
+    "AR1": {
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/Source/M_Assault_Rifle",
+      "ammo_like": [
+        "Ammo \u0421ount",
+        "Backlight Display",
+        "Interface Brightness",
+        "Blue Brightness",
+        "Orange Brightness",
+        "Pipe Brightness"
+      ],
+      "exact": [
+        {
+          "str": "Ammo \u0421ount",
+          "repr": "'Ammo \u0421ount'",
+          "ords": [
+            65,
+            109,
+            109,
+            111,
+            32,
+            1057,
+            111,
+            117,
+            110,
+            116
+          ]
+        }
+      ],
+      "all": [
+        "Multiply Roughness",
+        "Add Roughness",
+        "Ammo \u0421ount",
+        "Speed Side  X",
+        "Speed Front Y",
+        "UV U",
+        "UV V",
+        "Backlight Display",
+        "Interface Brightness",
+        "Blue Brightness",
+        "Orange Brightness",
+        "Pipe Brightness",
+        "UV X",
+        "UV Y",
+        "Scale UV U",
+        "Scale UV V",
+        "Emission Line Intensity",
+        "Emission Point & Pipe Intensity",
+        "Base Roughness",
+        "Base Metall",
+        "Steel Roughness",
+        "Steel Metall",
+        "Chrome Roughness",
+        "Chrome Metall"
+      ]
+    },
+    "AR1_MI": {
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/MI_Assault_Rifle",
+      "ammo_like": [
+        "Ammo \u0421ount",
+        "Backlight Display",
+        "Interface Brightness",
+        "Blue Brightness",
+        "Orange Brightness",
+        "Pipe Brightness"
+      ],
+      "exact": [
+        {
+          "str": "Ammo \u0421ount",
+          "repr": "'Ammo \u0421ount'",
+          "ords": [
+            65,
+            109,
+            109,
+            111,
+            32,
+            1057,
+            111,
+            117,
+            110,
+            116
+          ]
+        }
+      ],
+      "all": [
+        "Multiply Roughness",
+        "Add Roughness",
+        "Ammo \u0421ount",
+        "Speed Side  X",
+        "Speed Front Y",
+        "UV U",
+        "UV V",
+        "Backlight Display",
+        "Interface Brightness",
+        "Blue Brightness",
+        "Orange Brightness",
+        "Pipe Brightness",
+        "UV X",
+        "UV Y",
+        "Scale UV U",
+        "Scale UV V",
+        "Emission Line Intensity",
+        "Emission Point & Pipe Intensity",
+        "Base Roughness",
+        "Base Metall",
+        "Steel Roughness",
+        "Steel Metall",
+        "Chrome Roughness",
+        "Chrome Metall"
+      ]
+    },
+    "AR2": {
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/Source/M_AssaultRifle",
+      "ammo_like": [
+        "Ammo \u0421ount",
+        "Backlight Display",
+        "Interface Brightness",
+        "Blue Brightness",
+        "Orange Brightness"
+      ],
+      "exact": [
+        {
+          "str": "Ammo \u0421ount",
+          "repr": "'Ammo \u0421ount'",
+          "ords": [
+            65,
+            109,
+            109,
+            111,
+            32,
+            1057,
+            111,
+            117,
+            110,
+            116
+          ]
+        }
+      ],
+      "all": [
+        "Multiply Roughness",
+        "Add Roughness",
+        "Ammo \u0421ount",
+        "Backlight Display",
+        "Interface Brightness",
+        "Blue Brightness",
+        "Orange Brightness",
+        "UV X",
+        "UV Y",
+        "Scale UV U",
+        "Scale UV V",
+        "Emission Line Intensity",
+        "Emission Point & Pipe Intensity",
+        "Base Roughness",
+        "Base Metall",
+        "Steel Roughness",
+        "Steel Metall",
+        "Chrome Roughness",
+        "Chrome Metall"
+      ]
+    },
+    "AR2_MI": {
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/MI_Rifle",
+      "ammo_like": [
+        "Ammo \u0421ount",
+        "Backlight Display",
+        "Interface Brightness",
+        "Blue Brightness",
+        "Orange Brightness"
+      ],
+      "exact": [
+        {
+          "str": "Ammo \u0421ount",
+          "repr": "'Ammo \u0421ount'",
+          "ords": [
+            65,
+            109,
+            109,
+            111,
+            32,
+            1057,
+            111,
+            117,
+            110,
+            116
+          ]
+        }
+      ],
+      "all": [
+        "Multiply Roughness",
+        "Add Roughness",
+        "Ammo \u0421ount",
+        "Backlight Display",
+        "Interface Brightness",
+        "Blue Brightness",
+        "Orange Brightness",
+        "UV X",
+        "UV Y",
+        "Scale UV U",
+        "Scale UV V",
+        "Emission Line Intensity",
+        "Emission Point & Pipe Intensity",
+        "Base Roughness",
+        "Base Metall",
+        "Steel Roughness",
+        "Steel Metall",
+        "Chrome Roughness",
+        "Chrome Metall"
+      ]
+    },
+    "MG": {
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_MachineGun/MachineGun/Material_MachineGun/Source/M_MachineGun",
+      "ammo_like": [
+        "Ammo \u0421ount",
+        "Backlight Display",
+        "Interface Brightness",
+        "Blue Brightness",
+        "Orange Brightness",
+        "Pipe Brightness",
+        "Speed Side Display Road"
+      ],
+      "exact": [
+        {
+          "str": "Ammo \u0421ount",
+          "repr": "'Ammo \u0421ount'",
+          "ords": [
+            65,
+            109,
+            109,
+            111,
+            32,
+            1057,
+            111,
+            117,
+            110,
+            116
+          ]
+        }
+      ],
+      "all": [
+        "Multiply Roughness",
+        "Add Roughness",
+        "Ammo \u0421ount",
+        "Speed Side  X",
+        "Speed Front Y",
+        "UV U",
+        "UV V",
+        "Backlight Display",
+        "Interface Brightness",
+        "Blue Brightness",
+        "Orange Brightness",
+        "Pipe Brightness",
+        "UV X",
+        "UV Y",
+        "Scale UV U",
+        "Scale UV V",
+        "Speed Side Display Road",
+        "Emission Line Intensity",
+        "Emission Point & Pipe Intensity",
+        "Base Roughness",
+        "Base Metall",
+        "Steel Roughness",
+        "Steel Metall",
+        "Chrome Roughness",
+        "Chrome Metall"
+      ]
+    },
+    "MG_MI": {
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_MachineGun/MachineGun/Material_MachineGun/MI_MachineGun",
+      "ammo_like": [
+        "Ammo \u0421ount",
+        "Backlight Display",
+        "Interface Brightness",
+        "Blue Brightness",
+        "Orange Brightness",
+        "Pipe Brightness",
+        "Speed Side Display Road"
+      ],
+      "exact": [
+        {
+          "str": "Ammo \u0421ount",
+          "repr": "'Ammo \u0421ount'",
+          "ords": [
+            65,
+            109,
+            109,
+            111,
+            32,
+            1057,
+            111,
+            117,
+            110,
+            116
+          ]
+        }
+      ],
+      "all": [
+        "Multiply Roughness",
+        "Add Roughness",
+        "Ammo \u0421ount",
+        "Speed Side  X",
+        "Speed Front Y",
+        "UV U",
+        "UV V",
+        "Backlight Display",
+        "Interface Brightness",
+        "Blue Brightness",
+        "Orange Brightness",
+        "Pipe Brightness",
+        "UV X",
+        "UV Y",
+        "Scale UV U",
+        "Scale UV V",
+        "Speed Side Display Road",
+        "Emission Line Intensity",
+        "Emission Point & Pipe Intensity",
+        "Base Roughness",
+        "Base Metall",
+        "Steel Roughness",
+        "Steel Metall",
+        "Chrome Roughness",
+        "Chrome Metall"
+      ]
+    },
+    "SG": {
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Shotgun/Shotgun/Material_Shotgun/Source/M_Shotgun",
+      "ammo_like": [],
+      "exact": [],
+      "all": [
+        "Multiply Roughness",
+        "Add Roughness"
+      ]
+    },
+    "SG_MI": {
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Shotgun/Shotgun/Material_Shotgun/MI_Shotgun",
+      "ammo_like": [],
+      "exact": [],
+      "all": [
+        "Multiply Roughness",
+        "Add Roughness"
+      ]
+    },
+    "SN": {
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/Source/M_Assault_Rifle",
+      "ammo_like": [
+        "Blue Brightness",
+        "Orange Brightness"
+      ],
+      "exact": [],
+      "all": [
+        "Multiply Roughness",
+        "Add Roughness",
+        "Blue Brightness",
+        "Orange Brightness",
+        "Emission Line Intensity",
+        "Emission Point & Intensity",
+        "Base Roughness",
+        "Base Metall",
+        "Steel Roughness",
+        "Steel Metall",
+        "Chrome Roughness",
+        "Chrome Metall"
+      ]
+    },
+    "SN_MI": {
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Rifle",
+      "ammo_like": [
+        "Blue Brightness",
+        "Orange Brightness"
+      ],
+      "exact": [],
+      "all": [
+        "Multiply Roughness",
+        "Add Roughness",
+        "Blue Brightness",
+        "Orange Brightness",
+        "Emission Line Intensity",
+        "Emission Point & Intensity",
+        "Base Roughness",
+        "Base Metall",
+        "Steel Roughness",
+        "Steel Metall",
+        "Chrome Roughness",
+        "Chrome Metall"
+      ]
+    },
+    "Pistol": {
+      "path": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Pistol/Pistol/Material/Source/M_Pistol",
+      "ammo_like": [
+        "UI Brightness",
+        "Ammo \u0421ount",
+        "Hand Brightness"
+      ],
+      "exact": [
+        {
+          "str": "Ammo \u0421ount",
+          "repr": "'Ammo \u0421ount'",
+          "ords": [
+            65,
+            109,
+            109,
+            111,
+            32,
+            1057,
+            111,
+            117,
+            110,
+            116
+          ]
+        }
+      ],
+      "all": [
+        "Metallic",
+        "Flat Roughness Gun",
+        "Add Sharp Gun",
+        "Flat Roughness Aim",
+        "Add Sharp Aim",
+        "Contrast Gun",
+        "Flat Roughness Barrel",
+        "Add Sharp Barrel",
+        "Flat Roughness Muzzle",
+        "Add Sharp Muzzle",
+        "BG Emission",
+        "UI Brightness",
+        "Color Shutter",
+        "Flat Roughness Shutter",
+        "Add Sharp Shutter",
+        "Ammo \u0421ount",
+        "Flat Roughness Hand",
+        "Add Sharp Hand",
+        "Hand Color",
+        "Hand Brightness",
+        "Flat Roughness Frame",
+        "Add Sharp Frame",
+        "Intensity Add Color Bace Color"
+      ]
+    }
+  },
+  "found": [
+    {
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Pistol/Pistol/Material/Source/M_Pistol",
+      "param": "Ammo \u0421ount",
+      "repr": "'Ammo \u0421ount'"
+    },
+    {
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Pistol/Pistol/Material/MI_Red",
+      "param": "Ammo \u0421ount",
+      "repr": "'Ammo \u0421ount'"
+    },
+    {
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/Source/M_Assault_Rifle",
+      "param": "Ammo \u0421ount",
+      "repr": "'Ammo \u0421ount'"
+    },
+    {
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/MI_Aim",
+      "param": "Ammo \u0421ount",
+      "repr": "'Ammo \u0421ount'"
+    },
+    {
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/MI_Butt",
+      "param": "Ammo \u0421ount",
+      "repr": "'Ammo \u0421ount'"
+    },
+    {
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/MI_Magazine",
+      "param": "Ammo \u0421ount",
+      "repr": "'Ammo \u0421ount'"
+    },
+    {
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/MI_Assault_Rifle",
+      "param": "Ammo \u0421ount",
+      "repr": "'Ammo \u0421ount'"
+    },
+    {
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/MI_Right_Kit",
+      "param": "Ammo \u0421ount",
+      "repr": "'Ammo \u0421ount'"
+    },
+    {
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Assault_Rifle/Material_Rifle/MI_Silencer",
+      "param": "Ammo \u0421ount",
+      "repr": "'Ammo \u0421ount'"
+    },
+    {
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/Source/M_AssaultRifle",
+      "param": "Ammo \u0421ount",
+      "repr": "'Ammo \u0421ount'"
+    },
+    {
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/MI_Aim",
+      "param": "Ammo \u0421ount",
+      "repr": "'Ammo \u0421ount'"
+    },
+    {
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/MI_LeftKit",
+      "param": "Ammo \u0421ount",
+      "repr": "'Ammo \u0421ount'"
+    },
+    {
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/MI_Bullet",
+      "param": "Ammo \u0421ount",
+      "repr": "'Ammo \u0421ount'"
+    },
+    {
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/MI_Magazine",
+      "param": "Ammo \u0421ount",
+      "repr": "'Ammo \u0421ount'"
+    },
+    {
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/MI_Rifle",
+      "param": "Ammo \u0421ount",
+      "repr": "'Ammo \u0421ount'"
+    },
+    {
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/MI_Butt",
+      "param": "Ammo \u0421ount",
+      "repr": "'Ammo \u0421ount'"
+    },
+    {
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/MI_Foregrip",
+      "param": "Ammo \u0421ount",
+      "repr": "'Ammo \u0421ount'"
+    },
+    {
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/AssaultRifle/Material_AssaultRifle/MI_RightKit",
+      "param": "Ammo \u0421ount",
+      "repr": "'Ammo \u0421ount'"
+    },
+    {
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_MachineGun/MachineGun/Material_MachineGun/Source/M_MachineGun",
+      "param": "Ammo \u0421ount",
+      "repr": "'Ammo \u0421ount'"
+    },
+    {
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_MachineGun/MachineGun/Material_MachineGun/MI_MachineGun",
+      "param": "Ammo \u0421ount",
+      "repr": "'Ammo \u0421ount'"
+    },
+    {
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/Demo_Scene/Material_Instance/MI_Rifle_Orange",
+      "param": "Ammo \u0421ount",
+      "repr": "'Ammo \u0421ount'"
+    },
+    {
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/Demo_Scene/Material_Instance/MI_Rifle_Green_Plastic",
+      "param": "Ammo \u0421ount",
+      "repr": "'Ammo \u0421ount'"
+    },
+    {
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/Demo_Scene/Material_Instance/MI_Rifle_Green",
+      "param": "Ammo \u0421ount",
+      "repr": "'Ammo \u0421ount'"
+    },
+    {
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/Demo_Scene/Material_Instance/MI_Magazine_Orange",
+      "param": "Ammo \u0421ount",
+      "repr": "'Ammo \u0421ount'"
+    },
+    {
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/Demo_Scene/Material_Instance/MI_Magazine_Green_Plastic",
+      "param": "Ammo \u0421ount",
+      "repr": "'Ammo \u0421ount'"
+    },
+    {
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/Demo_Scene/Material_Instance/MI_Magazine_Green",
+      "param": "Ammo \u0421ount",
+      "repr": "'Ammo \u0421ount'"
+    },
+    {
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Demo_Scene/Material_Instance/MI_Butt_Green",
+      "param": "Ammo \u0421ount",
+      "repr": "'Ammo \u0421ount'"
+    },
+    {
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Demo_Scene/Material_Instance/MI_Assault_Rifle_Yelow",
+      "param": "Ammo \u0421ount",
+      "repr": "'Ammo \u0421ount'"
+    },
+    {
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/Demo_Scene/Material_Instance/MI_Butt_Orange",
+      "param": "Ammo \u0421ount",
+      "repr": "'Ammo \u0421ount'"
+    },
+    {
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/Demo_Scene/Material_Instance/MI_Butt_Green_Plastic",
+      "param": "Ammo \u0421ount",
+      "repr": "'Ammo \u0421ount'"
+    },
+    {
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/Demo_Scene/Material_Instance/MI_Butt_Green",
+      "param": "Ammo \u0421ount",
+      "repr": "'Ammo \u0421ount'"
+    },
+    {
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_2/Demo_Scene/Material_Instance/MI_Aim_Green",
+      "param": "Ammo \u0421ount",
+      "repr": "'Ammo \u0421ount'"
+    },
+    {
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Demo_Scene/Material_Instance/MI_Magazine_Yelow",
+      "param": "Ammo \u0421ount",
+      "repr": "'Ammo \u0421ount'"
+    },
+    {
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Demo_Scene/Material_Instance/MI_Magazine_Green_2",
+      "param": "Ammo \u0421ount",
+      "repr": "'Ammo \u0421ount'"
+    },
+    {
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Demo_Scene/Material_Instance/MI_Magazine_Green",
+      "param": "Ammo \u0421ount",
+      "repr": "'Ammo \u0421ount'"
+    },
+    {
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Demo_Scene/Material_Instance/MI_Assault_Rifle_Green",
+      "param": "Ammo \u0421ount",
+      "repr": "'Ammo \u0421ount'"
+    },
+    {
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Assault_Rifle_1/Demo_Scene/Material_Instance/MI_Aim_Green",
+      "param": "Ammo \u0421ount",
+      "repr": "'Ammo \u0421ount'"
+    },
+    {
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_MachineGun/Demo_Scene/Material_Instance/MI_MachineGun_Blue",
+      "param": "Ammo \u0421ount",
+      "repr": "'Ammo \u0421ount'"
+    },
+    {
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_MachineGun/Demo_Scene/Material_Instance/MI_MachineGun_Green_Pattern",
+      "param": "Ammo \u0421ount",
+      "repr": "'Ammo \u0421ount'"
+    },
+    {
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_MachineGun/Demo_Scene/Material_Instance/MI_MachineGun_Orange",
+      "param": "Ammo \u0421ount",
+      "repr": "'Ammo \u0421ount'"
+    }
+  ]
+}

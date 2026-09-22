@@ -1,0 +1,114 @@
+{
+  "child": [
+    {
+      "n": "SK_Assault_Rifle",
+      "mesh": "SK_Rifle_Assault_Rifle",
+      "vis": true,
+      "hidden_game": null
+    },
+    {
+      "n": "SK_Butt",
+      "mesh": "SK_Butt",
+      "vis": true,
+      "hidden_game": null
+    },
+    {
+      "n": "SK_Magazine_Full",
+      "mesh": "SK_Magazine",
+      "vis": true,
+      "hidden_game": null
+    },
+    {
+      "n": "SK_Bullet_Full_Magazine",
+      "mesh": "SK_Bullet_Full_Magazine",
+      "vis": false,
+      "hidden_game": null
+    },
+    {
+      "n": "SK_Bullet",
+      "mesh": "SK_Bullet",
+      "vis": false,
+      "hidden_game": null
+    },
+    {
+      "n": "SK_Aim",
+      "mesh": "SK_Aim",
+      "vis": true,
+      "hidden_game": null
+    },
+    {
+      "n": "SK_Right_Kit",
+      "mesh": "SK_Right_Kit",
+      "vis": true,
+      "hidden_game": null
+    },
+    {
+      "n": "SK_Silencer",
+      "mesh": "SK_Silencer",
+      "vis": true,
+      "hidden_game": null
+    },
+    {
+      "n": "SK_Magazine_Emty",
+      "mesh": "SK_Magazine",
+      "vis": false,
+      "hidden_game": null
+    }
+  ],
+  "child_actor": "KitVisual_GEN_VARIABLE_BP_Assault_Rifle_C_CAT_5",
+  "only_kit_visible_counts": {
+    "SK_Rifle_Assault_Rifle": 1,
+    "SK_Butt": 1,
+    "SK_Magazine": 1,
+    "SK_Aim": 1,
+    "SK_Right_Kit": 1,
+    "SK_Silencer": 1
+  },
+  "only_kit_comps": [
+    {
+      "n": "SK_Assault_Rifle",
+      "mesh": "SK_Rifle_Assault_Rifle",
+      "vis": true
+    },
+    {
+      "n": "SK_Butt",
+      "mesh": "SK_Butt",
+      "vis": true
+    },
+    {
+      "n": "SK_Magazine_Full",
+      "mesh": "SK_Magazine",
+      "vis": true
+    },
+    {
+      "n": "SK_Bullet_Full_Magazine",
+      "mesh": "SK_Bullet_Full_Magazine",
+      "vis": false
+    },
+    {
+      "n": "SK_Bullet",
+      "mesh": "SK_Bullet",
+      "vis": false
+    },
+    {
+      "n": "SK_Aim",
+      "mesh": "SK_Aim",
+      "vis": true
+    },
+    {
+      "n": "SK_Right_Kit",
+      "mesh": "SK_Right_Kit",
+      "vis": true
+    },
+    {
+      "n": "SK_Silencer",
+      "mesh": "SK_Silencer",
+      "vis": true
+    },
+    {
+      "n": "SK_Magazine_Emty",
+      "mesh": "SK_Magazine",
+      "vis": false
+    }
+  ]
+}

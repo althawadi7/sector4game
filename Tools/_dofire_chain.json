@@ -1,0 +1,235 @@
+{
+  "prints": [
+    {
+      "val": "VRSHOOT: BP_Rifle Left FIRE",
+      "name": "t10_PrintString_1",
+      "x": null
+    },
+    {
+      "val": "VRSHOOT: BP_Rifle Right FIRE",
+      "name": "t11_PrintString_1",
+      "x": null
+    },
+    {
+      "val": "VRSHOOT: BP_Rifle READY TO FIRE",
+      "name": "t13_PrintString_1",
+      "x": null
+    },
+    {
+      "val": "VRSHOOT POLL FIRE",
+      "name": "t14_PrintString_1",
+      "x": null
+    },
+    {
+      "val": "VRSHOOT POLL FIRE",
+      "name": "t17_PrintString_1",
+      "x": null
+    },
+    {
+      "val": "VRSHOOT FIRE LEFT",
+      "name": "t18_PrintString_1",
+      "x": null
+    },
+    {
+      "val": "VRSHOOT FIRE RIGHT",
+      "name": "t19_PrintString_1",
+      "x": null
+    },
+    {
+      "val": "VRSHOOT POLL FIRE",
+      "name": "t3_PrintString_1",
+      "x": null
+    },
+    {
+      "val": "VRSHOOT DOFIRE BP_Rifle",
+      "name": "t5_PrintString_1",
+      "x": null
+    },
+    {
+      "val": "VRSHOOT DOFIRE RUN",
+      "name": "K2Node_CallFunction_1",
+      "x": null
+    }
+  ],
+  "chain": [
+    {
+      "t": "DoFire",
+      "d": 0,
+      "outs": [
+        {
+          "from": "then",
+          "to": "PrintString",
+          "pin": "execute"
+        },
+        {
+          "debug_then_links": 1
+        },
+        {
+          "from": "then*",
+          "to": "PrintString",
+          "pin": "execute"
+        }
+      ],
+      "defs": {},
+      "npins": 2
+    },
+    {
+      "t": "PrintString",
+      "d": 1,
+      "outs": [
+        {
+          "from": "then",
+          "to": "Sequence",
+          "pin": "execute"
+        }
+      ],
+      "defs": {
+        "InString": "VRSHOOT DOFIRE RUN",
+        "bPrintToScreen": "true"
+      },
+      "npins": 8
+    },
+    {
+      "t": "Sequence",
+      "d": 2,
+      "outs": [
+        {
+          "from": "then_0",
+          "to": "Set CurrentAmmo",
+          "pin": "execute"
+        },
+        {
+          "from": "then_1",
+          "to": "SpawnActor BP Projectile",
+          "pin": "execute"
+        }
+      ],
+      "defs": {},
+      "npins": 3
+    },
+    {
+      "t": "Set CurrentAmmo",
+      "d": 3,
+      "outs": [
+        {
+          "from": "then",
+          "to": "XRPushKitAmmo",
+          "pin": "execute"
+        }
+      ],
+      "defs": {},
+      "npins": 4
+    },
+    {
+      "t": "SpawnActor BP Projectile",
+      "d": 3,
+      "outs": [
+        {
+          "from": "then",
+          "to": "ServerDoFire",
+          "pin": "execute"
+        }
+      ],
+      "defs": {
+        "Class": "/Game/XRFramework/Blueprints/BP_Projectile.BP_Projectile_C"
+      },
+      "npins": 9
+    },
+    {
+      "t": "XRPushKitAmmo",
+      "d": 4,
+      "outs": [],
+      "defs": {},
+      "npins": 3
+    },
+    {
+      "t": "ServerDoFire",
+      "d": 4,
+      "outs": [],
+      "defs": {},
+      "npins": 4
+    }
+  ],
+  "ha": [
+    {
+      "t": "ServerDoFire",
+      "name": "t21_CustomEvent_1"
+    },
+    {
+      "t": "Branch",
+      "name": "t19_IfThenElse_1"
+    },
+    {
+      "t": "HasAuthority",
+      "name": "t19_HasAuthority_1"
+    },
+    {
+      "t": "Sequence",
+      "name": "t19_ExecutionSequence_1"
+    },
+    {
+      "t": "SpawnSystemAtLocation",
+      "name": "t19_NiagaraFunctionLibrary_SpawnSystemAtLocation_1"
+    },
+    {
+      "t": "Branch",
+      "name": "t19_IfThenElse_2"
+    },
+    {
+      "t": "SpawnActor BP Projectile",
+      "name": "t21_SpawnActorFromClass_1"
+    },
+    {
+      "t": "PlaySoundAtLocation",
+      "name": "t19_PlaySoundAtLocation_1"
+    },
+    {
+      "t": "ServerDoFire",
+      "name": "t19_ServerDoFire_1"
+    },
+    {
+      "t": "SpawnActor BP Projectile",
+      "name": "t19_SpawnActorFromClass_1"
+    },
+    {
+      "t": "Branch",
+      "name": "t4_IfThenElse_1"
+    },
+    {
+      "t": "Branch",
+      "name": "t22_IfThenElse_1"
+    },
+    {
+      "t": "Branch",
+      "name": "t4_IfThenElse_2"
+    },
+    {
+      "t": "Branch",
+      "name": "t22_IfThenElse_2"
+    },
+    {
+      "t": "Branch",
+      "name": "t3_IfThenElse_1"
+    },
+    {
+      "t": "Branch",
+      "name": "t6_IfThenElse_1"
+    },
+    {
+      "t": "Sequence",
+      "name": "t6_ExecutionSequence_1"
+    },
+    {
+      "t": "SpawnSystemAtLocation",
+      "name": "t6_NiagaraFunctionLibrary_SpawnSystemAtLocation_1"
+    },
+    {
+      "t": "PlaySoundAtLocation",
+      "name": "t6_PlaySoundAtLocation_1"
+    },
+    {
+      "t": "SpawnActor BP Projectile",
+      "name": "t6_SpawnActorFromClass_1"
+    }
+  ]
+}

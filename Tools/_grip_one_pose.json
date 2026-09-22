@@ -1,0 +1,271 @@
+{
+  "log": [
+    {
+      "lab": "BP_XR_SciFi_Pistol",
+      "pitched_meshes": 1
+    },
+    {
+      "lab": "BP_XR_SciFi_AssaultRifle_1",
+      "pitched_meshes": 1
+    },
+    {
+      "lab": "BP_XR_SciFi_AssaultRifle_2",
+      "pitched_meshes": 1
+    },
+    {
+      "lab": "BP_XR_SciFi_MachineGun",
+      "pitched_meshes": 1
+    },
+    {
+      "lab": "BP_XR_SciFi_Shotgun",
+      "pitched_meshes": 1
+    },
+    {
+      "lab": "BP_XR_SciFi_Sniper",
+      "pitched_meshes": 0
+    },
+    {
+      "kit_baked": "BP_Assault_Rifle",
+      "n": 17
+    },
+    {
+      "kit_baked": "BP_AssaultRifle",
+      "n": 11
+    },
+    {
+      "kit_baked": "BP_MachineGun",
+      "n": 9
+    },
+    {
+      "kit_baked": "BP_Shotgun",
+      "n": 15
+    },
+    {
+      "kit_baked": "BP_Sniper_Rifle",
+      "n": 45
+    },
+    {
+      "saved_weapon": "BP_XR_SciFi_Pistol"
+    },
+    {
+      "saved_weapon": "BP_XR_SciFi_AssaultRifle_1"
+    },
+    {
+      "saved_weapon": "BP_XR_SciFi_AssaultRifle_2"
+    },
+    {
+      "saved_weapon": "BP_XR_SciFi_MachineGun"
+    },
+    {
+      "saved_weapon": "BP_XR_SciFi_Shotgun"
+    },
+    {
+      "saved_weapon": "BP_XR_SciFi_Sniper"
+    }
+  ],
+  "results": [
+    {
+      "lab": "BP_XR_SciFi_Pistol",
+      "trig": [
+        -5.64,
+        -0.0,
+        -6.49
+      ],
+      "grab": {
+        "loc": [
+          -5.64,
+          -0.0,
+          -6.49
+        ],
+        "rot": [
+          85.0,
+          90.0,
+          0.0
+        ],
+        "sim_drop": false,
+        "type": "<E_GrabType.SNAP: 2>"
+      },
+      "kit_body": null,
+      "pos": [
+        5150,
+        -785,
+        110
+      ]
+    },
+    {
+      "lab": "BP_XR_SciFi_AssaultRifle_1",
+      "trig": [
+        -6.5,
+        -0.0,
+        5.18
+      ],
+      "grab": {
+        "loc": [
+          -6.5,
+          -0.0,
+          5.18
+        ],
+        "rot": [
+          85.0,
+          90.0,
+          0.0
+        ],
+        "sim_drop": false,
+        "type": "<E_GrabType.SNAP: 2>"
+      },
+      "kit_body": {
+        "n": "SK_Assault_Rifle",
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "pos": [
+        5150,
+        -695,
+        110
+      ]
+    },
+    {
+      "lab": "BP_XR_SciFi_AssaultRifle_2",
+      "trig": [
+        -7.51,
+        -0.0,
+        6.87
+      ],
+      "grab": {
+        "loc": [
+          -7.51,
+          -0.0,
+          6.87
+        ],
+        "rot": [
+          85.0,
+          90.0,
+          0.0
+        ],
+        "sim_drop": false,
+        "type": "<E_GrabType.SNAP: 2>"
+      },
+      "kit_body": {
+        "n": "SK_Rifle",
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "pos": [
+        5150,
+        -605,
+        110
+      ]
+    },
+    {
+      "lab": "BP_XR_SciFi_MachineGun",
+      "trig": [
+        -8.76,
+        0.0,
+        5.3
+      ],
+      "grab": {
+        "loc": [
+          -8.76,
+          0.0,
+          5.3
+        ],
+        "rot": [
+          85.0,
+          90.0,
+          0.0
+        ],
+        "sim_drop": false,
+        "type": "<E_GrabType.SNAP: 2>"
+      },
+      "kit_body": {
+        "n": "SK_MachineGun",
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "pos": [
+        5150,
+        -515,
+        110
+      ]
+    },
+    {
+      "lab": "BP_XR_SciFi_Shotgun",
+      "trig": [
+        -10.94,
+        -0.0,
+        -1.72
+      ],
+      "grab": {
+        "loc": [
+          -10.94,
+          -0.0,
+          -1.72
+        ],
+        "rot": [
+          85.0,
+          90.0,
+          0.0
+        ],
+        "sim_drop": false,
+        "type": "<E_GrabType.SNAP: 2>"
+      },
+      "kit_body": {
+        "n": "SK_Shotgun",
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "pos": [
+        5150,
+        -425,
+        110
+      ]
+    },
+    {
+      "lab": "BP_XR_SciFi_Sniper",
+      "trig": [
+        -6.0,
+        -0.0,
+        4.59
+      ],
+      "grab": {
+        "loc": [
+          -6.0,
+          -0.0,
+          4.59
+        ],
+        "rot": [
+          85.0,
+          90.0,
+          0.0
+        ],
+        "sim_drop": false,
+        "type": "<E_GrabType.SNAP: 2>"
+      },
+      "kit_body": {
+        "n": "SK_Rifle",
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "pos": [
+        5150,
+        -335,
+        110
+      ]
+    }
+  ]
+}

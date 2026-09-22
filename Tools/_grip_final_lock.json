@@ -1,0 +1,167 @@
+{
+  "log": [
+    {
+      "BP_Rifle": true,
+      "status": "<BlueprintStatus.BS_UP_TO_DATE: 3>"
+    },
+    {
+      "BP_XR_SciFi_Pistol": true,
+      "status": "<BlueprintStatus.BS_UP_TO_DATE: 3>"
+    },
+    {
+      "BP_XR_SciFi_AssaultRifle_1": true,
+      "status": "<BlueprintStatus.BS_UP_TO_DATE: 3>"
+    },
+    {
+      "BP_XR_SciFi_AssaultRifle_2": true,
+      "status": "<BlueprintStatus.BS_UP_TO_DATE: 3>"
+    },
+    {
+      "BP_XR_SciFi_MachineGun": true,
+      "status": "<BlueprintStatus.BS_UP_TO_DATE: 3>"
+    },
+    {
+      "BP_XR_SciFi_Shotgun": true,
+      "status": "<BlueprintStatus.BS_UP_TO_DATE: 3>"
+    },
+    {
+      "BP_XR_SciFi_Sniper": true,
+      "status": "<BlueprintStatus.BS_UP_TO_DATE: 3>"
+    }
+  ],
+  "final": [
+    {
+      "lab": "BP_XR_SciFi_Pistol",
+      "grab": {
+        "loc": [
+          0.0,
+          0.4,
+          -0.81
+        ],
+        "rot": [
+          85.0,
+          90.0,
+          0.0
+        ],
+        "type": "<E_GrabType.SNAP: 2>"
+      }
+    },
+    {
+      "lab": "BP_XR_SciFi_AssaultRifle_1",
+      "grab": {
+        "loc": [
+          -5.18,
+          0.0,
+          -6.5
+        ],
+        "rot": [
+          120.0,
+          0.0,
+          0.0
+        ],
+        "type": "<E_GrabType.SNAP: 2>"
+      }
+    },
+    {
+      "lab": "BP_XR_SciFi_AssaultRifle_2",
+      "grab": {
+        "loc": [
+          -6.87,
+          0.0,
+          -7.51
+        ],
+        "rot": [
+          -90.0,
+          0.0,
+          0.0
+        ],
+        "type": "<E_GrabType.SNAP: 2>"
+      }
+    },
+    {
+      "lab": "BP_XR_SciFi_MachineGun",
+      "grab": {
+        "loc": [
+          -5.3,
+          0.0,
+          -8.76
+        ],
+        "rot": [
+          -90.0,
+          0.0,
+          0.0
+        ],
+        "type": "<E_GrabType.SNAP: 2>"
+      }
+    },
+    {
+      "lab": "BP_XR_SciFi_Shotgun",
+      "grab": {
+        "loc": [
+          1.72,
+          0.0,
+          -10.94
+        ],
+        "rot": [
+          -90.0,
+          0.0,
+          0.0
+        ],
+        "type": "<E_GrabType.SNAP: 2>"
+      }
+    },
+    {
+      "lab": "BP_XR_SciFi_Sniper",
+      "grab": {
+        "loc": [
+          -4.59,
+          0.0,
+          -6.0
+        ],
+        "rot": [
+          -90.0,
+          0.0,
+          0.0
+        ],
+        "type": "<E_GrabType.SNAP: 2>"
+      }
+    }
+  ],
+  "compile": [
+    {
+      "asset": "BP_Rifle",
+      "ok": true,
+      "status": "<BlueprintStatus.BS_UP_TO_DATE: 3>"
+    },
+    {
+      "asset": "BP_XR_SciFi_Pistol",
+      "ok": true,
+      "status": "<BlueprintStatus.BS_UP_TO_DATE: 3>"
+    },
+    {
+      "asset": "BP_XR_SciFi_AssaultRifle_1",
+      "ok": true,
+      "status": "<BlueprintStatus.BS_UP_TO_DATE: 3>"
+    },
+    {
+      "asset": "BP_XR_SciFi_AssaultRifle_2",
+      "ok": true,
+      "status": "<BlueprintStatus.BS_UP_TO_DATE: 3>"
+    },
+    {
+      "asset": "BP_XR_SciFi_MachineGun",
+      "ok": true,
+      "status": "<BlueprintStatus.BS_UP_TO_DATE: 3>"
+    },
+    {
+      "asset": "BP_XR_SciFi_Shotgun",
+      "ok": true,
+      "status": "<BlueprintStatus.BS_UP_TO_DATE: 3>"
+    },
+    {
+      "asset": "BP_XR_SciFi_Sniper",
+      "ok": true,
+      "status": "<BlueprintStatus.BS_UP_TO_DATE: 3>"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+[
+  "editor_ok",
+  "removed_old_evt",
+  "evt_created",
+  "link Get CurrentAmmo.CurrentAmmo->To Float (Integer).In = False",
+  "setv Get Components By Class.ComponentClass=/Script/Engine.ChildActorComponent",
+  "link XRUpdateKitAmmoScreen.then->Get Components By Class.execute = False",
+  {
+    "fe_pins": [
+      "Exec",
+      "Array",
+      "LoopBody",
+      "Array Element",
+      "Array Index",
+      "Completed"
+    ]
+  },
+  "link Get Components By Class.then->For Each Loop.Exec = False",
+  "link Get Components By Class.ReturnValue->For Each Loop.Array = True",
+  {
+    "child_pins": []
+  },
+  "link For Each Loop.Array Element->.self = False",
+  "setv Get Components By Class.ComponentClass=/Script/Engine.SkeletalMeshComponent",
+  "link .ReturnValue->Get Components By Class.self = False",
+  "link For Each Loop.LoopBody->Get Components By Class.execute = False",
+  "link Get Components By Class.then->For Each Loop.Exec = False",
+  "link Get Components By Class.ReturnValue->For Each Loop.Array = True",
+  "setv CreateDynamicMaterialInstance.ElementIndex=0",
+  {
+    "cdmi_pins": [
+      "execute",
+      "self",
+      "ElementIndex",
+      "SourceMaterial",
+      "OptionalName",
+      "then",
+      "ReturnValue"
+    ]
+  },
+  "link For Each Loop.Array Element->CreateDynamicMaterialInstance.self = False",
+  "link For Each Loop.LoopBody->CreateDynamicMaterialInstance.execute = False",
+  "setv SetScalarParameterValue.ParameterName=Ammo \u0421ount",
+  {
+    "ssp_pins": [
+      "execute",
+      "self",
+      "ParameterName",
+      "Value",
+      "then"
+    ]
+  },
+  "link CreateDynamicMaterialInstance.ReturnValue->SetScalarParameterValue.self = True",
+  "link CreateDynamicMaterialInstance.then->SetScalarParameterValue.execute = True",
+  "link To Float (Integer).ReturnValue->SetScalarParameterValue.Value = True",
+  "setv SetScalarParameterValue.ParameterName=Backlight Display",
+  "setv SetScalarParameterValue.Value=10.0",
+  "link CreateDynamicMaterialInstance.ReturnValue->SetScalarParameterValue.self = True",
+  "link SetScalarParameterValue.then->SetScalarParameterValue.execute = True",
+  "setv SetScalarParameterValue.ParameterName=Interface Brightness",
+  "setv SetScalarParameterValue.Value=10.0",
+  "link CreateDynamicMaterialInstance.ReturnValue->SetScalarParameterValue.self = True",
+  "link SetScalarParameterValue.then->SetScalarParameterValue.execute = True",
+  "setv Get Components By Class.ComponentClass=/Script/Engine.SkeletalMeshComponent",
+  "link For Each Loop.Completed->Get Components By Class.execute = False",
+  "link Get Components By Class.then->For Each Loop.Exec = False",
+  "link Get Components By Class.ReturnValue->For Each Loop.Array = True",
+  "setv CreateDynamicMaterialInstance.ElementIndex=0",
+  "link For Each Loop.Array Element->CreateDynamicMaterialInstance.self = False",
+  "link For Each Loop.LoopBody->CreateDynamicMaterialInstance.execute = False",
+  "setv SetScalarParameterValue.ParameterName=Ammo \u0421ount",
+  "link CreateDynamicMaterialInstance.ReturnValue->SetScalarParameterValue.self = True",
+  "link CreateDynamicMaterialInstance.then->SetScalarParameterValue.execute = True",
+  "link To Float (Integer).ReturnValue->SetScalarParameterValue.Value = True",
+  "setv SetScalarParameterValue.ParameterName=Backlight Display",
+  "setv SetScalarParameterValue.Value=10.0",
+  "link CreateDynamicMaterialInstance.ReturnValue->SetScalarParameterValue.self = True",
+  "link SetScalarParameterValue.then->SetScalarParameterValue.execute = True",
+  "saved_ok"
+]

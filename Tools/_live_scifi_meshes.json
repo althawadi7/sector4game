@@ -1,0 +1,1425 @@
+[
+  {
+    "actor": "BP_XR_SciFi_Pistol",
+    "class": "BP_XR_SciFi_Pistol_C",
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "meshes": [
+      {
+        "name": "SkeletalMesh",
+        "kind": "SK",
+        "mesh": "SK_Pistol",
+        "leader": null,
+        "visible": true,
+        "loc": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "name": "SK_Magazine_Full",
+        "kind": "SK",
+        "mesh": "SK_Magazine_Full",
+        "leader": "SkeletalMesh",
+        "visible": true,
+        "loc": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "name": "SM_Pistol",
+        "kind": "SM",
+        "mesh": "Cube",
+        "visible": false,
+        "loc": [
+          5150.0,
+          -785.0,
+          110.0
+        ],
+        "rot": [
+          90.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "name": "AmmoScreenMesh",
+        "kind": "SM",
+        "mesh": null,
+        "visible": false,
+        "loc": [
+          0.0,
+          14.0,
+          12.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          90.0
+        ],
+        "scale": [
+          0.03,
+          0.03,
+          0.03
+        ]
+      }
+    ]
+  },
+  {
+    "actor": "BP_XR_SciFi_AssaultRifle_1",
+    "class": "BP_XR_SciFi_AssaultRifle_1_C",
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "meshes": [
+      {
+        "name": "SkeletalMesh",
+        "kind": "SK",
+        "mesh": "SK_Rifle_Assault_Rifle",
+        "leader": null,
+        "visible": true,
+        "loc": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "name": "SkeletalMesh1",
+        "kind": "SK",
+        "mesh": null,
+        "leader": null,
+        "visible": false,
+        "loc": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "name": "SK_Aim",
+        "kind": "SK",
+        "mesh": "SK_Aim",
+        "leader": "SkeletalMesh",
+        "visible": true,
+        "loc": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "name": "SK_Butt",
+        "kind": "SK",
+        "mesh": "SK_Butt",
+        "leader": "SkeletalMesh",
+        "visible": true,
+        "loc": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "name": "SK_Magazine",
+        "kind": "SK",
+        "mesh": "SK_Magazine",
+        "leader": "SkeletalMesh",
+        "visible": true,
+        "loc": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "name": "SK_Right_Kit",
+        "kind": "SK",
+        "mesh": "SK_Right_Kit",
+        "leader": "SkeletalMesh",
+        "visible": true,
+        "loc": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "name": "SK_Silencer",
+        "kind": "SK",
+        "mesh": "SK_Silencer",
+        "leader": "SkeletalMesh",
+        "visible": true,
+        "loc": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "name": "SM_Pistol",
+        "kind": "SM",
+        "mesh": "Cube",
+        "visible": false,
+        "loc": [
+          5150.0,
+          -695.0,
+          110.0
+        ],
+        "rot": [
+          90.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "name": "AmmoScreenMesh",
+        "kind": "SM",
+        "mesh": null,
+        "visible": false,
+        "loc": [
+          0.0,
+          14.0,
+          12.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          90.0
+        ],
+        "scale": [
+          0.03,
+          0.03,
+          0.03
+        ]
+      }
+    ]
+  },
+  {
+    "actor": "BP_XR_SciFi_AssaultRifle_2",
+    "class": "BP_XR_SciFi_AssaultRifle_2_C",
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "meshes": [
+      {
+        "name": "SkeletalMesh",
+        "kind": "SK",
+        "mesh": "SK_Rifle",
+        "leader": null,
+        "visible": true,
+        "loc": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "name": "SkeletalMesh1",
+        "kind": "SK",
+        "mesh": null,
+        "leader": null,
+        "visible": false,
+        "loc": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "name": "SK_Aim",
+        "kind": "SK",
+        "mesh": "SK_Aim",
+        "leader": "SkeletalMesh",
+        "visible": true,
+        "loc": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "name": "SK_Left_Kit",
+        "kind": "SK",
+        "mesh": "SK_Left_Kit",
+        "leader": "SkeletalMesh",
+        "visible": true,
+        "loc": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "name": "SK_Magazine_Full",
+        "kind": "SK",
+        "mesh": "SK_Magazine_Full",
+        "leader": "SkeletalMesh",
+        "visible": true,
+        "loc": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "name": "SM_Pistol",
+        "kind": "SM",
+        "mesh": "Cube",
+        "visible": false,
+        "loc": [
+          5150.0,
+          -605.0,
+          110.0
+        ],
+        "rot": [
+          90.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "name": "AmmoScreenMesh",
+        "kind": "SM",
+        "mesh": null,
+        "visible": false,
+        "loc": [
+          0.0,
+          14.0,
+          12.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          90.0
+        ],
+        "scale": [
+          0.03,
+          0.03,
+          0.03
+        ]
+      },
+      {
+        "name": "SM_Aim_Glass",
+        "kind": "SM",
+        "mesh": "SM_Aim_Glass",
+        "visible": true,
+        "loc": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "name": "SM_Butt",
+        "kind": "SM",
+        "mesh": "SM_Butt",
+        "visible": true,
+        "loc": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "name": "SM_Foregrip",
+        "kind": "SM",
+        "mesh": "SM_Foregrip",
+        "visible": true,
+        "loc": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "name": "SM_Reactor",
+        "kind": "SM",
+        "mesh": "SM_Reactor",
+        "visible": true,
+        "loc": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "name": "SM_Right_Kit",
+        "kind": "SM",
+        "mesh": "SM_Right_Kit",
+        "visible": true,
+        "loc": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "name": "SM_Scheme",
+        "kind": "SM",
+        "mesh": "SM_Scheme",
+        "visible": true,
+        "loc": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    ]
+  },
+  {
+    "actor": "BP_XR_SciFi_MachineGun",
+    "class": "BP_XR_SciFi_MachineGun_C",
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "meshes": [
+      {
+        "name": "SkeletalMesh",
+        "kind": "SK",
+        "mesh": "SK_MachineGun",
+        "leader": null,
+        "visible": true,
+        "loc": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "name": "SkeletalMesh1",
+        "kind": "SK",
+        "mesh": null,
+        "leader": null,
+        "visible": false,
+        "loc": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "name": "SK_Barrel",
+        "kind": "SK",
+        "mesh": "SK_Barrel",
+        "leader": "SkeletalMesh",
+        "visible": true,
+        "loc": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "name": "SK_Control_Handle",
+        "kind": "SK",
+        "mesh": "SK_Control_Handle",
+        "leader": "SkeletalMesh",
+        "visible": true,
+        "loc": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "name": "SK_Magazine",
+        "kind": "SK",
+        "mesh": "SK_Magazine",
+        "leader": "SkeletalMesh",
+        "visible": true,
+        "loc": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "name": "SM_Pistol",
+        "kind": "SM",
+        "mesh": "Cube",
+        "visible": false,
+        "loc": [
+          5150.0,
+          -515.0,
+          110.0
+        ],
+        "rot": [
+          90.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "name": "AmmoScreenMesh",
+        "kind": "SM",
+        "mesh": null,
+        "visible": false,
+        "loc": [
+          0.0,
+          14.0,
+          12.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          90.0
+        ],
+        "scale": [
+          0.03,
+          0.03,
+          0.03
+        ]
+      },
+      {
+        "name": "SM_Sensors",
+        "kind": "SM",
+        "mesh": "SM_Sensors",
+        "visible": false,
+        "loc": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "name": "SM_Sopla_Bottom",
+        "kind": "SM",
+        "mesh": "SM_Sopla_Bottom",
+        "visible": false,
+        "loc": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "name": "SM_Sopla_Left",
+        "kind": "SM",
+        "mesh": null,
+        "visible": false,
+        "loc": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          -90.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "name": "SM_Sopla_Right",
+        "kind": "SM",
+        "mesh": "SM_Sopla_Right",
+        "visible": false,
+        "loc": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "name": "SM_Sopla_Side",
+        "kind": "SM",
+        "mesh": "SM_Sopla_Side",
+        "visible": false,
+        "loc": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "name": "SM_Tube_Left",
+        "kind": "SM",
+        "mesh": null,
+        "visible": false,
+        "loc": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          -90.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "name": "SM_Tube_Middle",
+        "kind": "SM",
+        "mesh": "SM_Tube_Middle",
+        "visible": false,
+        "loc": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "name": "SM_Tube_Right",
+        "kind": "SM",
+        "mesh": "SM_Tube_Right",
+        "visible": false,
+        "loc": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "name": "SM_Turbine",
+        "kind": "SM",
+        "mesh": "SM_Turbine",
+        "visible": false,
+        "loc": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    ]
+  },
+  {
+    "actor": "BP_XR_SciFi_Shotgun",
+    "class": "BP_XR_SciFi_Shotgun_C",
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "meshes": [
+      {
+        "name": "SkeletalMesh",
+        "kind": "SK",
+        "mesh": "SK_Shotgun",
+        "leader": null,
+        "visible": true,
+        "loc": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "name": "SkeletalMesh1",
+        "kind": "SK",
+        "mesh": null,
+        "leader": null,
+        "visible": false,
+        "loc": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "name": "SK_Aim",
+        "kind": "SK",
+        "mesh": "SK_Aim",
+        "leader": "SkeletalMesh",
+        "visible": true,
+        "loc": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "name": "SK_Left_Kit",
+        "kind": "SK",
+        "mesh": "SK_Left_Kit",
+        "leader": "SkeletalMesh",
+        "visible": true,
+        "loc": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "name": "SK_Right_Kit",
+        "kind": "SK",
+        "mesh": "SK_Right_Kit",
+        "leader": "SkeletalMesh",
+        "visible": true,
+        "loc": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "name": "SM_Pistol",
+        "kind": "SM",
+        "mesh": "Cube",
+        "visible": false,
+        "loc": [
+          5150.0,
+          -425.0,
+          110.0
+        ],
+        "rot": [
+          90.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "name": "AmmoScreenMesh",
+        "kind": "SM",
+        "mesh": null,
+        "visible": false,
+        "loc": [
+          0.0,
+          14.0,
+          12.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          90.0
+        ],
+        "scale": [
+          0.03,
+          0.03,
+          0.03
+        ]
+      }
+    ]
+  },
+  {
+    "actor": "BP_XR_SciFi_Sniper",
+    "class": "BP_XR_SciFi_Sniper_C",
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "meshes": [
+      {
+        "name": "SkeletalMesh",
+        "kind": "SK",
+        "mesh": "SK_Rifle",
+        "leader": null,
+        "visible": true,
+        "loc": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "name": "SkeletalMesh1",
+        "kind": "SK",
+        "mesh": null,
+        "leader": null,
+        "visible": false,
+        "loc": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "name": "SK_Butt",
+        "kind": "SK",
+        "mesh": "SK_Butt",
+        "leader": "SkeletalMesh",
+        "visible": true,
+        "loc": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "name": "SK_Magazine_Full",
+        "kind": "SK",
+        "mesh": "SK_Magazine_Full",
+        "leader": "SkeletalMesh",
+        "visible": true,
+        "loc": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "name": "SK_Sopla",
+        "kind": "SK",
+        "mesh": "SK_Sopla",
+        "leader": "SkeletalMesh",
+        "visible": true,
+        "loc": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "name": "SK_Scope",
+        "kind": "SK",
+        "mesh": "SK_Scope",
+        "leader": "SkeletalMesh",
+        "visible": true,
+        "loc": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "name": "SK_Carrying",
+        "kind": "SK",
+        "mesh": "SK_Carrying",
+        "leader": "SkeletalMesh",
+        "visible": true,
+        "loc": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "name": "SK_Bipods",
+        "kind": "SK",
+        "mesh": "SK_Bipods",
+        "leader": "SkeletalMesh",
+        "visible": true,
+        "loc": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "name": "SK_Rail",
+        "kind": "SK",
+        "mesh": "SK_Rail",
+        "leader": "SkeletalMesh",
+        "visible": true,
+        "loc": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "name": "SK_Sleeve",
+        "kind": "SK",
+        "mesh": "SK_Sleeve",
+        "leader": "SkeletalMesh",
+        "visible": true,
+        "loc": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "name": "SM_Pistol",
+        "kind": "SM",
+        "mesh": "Cube",
+        "visible": false,
+        "loc": [
+          5150.0,
+          -335.0,
+          110.0
+        ],
+        "rot": [
+          90.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "name": "AmmoScreenMesh",
+        "kind": "SM",
+        "mesh": null,
+        "visible": false,
+        "loc": [
+          0.0,
+          14.0,
+          12.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          90.0
+        ],
+        "scale": [
+          0.03,
+          0.03,
+          0.03
+        ]
+      },
+      {
+        "name": "SM_Glass_Aim",
+        "kind": "SM",
+        "mesh": "SM_Glass_Aim",
+        "visible": true,
+        "loc": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "name": "SM_Glass_Front",
+        "kind": "SM",
+        "mesh": "SM_Glass_Front",
+        "visible": true,
+        "loc": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    ]
+  }
+]

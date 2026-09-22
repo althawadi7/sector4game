@@ -1,0 +1,963 @@
+[
+  {
+    "sub_methods": [
+      "attach_subobject",
+      "reparent_subobject",
+      "reparent_subobjects"
+    ]
+  },
+  {
+    "bp": "BP_XR_SciFi_Pistol",
+    "body_pitch": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "body_to_root_err": "'SubobjectDataSubsystem' object has no attribute 'attach'",
+    "attach_errs": [
+      "SK_Magazine_Full:'SubobjectDataSubsystem' object has no attribute 'attach'"
+    ],
+    "reparented": [],
+    "hier": [
+      {
+        "n": "SkeletalMesh",
+        "mesh": "SK_Pistol",
+        "parent": null,
+        "rot": [
+          90.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SK_Magazine_Full",
+        "mesh": "SK_Magazine_Full",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SkeletalMesh",
+        "mesh": "SK_Pistol",
+        "parent": null,
+        "rot": [
+          90.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SM_Pistol",
+        "mesh": "Cube",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  {
+    "bp": "BP_XR_SciFi_AssaultRifle_1",
+    "body_pitch": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "body_to_root_err": "'SubobjectDataSubsystem' object has no attribute 'attach'",
+    "attach_errs": [
+      "SK_Silencer:'SubobjectDataSubsystem' object has no attribute 'attach'",
+      "SK_Right_Kit:'SubobjectDataSubsystem' object has no attribute 'attach'",
+      "SK_Magazine:'SubobjectDataSubsystem' object has no attribute 'attach'",
+      "SK_Butt:'SubobjectDataSubsystem' object has no attribute 'attach'",
+      "SK_Aim:'SubobjectDataSubsystem' object has no attribute 'attach'"
+    ],
+    "reparented": [],
+    "hier": [
+      {
+        "n": "SK_Silencer",
+        "mesh": "SK_Silencer",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SkeletalMesh",
+        "mesh": "SK_Rifle_Assault_Rifle",
+        "parent": null,
+        "rot": [
+          90.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SK_Right_Kit",
+        "mesh": "SK_Right_Kit",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SK_Right_Kit",
+        "mesh": "SK_Right_Kit",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SK_Magazine",
+        "mesh": "SK_Magazine",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SK_Magazine",
+        "mesh": "SK_Magazine",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SK_Butt",
+        "mesh": "SK_Butt",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SK_Butt",
+        "mesh": "SK_Butt",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SK_Aim",
+        "mesh": "SK_Aim",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SK_Aim",
+        "mesh": "SK_Aim",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SkeletalMesh",
+        "mesh": "SK_Rifle_Assault_Rifle",
+        "parent": null,
+        "rot": [
+          90.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SM_Pistol",
+        "mesh": "Cube",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  {
+    "bp": "BP_XR_SciFi_AssaultRifle_2",
+    "body_pitch": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "body_to_root_err": "'SubobjectDataSubsystem' object has no attribute 'attach'",
+    "attach_errs": [
+      "SM_Aim_Glass:'SubobjectDataSubsystem' object has no attribute 'attach'",
+      "SM_Butt:'SubobjectDataSubsystem' object has no attribute 'attach'",
+      "SM_Foregrip:'SubobjectDataSubsystem' object has no attribute 'attach'",
+      "SM_Reactor:'SubobjectDataSubsystem' object has no attribute 'attach'",
+      "SM_Right_Kit:'SubobjectDataSubsystem' object has no attribute 'attach'",
+      "SK_Magazine_Full:'SubobjectDataSubsystem' object has no attribute 'attach'",
+      "SK_Left_Kit:'SubobjectDataSubsystem' object has no attribute 'attach'",
+      "SK_Aim:'SubobjectDataSubsystem' object has no attribute 'attach'",
+      "SM_Scheme:'SubobjectDataSubsystem' object has no attribute 'attach'"
+    ],
+    "reparented": [],
+    "hier": [
+      {
+        "n": "SM_Aim_Glass",
+        "mesh": "SM_Aim_Glass",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SM_Aim_Glass",
+        "mesh": "SM_Aim_Glass",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SM_Butt",
+        "mesh": "SM_Butt",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SM_Butt",
+        "mesh": "SM_Butt",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SM_Foregrip",
+        "mesh": "SM_Foregrip",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SM_Foregrip",
+        "mesh": "SM_Foregrip",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SM_Reactor",
+        "mesh": "SM_Reactor",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SM_Reactor",
+        "mesh": "SM_Reactor",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SM_Right_Kit",
+        "mesh": "SM_Right_Kit",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SK_Magazine_Full",
+        "mesh": "SK_Magazine_Full",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SK_Magazine_Full",
+        "mesh": "SK_Magazine_Full",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SkeletalMesh",
+        "mesh": "SK_Rifle",
+        "parent": null,
+        "rot": [
+          90.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SK_Left_Kit",
+        "mesh": "SK_Left_Kit",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SK_Aim",
+        "mesh": "SK_Aim",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SK_Aim",
+        "mesh": "SK_Aim",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SK_Left_Kit",
+        "mesh": "SK_Left_Kit",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SkeletalMesh",
+        "mesh": "SK_Rifle",
+        "parent": null,
+        "rot": [
+          90.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SM_Right_Kit",
+        "mesh": "SM_Right_Kit",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SM_Pistol",
+        "mesh": "Cube",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SM_Scheme",
+        "mesh": "SM_Scheme",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  {
+    "bp": "BP_XR_SciFi_MachineGun",
+    "body_pitch": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "body_to_root_err": "'SubobjectDataSubsystem' object has no attribute 'attach'",
+    "attach_errs": [
+      "SM_Sensors:'SubobjectDataSubsystem' object has no attribute 'attach'",
+      "SM_Sopla_Bottom:'SubobjectDataSubsystem' object has no attribute 'attach'",
+      "SM_Sopla_Left:'SubobjectDataSubsystem' object has no attribute 'attach'",
+      "SM_Sopla_Right:'SubobjectDataSubsystem' object has no attribute 'attach'",
+      "SM_Sopla_Side:'SubobjectDataSubsystem' object has no attribute 'attach'",
+      "SM_Tube_Left:'SubobjectDataSubsystem' object has no attribute 'attach'",
+      "SK_Barrel:'SubobjectDataSubsystem' object has no attribute 'attach'",
+      "SK_Magazine:'SubobjectDataSubsystem' object has no attribute 'attach'",
+      "SK_Control_Handle:'SubobjectDataSubsystem' object has no attribute 'attach'",
+      "SM_Tube_Middle:'SubobjectDataSubsystem' object has no attribute 'attach'",
+      "SM_Turbine:'SubobjectDataSubsystem' object has no attribute 'attach'",
+      "SM_Tube_Right:'SubobjectDataSubsystem' object has no attribute 'attach'"
+    ],
+    "reparented": [],
+    "hier": [
+      {
+        "n": "SM_Sensors",
+        "mesh": "SM_Sensors",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SM_Sopla_Bottom",
+        "mesh": "SM_Sopla_Bottom",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SM_Sopla_Bottom",
+        "mesh": "SM_Sopla_Bottom",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SM_Sopla_Right",
+        "mesh": "SM_Sopla_Right",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SM_Sopla_Right",
+        "mesh": "SM_Sopla_Right",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SM_Sopla_Side",
+        "mesh": "SM_Sopla_Side",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SM_Sopla_Side",
+        "mesh": "SM_Sopla_Side",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SM_Sensors",
+        "mesh": "SM_Sensors",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SkeletalMesh",
+        "mesh": "SK_MachineGun",
+        "parent": null,
+        "rot": [
+          90.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SK_Barrel",
+        "mesh": "SK_Barrel",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SK_Magazine",
+        "mesh": "SK_Magazine",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SK_Barrel",
+        "mesh": "SK_Barrel",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SK_Control_Handle",
+        "mesh": "SK_Control_Handle",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SK_Control_Handle",
+        "mesh": "SK_Control_Handle",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SK_Magazine",
+        "mesh": "SK_Magazine",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SM_Tube_Middle",
+        "mesh": "SM_Tube_Middle",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SM_Tube_Middle",
+        "mesh": "SM_Tube_Middle",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SM_Pistol",
+        "mesh": "Cube",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SM_Turbine",
+        "mesh": "SM_Turbine",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SkeletalMesh",
+        "mesh": "SK_MachineGun",
+        "parent": null,
+        "rot": [
+          90.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SM_Tube_Right",
+        "mesh": "SM_Tube_Right",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SM_Turbine",
+        "mesh": "SM_Turbine",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  {
+    "bp": "BP_XR_SciFi_Shotgun",
+    "body_pitch": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "body_to_root_err": "'SubobjectDataSubsystem' object has no attribute 'attach'",
+    "attach_errs": [
+      "SK_Aim:'SubobjectDataSubsystem' object has no attribute 'attach'",
+      "SK_Right_Kit:'SubobjectDataSubsystem' object has no attribute 'attach'",
+      "SK_Left_Kit:'SubobjectDataSubsystem' object has no attribute 'attach'"
+    ],
+    "reparented": [],
+    "hier": [
+      {
+        "n": "SK_Aim",
+        "mesh": "SK_Aim",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SkeletalMesh",
+        "mesh": "SK_Shotgun",
+        "parent": null,
+        "rot": [
+          90.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SK_Right_Kit",
+        "mesh": "SK_Right_Kit",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SK_Left_Kit",
+        "mesh": "SK_Left_Kit",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SK_Right_Kit",
+        "mesh": "SK_Right_Kit",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SK_Left_Kit",
+        "mesh": "SK_Left_Kit",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SkeletalMesh",
+        "mesh": "SK_Shotgun",
+        "parent": null,
+        "rot": [
+          90.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SM_Pistol",
+        "mesh": "Cube",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  {
+    "bp": "BP_XR_SciFi_Sniper",
+    "body_pitch": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "body_to_root_err": "'SubobjectDataSubsystem' object has no attribute 'attach'",
+    "attach_errs": [
+      "SK_Sopla:'SubobjectDataSubsystem' object has no attribute 'attach'",
+      "SM_Glass_Aim:'SubobjectDataSubsystem' object has no attribute 'attach'",
+      "SM_Glass_Front:'SubobjectDataSubsystem' object has no attribute 'attach'",
+      "SK_Sleeve:'SubobjectDataSubsystem' object has no attribute 'attach'",
+      "SK_Rail:'SubobjectDataSubsystem' object has no attribute 'attach'",
+      "SK_Bipods:'SubobjectDataSubsystem' object has no attribute 'attach'",
+      "SK_Magazine_Full:'SubobjectDataSubsystem' object has no attribute 'attach'",
+      "SK_Butt:'SubobjectDataSubsystem' object has no attribute 'attach'",
+      "SK_Carrying:'SubobjectDataSubsystem' object has no attribute 'attach'",
+      "SK_Scope:'SubobjectDataSubsystem' object has no attribute 'attach'"
+    ],
+    "reparented": [],
+    "hier": [
+      {
+        "n": "SK_Sopla",
+        "mesh": "SK_Sopla",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SM_Glass_Aim",
+        "mesh": "SM_Glass_Aim",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SM_Glass_Aim",
+        "mesh": "SM_Glass_Aim",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SkeletalMesh",
+        "mesh": "SK_Rifle",
+        "parent": null,
+        "rot": [
+          90.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SM_Glass_Front",
+        "mesh": "SM_Glass_Front",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SK_Sleeve",
+        "mesh": "SK_Sleeve",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SK_Rail",
+        "mesh": "SK_Rail",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SK_Bipods",
+        "mesh": "SK_Bipods",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SK_Sopla",
+        "mesh": "SK_Sopla",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SkeletalMesh",
+        "mesh": "SK_Rifle",
+        "parent": null,
+        "rot": [
+          90.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SK_Magazine_Full",
+        "mesh": "SK_Magazine_Full",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SK_Butt",
+        "mesh": "SK_Butt",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SK_Butt",
+        "mesh": "SK_Butt",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SK_Magazine_Full",
+        "mesh": "SK_Magazine_Full",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SK_Carrying",
+        "mesh": "SK_Carrying",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SM_Pistol",
+        "mesh": "Cube",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "n": "SK_Scope",
+        "mesh": "SK_Scope",
+        "parent": null,
+        "rot": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  }
+]

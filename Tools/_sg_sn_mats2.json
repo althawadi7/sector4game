@@ -1,0 +1,348 @@
+{
+  "Shotgun": [
+    {
+      "mesh": "SK_Shotgun",
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Shotgun/Shotgun/Material_Shotgun/MI_Shotgun.MI_Shotgun",
+      "scalars": [
+        "Multiply Roughness",
+        "Add Roughness"
+      ]
+    },
+    {
+      "mesh": "SK_Aim",
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Shotgun/Shotgun/Material_Shotgun/MI_Aim.MI_Aim",
+      "scalars": [
+        "Multiply Roughness",
+        "Add Roughness"
+      ]
+    },
+    {
+      "mesh": "SK_Left_Kit",
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Shotgun/Shotgun/Material_Shotgun/MI_Bullet.MI_Bullet",
+      "scalars": [
+        "Multiply Roughness",
+        "Add Roughness"
+      ]
+    },
+    {
+      "mesh": "SK_Left_Kit",
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Shotgun/Shotgun/Material_Shotgun/MI_Left_Kit.MI_Left_Kit",
+      "scalars": [
+        "Multiply Roughness",
+        "Add Roughness"
+      ]
+    },
+    {
+      "mesh": "SK_Right_Kit",
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Shotgun/Shotgun/Material_Shotgun/MI_Right_Kit.MI_Right_Kit",
+      "scalars": [
+        "Multiply Roughness",
+        "Add Roughness"
+      ]
+    },
+    {
+      "mesh": "SK_Bullet_Left",
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Shotgun/Shotgun/Material_Shotgun/MI_Bullet.MI_Bullet",
+      "scalars": [
+        "Multiply Roughness",
+        "Add Roughness"
+      ]
+    },
+    {
+      "mesh": "SK_Bullet_Right",
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Shotgun/Shotgun/Material_Shotgun/MI_Bullet.MI_Bullet",
+      "scalars": [
+        "Multiply Roughness",
+        "Add Roughness"
+      ]
+    },
+    {
+      "mesh": "SK_Bullet_Empty_L",
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Shotgun/Shotgun/Material_Shotgun/MI_Bullet.MI_Bullet",
+      "scalars": [
+        "Multiply Roughness",
+        "Add Roughness"
+      ]
+    },
+    {
+      "mesh": "SK_Bullet_Empty_R",
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Shotgun/Shotgun/Material_Shotgun/MI_Bullet.MI_Bullet",
+      "scalars": [
+        "Multiply Roughness",
+        "Add Roughness"
+      ]
+    }
+  ],
+  "Sniper": [
+    {
+      "mesh": "SK_Rifle",
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Rifle.MI_Rifle",
+      "scalars": [
+        "Multiply Roughness",
+        "Add Roughness",
+        "Blue Brightness",
+        "Orange Brightness",
+        "Emission Line Intensity",
+        "Emission Point & Intensity",
+        "Base Roughness",
+        "Base Metall",
+        "Steel Roughness",
+        "Steel Metall",
+        "Chrome Roughness",
+        "Chrome Metall"
+      ]
+    },
+    {
+      "mesh": "SK_Carrying",
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Carrying.MI_Carrying",
+      "scalars": [
+        "Multiply Roughness",
+        "Add Roughness",
+        "Blue Brightness",
+        "Orange Brightness",
+        "Emission Line Intensity",
+        "Emission Point & Intensity",
+        "Base Roughness",
+        "Base Metall",
+        "Steel Roughness",
+        "Steel Metall",
+        "Chrome Roughness",
+        "Chrome Metall"
+      ]
+    },
+    {
+      "mesh": "SK_Butt",
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Butt.MI_Butt",
+      "scalars": [
+        "Multiply Roughness",
+        "Add Roughness",
+        "Blue Brightness",
+        "Orange Brightness",
+        "Emission Line Intensity",
+        "Emission Point & Intensity",
+        "Base Roughness",
+        "Base Metall",
+        "Steel Roughness",
+        "Steel Metall",
+        "Chrome Roughness",
+        "Chrome Metall"
+      ]
+    },
+    {
+      "mesh": "SK_Sopla_1",
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Sopla.MI_Sopla",
+      "scalars": [
+        "Multiply Roughness",
+        "Add Roughness",
+        "Blue Brightness",
+        "Orange Brightness",
+        "Emission Line Intensity",
+        "Emission Point & Intensity",
+        "Base Roughness",
+        "Base Metall",
+        "Steel Roughness",
+        "Steel Metall",
+        "Chrome Roughness",
+        "Chrome Metall"
+      ]
+    },
+    {
+      "mesh": "SK_Sopla_2",
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Sopla.MI_Sopla",
+      "scalars": [
+        "Multiply Roughness",
+        "Add Roughness",
+        "Blue Brightness",
+        "Orange Brightness",
+        "Emission Line Intensity",
+        "Emission Point & Intensity",
+        "Base Roughness",
+        "Base Metall",
+        "Steel Roughness",
+        "Steel Metall",
+        "Chrome Roughness",
+        "Chrome Metall"
+      ]
+    },
+    {
+      "mesh": "SK_Sopla_3",
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Sopla.MI_Sopla",
+      "scalars": [
+        "Multiply Roughness",
+        "Add Roughness",
+        "Blue Brightness",
+        "Orange Brightness",
+        "Emission Line Intensity",
+        "Emission Point & Intensity",
+        "Base Roughness",
+        "Base Metall",
+        "Steel Roughness",
+        "Steel Metall",
+        "Chrome Roughness",
+        "Chrome Metall"
+      ]
+    },
+    {
+      "mesh": "SK_Sopla_4",
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Sopla.MI_Sopla",
+      "scalars": [
+        "Multiply Roughness",
+        "Add Roughness",
+        "Blue Brightness",
+        "Orange Brightness",
+        "Emission Line Intensity",
+        "Emission Point & Intensity",
+        "Base Roughness",
+        "Base Metall",
+        "Steel Roughness",
+        "Steel Metall",
+        "Chrome Roughness",
+        "Chrome Metall"
+      ]
+    },
+    {
+      "mesh": "SK_Bullet",
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Bullet.MI_Bullet",
+      "scalars": [
+        "Multiply Roughness",
+        "Add Roughness",
+        "Blue Brightness",
+        "Orange Brightness",
+        "Emission Line Intensity",
+        "Emission Point & Intensity",
+        "Base Roughness",
+        "Base Metall",
+        "Steel Roughness",
+        "Steel Metall",
+        "Chrome Roughness",
+        "Chrome Metall"
+      ]
+    },
+    {
+      "mesh": "SK_Sleeve",
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Bullet.MI_Bullet",
+      "scalars": [
+        "Multiply Roughness",
+        "Add Roughness",
+        "Blue Brightness",
+        "Orange Brightness",
+        "Emission Line Intensity",
+        "Emission Point & Intensity",
+        "Base Roughness",
+        "Base Metall",
+        "Steel Roughness",
+        "Steel Metall",
+        "Chrome Roughness",
+        "Chrome Metall"
+      ]
+    },
+    {
+      "mesh": "SK_Magazine_Empty",
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Magazine.MI_Magazine",
+      "scalars": [
+        "Multiply Roughness",
+        "Add Roughness",
+        "Blue Brightness",
+        "Orange Brightness",
+        "Emission Line Intensity",
+        "Emission Point & Intensity",
+        "Base Roughness",
+        "Base Metall",
+        "Steel Roughness",
+        "Steel Metall",
+        "Chrome Roughness",
+        "Chrome Metall"
+      ]
+    },
+    {
+      "mesh": "SK_Magazine_Full",
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Bullet.MI_Bullet",
+      "scalars": [
+        "Multiply Roughness",
+        "Add Roughness",
+        "Blue Brightness",
+        "Orange Brightness",
+        "Emission Line Intensity",
+        "Emission Point & Intensity",
+        "Base Roughness",
+        "Base Metall",
+        "Steel Roughness",
+        "Steel Metall",
+        "Chrome Roughness",
+        "Chrome Metall"
+      ]
+    },
+    {
+      "mesh": "SK_Magazine_Full",
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Magazine.MI_Magazine",
+      "scalars": [
+        "Multiply Roughness",
+        "Add Roughness",
+        "Blue Brightness",
+        "Orange Brightness",
+        "Emission Line Intensity",
+        "Emission Point & Intensity",
+        "Base Roughness",
+        "Base Metall",
+        "Steel Roughness",
+        "Steel Metall",
+        "Chrome Roughness",
+        "Chrome Metall"
+      ]
+    },
+    {
+      "mesh": "SK_Scope",
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Scope.MI_Scope",
+      "scalars": [
+        "Multiply Roughness",
+        "Add Roughness",
+        "Blue Brightness",
+        "Orange Brightness",
+        "Emission Line Intensity",
+        "Emission Point & Intensity",
+        "Base Roughness",
+        "Base Metall",
+        "Steel Roughness",
+        "Steel Metall",
+        "Chrome Roughness",
+        "Chrome Metall"
+      ]
+    },
+    {
+      "mesh": "SK_Bipods",
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_Bipod.MI_Bipod",
+      "scalars": [
+        "Multiply Roughness",
+        "Add Roughness",
+        "Blue Brightness",
+        "Orange Brightness",
+        "Emission Line Intensity",
+        "Emission Point & Intensity",
+        "Base Roughness",
+        "Base Metall",
+        "Steel Roughness",
+        "Steel Metall",
+        "Chrome Roughness",
+        "Chrome Metall"
+      ]
+    },
+    {
+      "mesh": "SK_FireFlame",
+      "mat": "/Game/Sci-Fi_Weapon_Starter_Pack/Sci-Fi_Sniper_Rifle/Sniper_Rifle/Material_Rifle/MI_FireFlame.MI_FireFlame",
+      "scalars": [
+        "Multiply Roughness",
+        "Add Roughness",
+        "Blue Brightness",
+        "Orange Brightness",
+        "Emission Line Intensity",
+        "Emission Point & Intensity",
+        "Base Roughness",
+        "Base Metall",
+        "Steel Roughness",
+        "Steel Metall",
+        "Chrome Roughness",
+        "Chrome Metall"
+      ]
+    }
+  ]
+}
